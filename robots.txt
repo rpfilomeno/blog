@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://rpfilomeno.github.io/blog/sitemap.xml

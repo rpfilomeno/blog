@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Vísdomsglosur",
+    "description": "",
+    "home_page_url": "https://rpfilomeno.github.io/blog",
+    "feed_url": "https://rpfilomeno.github.io/blog/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Roger Filomeno"
+    },
+    "items": [
+    ]
+}
