@@ -20,13 +20,13 @@
                 "name": "Roger Filomeno"
             },
             "tags": [
-                   "python",
-                   "network",
-                   "monitoring",
-                   "blog"
+                   "Python",
+                   "Network",
+                   "Monitoring",
+                   "Blog"
             ],
             "date_published": "2025-03-22T22:54:21+08:00",
-            "date_modified": "2025-03-22T23:17:46+08:00"
+            "date_modified": "2025-03-23T01:27:26+08:00"
         },
         {
             "id": "https://roger.rogverse.fyi/monitoring-kamailio-and-asterisk-with-aws-cloudwatch.html",
@@ -39,9 +39,9 @@
                 "name": "Roger Filomeno"
             },
             "tags": [
-                   "voip",
-                   "blog",
-                   "aws"
+                   "VOIP",
+                   "Blog",
+                   "AWS"
             ],
             "date_published": "2025-03-22T22:42:13+08:00",
             "date_modified": "2025-03-22T23:18:07+08:00"
@@ -57,9 +57,9 @@
                 "name": "Roger Filomeno"
             },
             "tags": [
-                   "voip",
-                   "testing",
-                   "blog"
+                   "VOIP",
+                   "Testing",
+                   "Blog"
             ],
             "date_published": "2025-03-22T22:11:12+08:00",
             "date_modified": "2025-03-22T23:18:22+08:00"

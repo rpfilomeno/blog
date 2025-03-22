@@ -3,7 +3,7 @@
     <title>Ai.2.mations</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-03-22T23:18:22+08:00</updated>
+    <updated>2025-03-23T01:27:26+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -17,10 +17,10 @@
         <link href="https://roger.rogverse.fyi/crystalwire-10-release.html"/>
         <id>https://roger.rogverse.fyi/crystalwire-10-release.html</id>
         <media:content url="https://roger.rogverse.fyi/media/posts/4/Python-logo-notext.svg.png" medium="image" />
-            <category term="python"/>
-            <category term="network"/>
-            <category term="monitoring"/>
-            <category term="blog"/>
+            <category term="Python"/>
+            <category term="Network"/>
+            <category term="Monitoring"/>
+            <category term="Blog"/>
 
         <updated>2025-03-22T22:54:21+08:00</updated>
             <summary>
@@ -83,9 +83,9 @@
         <link href="https://roger.rogverse.fyi/monitoring-kamailio-and-asterisk-with-aws-cloudwatch.html"/>
         <id>https://roger.rogverse.fyi/monitoring-kamailio-and-asterisk-with-aws-cloudwatch.html</id>
         <media:content url="https://roger.rogverse.fyi/media/posts/3/images-1.png" medium="image" />
-            <category term="voip"/>
-            <category term="blog"/>
-            <category term="aws"/>
+            <category term="VOIP"/>
+            <category term="Blog"/>
+            <category term="AWS"/>
 
         <updated>2025-03-22T22:42:13+08:00</updated>
             <summary>
@@ -189,9 +189,9 @@
         <link href="https://roger.rogverse.fyi/testing-kamailio-load-balancer-with-sipp.html"/>
         <id>https://roger.rogverse.fyi/testing-kamailio-load-balancer-with-sipp.html</id>
         <media:content url="https://roger.rogverse.fyi/media/posts/2/5348744.png" medium="image" />
-            <category term="voip"/>
-            <category term="testing"/>
-            <category term="blog"/>
+            <category term="VOIP"/>
+            <category term="Testing"/>
+            <category term="Blog"/>
 
         <updated>2025-03-22T22:11:12+08:00</updated>
             <summary>
