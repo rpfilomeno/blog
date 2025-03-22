@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://rpfilomeno.github.io/blog/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://roger.rogverse.fyi/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://rpfilomeno.github.io/blog/</loc>
+<loc>https://roger.rogverse.fyi/</loc>
+</url>
+<url>
+<loc>https://roger.rogverse.fyi/crystalwire-10-release.html</loc>
+<lastmod>2025-03-22T22:58:06+08:00</lastmod>
+<image:image>
+<image:loc>https://roger.rogverse.fyi/media/posts/4/Python-logo-notext.svg.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://roger.rogverse.fyi/media/posts/4/image-2.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://roger.rogverse.fyi/monitoring-kamailio-and-asterisk-with-aws-cloudwatch.html</loc>
+<lastmod>2025-03-22T22:44:27+08:00</lastmod>
+<image:image>
+<image:loc>https://roger.rogverse.fyi/media/posts/3/images-1.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://roger.rogverse.fyi/media/posts/3/voip-aws-mon-2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://roger.rogverse.fyi/testing-kamailio-load-balancer-with-sipp.html</loc>
+<lastmod>2025-03-22T22:17:22+08:00</lastmod>
+<image:image>
+<image:loc>https://roger.rogverse.fyi/media/posts/2/5348744.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://roger.rogverse.fyi/work.html</loc>
+<lastmod>2025-03-22T21:55:25+08:00</lastmod>
+<image:image>
+<image:loc>https://roger.rogverse.fyi/media/posts/1/download.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 </urlset>

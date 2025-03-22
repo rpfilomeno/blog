@@ -1,12 +1,351 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>Vísdomsglosur</title>
-    <link href="https://rpfilomeno.github.io/blog/feed.xml" rel="self" />
-    <link href="https://rpfilomeno.github.io/blog" />
-    <updated>1970-01-01T08:00:00+08:00</updated>
+    <title>Ai.to.mations</title>
+    <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
+    <link href="https://roger.rogverse.fyi" />
+    <updated>2025-03-22T22:58:06+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
-    <id>https://rpfilomeno.github.io/blog</id>
+    <id>https://roger.rogverse.fyi</id>
 
+    <entry>
+        <title>Crystalwire 1.0 Release</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/crystalwire-10-release.html"/>
+        <id>https://roger.rogverse.fyi/crystalwire-10-release.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/4/Python-logo-notext.svg.png" medium="image" />
+            <category term="python"/>
+            <category term="network"/>
+            <category term="monitoring"/>
+
+        <updated>2025-03-22T22:54:21+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/4/Python-logo-notext.svg.png" alt="" />
+                    When you don't care about the firewall but need the jumping graphs that track which process consumes all your bandwidth, it's like Glasswire for terminals! Crystalwire is a command-line tool that monitors network bandwidth usage for each running process in real-time. It utilizes the psutil&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/4/Python-logo-notext.svg.png" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    When you don't care about the firewall but need the jumping graphs that track which process consumes all your bandwidth, it's like Glasswire for terminals!
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://roger.rogverse.fyi/media/posts/4/image-2.png" height="583" width="817" alt=""  sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://roger.rogverse.fyi/media/posts/4/responsive/image-2-xs.webp 300w ,https://roger.rogverse.fyi/media/posts/4/responsive/image-2-sm.webp 480w ,https://roger.rogverse.fyi/media/posts/4/responsive/image-2-md.webp 768w">
+      
+    </figure>
+
+  <p>
+    Crystalwire is a command-line tool that monitors network bandwidth usage for each running process in real-time. It utilizes the psutil library for gathering system information and displays the data in a user-friendly format.<br>
+  </p>
+
+    <h2 id="installation">
+      Installation
+    </h2>
+
+  <p>
+    1. Clone the project
+  </p>
+<pre class="line-numbers  language-bash"><code>gh repo clone rpfilomeno/crystalwire</code></pre>
+
+  <p>
+    2. install 'crystalwire' the dependencies
+  </p>
+<pre class="line-numbers  language-bash"><code>pip install -r requirements.txt</code></pre>
+
+    <h2 id="usage">
+      Usage
+    </h2>
+
+  <p>
+    Once installed, you can run 'crystalwire' from the command line:
+  </p>
+<pre class="line-numbers  language-bash"><code>python -m crystalwire.main</code></pre>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Monitoring Kamailio and Asterisk with AWS CloudWatch</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/monitoring-kamailio-and-asterisk-with-aws-cloudwatch.html"/>
+        <id>https://roger.rogverse.fyi/monitoring-kamailio-and-asterisk-with-aws-cloudwatch.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/3/images-1.png" medium="image" />
+            <category term="voip"/>
+            <category term="aws"/>
+
+        <updated>2025-03-22T22:42:13+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/3/images-1.png" alt="" />
+                    Today I'm announcing the release to my new project VOIP Statistics to AWS CloudWatch (voip-mon-aws-cloudwatch), it is a monitoring script for Kamailio and Asterisk for AWS CloudWatch written in PHP. This works similarly to AWS CloudWatch Monitoring Script (Linux). Requirements Installation 1. Git clone to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/3/images-1.png" class="type:primaryImage" alt="" /></p>
+                
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://roger.rogverse.fyi/media/posts/3/voip-aws-mon-2.jpg" height="647" width="1373" alt=""  sizes="(min-width: 1500px) calc(7.87vw + 610px), (min-width: 900px) calc(44.48vw + 68px), (min-width: 780px) calc(8vw + 604px), calc(84.35vw + 23px)" srcset="https://roger.rogverse.fyi/media/posts/3/responsive/voip-aws-mon-2-xs.webp 300w ,https://roger.rogverse.fyi/media/posts/3/responsive/voip-aws-mon-2-sm.webp 480w ,https://roger.rogverse.fyi/media/posts/3/responsive/voip-aws-mon-2-md.webp 768w">
+      
+    </figure>
+
+  <p>
+    Today I'm announcing the release to my new project <a href="https://github.com/rpfilomeno/voip-mon-aws-cloudwatch">VOIP Statistics to AWS CloudWatch (voip-mon-aws-cloudwatch)</a>, it is a monitoring script for Kamailio and Asterisk for AWS CloudWatch written in PHP. <br>
+  </p>
+
+  <p>
+    This works similarly to AWS CloudWatch Monitoring Script (Linux).<br><br>Requirements<br>
+  </p>
+
+  <ul>
+    <li>PHP 5.5 and above</li><li>Composer</li><li>Asterisk</li><li>Kamailio</li>
+  </ul>
+
+  <p>
+    Installation<br><br>1. Git clone to any Linux instance with Kamailio or Asterisk installed,<br><br>for example to ~/home/ec2-user/ using&nbsp;
+  </p>
+<pre class="line-numbers  language-html"><code>git clone https://github.com/rpfilomeno/voip-mon-aws-cloudwatch.git</code></pre>
+
+  <p>
+    2. Go to the project's root directory by
+  </p>
+<pre class="line-numbers  language-html"><code>cd ./voip-mon-aws-cloudwatch/</code></pre>
+
+  <p>
+    
+  </p>
+
+  <p>
+    3. Make the mon-put-instance-data.php executable
+  </p>
+<pre class="line-numbers  language-html"><code>sudo chmod +x mon-put-instance-data.php</code></pre>
+
+  <p>
+    4. Install Composer
+  </p>
+<pre class="line-numbers  language-html"><code>curl -sS https://getcomposer.org/installer | php</code></pre>
+
+  <p>
+    5. Install the dependencies by
+  </p>
+<pre class="line-numbers  language-html"><code>php composer.phar update</code></pre>
+
+  <p>
+    6. Create your AWS&nbsp;<a href="http://docs.aws.amazon.com/aws-sdk-php/v3/guide/guide/credentials.html#credential-profiles" target="_blank">credentials file</a>
+  </p>
+
+    <h2 id="monitoring-kamailio">
+      Monitoring Kamailio
+    </h2>
+
+  <p>
+    1. Test the script for monitoring Kamailio with
+  </p>
+<div>./mon-put-instance-data.php stats --t kamailio</div>
+
+  <p>
+    2. Install to Crontab with
+  </p>
+<div>crontab -e
+*/5 * * * * php /home/ec2-user/voip-mon-aws-cloudwatch/mon-put-instance-data.php stats --s kamailio</div>
+
+    <h2 id="monitoring-asterisk">
+      Monitoring Asterisk
+    </h2>
+
+  <p>
+    1. Test the script for monitoring Kamailio with
+  </p>
+<div>./mon-put-instance-data.php stats --t asterisk
+</div>
+
+  <p>
+    2. Install to Crontab with
+  </p>
+<div>crontab -e
+*/5 * * * * php /home/ec2-user/voip-mon-aws-cloudwatch/mon-put-instance-data.php stats --s asterisk</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Testing Kamailio load balancer with SIPp</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/testing-kamailio-load-balancer-with-sipp.html"/>
+        <id>https://roger.rogverse.fyi/testing-kamailio-load-balancer-with-sipp.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/2/5348744.png" medium="image" />
+            <category term="voip"/>
+            <category term="testing"/>
+
+        <updated>2025-03-22T22:11:12+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/2/5348744.png" alt="" />
+                    Here are the steps to test Kamailio under load. First of all lets describe our network setup: The a user from extension 300X registered to Asterisk 1 initiates a call to an extension 400X registered at Asterisk 2. Kamailio is registered as a trunk to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/2/5348744.png" class="type:primaryImage" alt="" /></p>
+                <p>Here are the steps to test Kamailio under load.</p><p>First of all lets describe our network setup:</p><script src="https://gist.github.com/rpfilomeno/d46493eefaf70d6838c157305ab9778a.js"></script>
+
+<p>The a user from extension <em>300X</em> registered to <em>Asterisk 1</em> initiates a call to an extension <em>400X</em> registered at <em>Asterisk 2</em>. <em>Kamailio</em> is registered as a <em>trunk</em> to both Asterisk 1 &amp; 2; which intercepts the call which load balances it to either <em>Asterisk X or Y</em> where they do some <em>fancy</em> pre-processing to current call before its received by the callee.</p><p>Now for our testing purposes, we needed to remove the effect on performance by Asterisk 1 &amp; 2 so we installed SIPp on another host which generates calls and receives them.</p><h3 id="installation-and-execution-steps">Installation and Execution Steps</h3>
+<ol>
+<li>Download and Modify SIPp to auto respond always and include OPTIONS packet as well (-aa broken?), edit src/call.cpp:</li>
+</ol>
+<pre><code class="language-cpp">call::T_AutoMode call::checkAutomaticResponseMode(char * P_recv)
+{
+    if (strcmp(P_recv, &quot;BYE&quot;)==0) {
+        return E_AM_UNEXP_BYE;
+    } else if (strcmp(P_recv, &quot;CANCEL&quot;) == 0) {
+        return E_AM_UNEXP_CANCEL;
+    } else if (strcmp(P_recv, &quot;PING&quot;) == 0) {
+        return E_AM_PING;
+    } else if ((strcmp(P_recv, &quot;INFO&quot;) == 0) || (strcmp(P_recv, &quot;NOTIFY&quot;) == 0) || (strcmp(P_recv, &quot;UPDATE&quot;) == 0) || (strcmp(P_recv, &quot;OPTIONS&quot;) == 0)
+               ) {
+        return E_AM_AA;
+    } else {
+        return E_AM_DEFAULT;
+    }
+}
+</code></pre>
+<p>Compile <em>sipp-3.3.990</em> with <a href="http://sipp.sourceforge.net/doc/reference.html#Installing+SIPp">RTP Support</a>.</p><p>To run the test, from SIPp Box: </p><pre><code class="language-bash"># sipp 10.254.1.30 -i 10.254.1.40 -sf uac.xml -aa -inf accounts.csv -l 10000 -r 1 -rp 1000 -trace_msg -trace_err -trace_stat
+</code></pre>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10.254.1.30</td>
+      <td>target Kamailio's IP on the LAN A side (see network diagram)</td>
+    </tr>
+    <tr>
+      <td>-i 10.254.1.40</td>
+      <td>make sure to bind SIPp on this IP especially if we are using IP Authentication on Kamailio</td>
+    </tr>
+    <tr>
+      <td>-sf <a href="https://gist.github.com/rpfilomeno/7445a628a3cbc0ceaaf8e9afe182578b#file-uac-xml">uac.xml</a></td>
+      <td>use this scenario file that generates calls.</td>
+    </tr>
+    <tr>
+      <td>-inf <a href="https://gist.github.com/rpfilomeno/8673ee9dc7355274dfd98d187bbde925#file-accounts-csv">accounts.csv</a></td>
+      <td>use this input CSV file, this is where the <em>[field0]</em>,<em>[field1]</em>,<em>[field2]</em> and <em>[field3]</em> values are derived in uac.xml. <br>Edit this file accordingly in format: 
+        <em>
+        CallID;Kamailio LAN A IP;[authentication];Extension on Asterisk 2;Asterisk 2 LAN B IP;
+        </em>
+    </td>
+    </tr>
+    <tr>
+      <td>-l 10000</td>
+      <td>run 1000 calls.</td>
+    </tr>
+    <tr>
+      <td>-r 1 -rp 1000</td>
+      <td>make one call per 1000ms (1 secs)</td>
+    </tr>
+    <tr>
+      <td>-trace_msg</td>
+      <td>log all messages to a file (filename auto generated)</td>
+    </tr>
+    <tr>
+      <td>-trace_err</td>
+      <td>log all errors to a separate file (filename auto generated)</td>
+    </tr>
+    <tr>
+      <td>-trace_stat</td>
+      <td>generate a CSV file with statistics which is good for making graphs (default 1 minute interval) </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<p>Make sure to edit the accounts.csv, change 10.254.1.30 and 10.254.7.31 accordingly.</p><p>Make sure to edit the uac.xml, change Route:</p><pre><code>&lt;sip:10.254.1.30;r2=on;lr=on;nat=yes&gt;,&lt;sip:10.254.3.30;r2=on;lr=on;nat=yes&gt;```
+accordingly since sipp-3.3.990 can&#39;t reliably generate this header so we had to hard code this for now. 
+
+You may run a SIPp on Asterisk 2 box to test higher concurrent calls (eg: testing more than 200 concurrent calls).
+
+Lets shutdown Asterisk 1 &amp; 2: 
+```bash
+# asterisk -rx &quot;core stop now&quot;
+</code></pre>
+<p>To run a server listening to incoming calls (server mode), run:</p><pre><code class="language-bash"># sipp 10.254.7.30 -i 10.254.7.31 -sf uas.xml -aa -trace_msg -trace_err -trace_stat
+</code></pre>
+<p>Makes sure to edit the <a href="https://gist.github.com/rpfilomeno/5827e6ecf5863f74f53d41b1e15fa707#file-uas-xml">uas.xml</a> to include the IP routes.</p><p>Now lets see how effective is Kamailio in this setup, here are the results I had:</p><table class="table">
+  <thead>
+    <tr>
+      <th>Test Name</th>
+      <th>Concurrent Calls</th>
+      <th>Success</th>
+      <th>Failed</th>
+      <th>Dead Calls</th>
+      <th>Retransmissions</th>
+      <th>Average Response Time</th>
+      <th>Average Call Rate Per Seconds</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Test1</td>
+      <td>200</td>
+      <td>1000</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2.52747</td>
+      <td>03.615000</td>
+    </tr>
+    <tr>
+      <td>Test2</td>
+      <td>300</td>
+      <td>998</td>
+      <td>2</td>
+      <td>5</td>
+      <td>252</td>
+      <td>3.15839</td>
+      <td>04.550000</td>
+    </tr>
+    <tr>
+      <td>Test3</td>
+      <td>400</td>
+      <td>993</td>
+      <td>7</td>
+      <td>12</td>
+      <td>1355</td>
+      <td>3.61512</td>
+      <td>13.049000</td>
+    </tr>
+    <tr>
+      <td>Test4</td>
+      <td>600</td>
+      <td>831</td>
+      <td>169</td>
+      <td>127</td>
+      <td>3554</td>
+      <td>4.05337</td>
+      <td>13.04900</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We stop at <em>Test 4</em> seeing Failed Calls spiked up at 169 calls, this was significant from our base capacity of 50 concurrent calls already.</p><p>Many thanks to <a href="http://saevolgo.blogspot.com/">Gohar Ahmed</a> for helping me figuring most of the bugs.</p>
+            ]]>
+        </content>
+    </entry>
 </feed>
