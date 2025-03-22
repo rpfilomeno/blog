@@ -3,7 +3,7 @@
     <title>Ai.to.mations</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-03-22T22:58:06+08:00</updated>
+    <updated>2025-03-22T23:18:22+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -20,6 +20,7 @@
             <category term="python"/>
             <category term="network"/>
             <category term="monitoring"/>
+            <category term="blog"/>
 
         <updated>2025-03-22T22:54:21+08:00</updated>
             <summary>
@@ -83,6 +84,7 @@
         <id>https://roger.rogverse.fyi/monitoring-kamailio-and-asterisk-with-aws-cloudwatch.html</id>
         <media:content url="https://roger.rogverse.fyi/media/posts/3/images-1.png" medium="image" />
             <category term="voip"/>
+            <category term="blog"/>
             <category term="aws"/>
 
         <updated>2025-03-22T22:42:13+08:00</updated>
@@ -189,6 +191,7 @@
         <media:content url="https://roger.rogverse.fyi/media/posts/2/5348744.png" medium="image" />
             <category term="voip"/>
             <category term="testing"/>
+            <category term="blog"/>
 
         <updated>2025-03-22T22:11:12+08:00</updated>
             <summary>
