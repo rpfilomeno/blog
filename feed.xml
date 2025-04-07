@@ -3,7 +3,7 @@
     <title>Ai.2.mations</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-04-07T11:55:30+08:00</updated>
+    <updated>2025-04-07T15:02:22+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -16,22 +16,22 @@
         </author>
         <link href="https://roger.rogverse.fyi/neurosync-glimpse-interactive-digital-experiences.html"/>
         <id>https://roger.rogverse.fyi/neurosync-glimpse-interactive-digital-experiences.html</id>
-        <media:content url="https://roger.rogverse.fyi/media/posts/9/qLexxnCJa42hzCuWJwFDzK-1152-80.jpg" medium="image" />
+        <media:content url="https://roger.rogverse.fyi/media/posts/9/neurosync.jpg" medium="image" />
             <category term="Blog"/>
             <category term="AI"/>
 
         <updated>2025-04-07T11:20:23+08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://roger.rogverse.fyi/media/posts/9/qLexxnCJa42hzCuWJwFDzK-1152-80.jpg" alt="" />
+                        <img src="https://roger.rogverse.fyi/media/posts/9/neurosync.jpg" alt="" />
                     NeuroSync: The Future of Interactive Digital Experiences is Here Get ready for a revolution in digital interaction! This blog post dives into the exciting world of NeuroSync, an open-source project poised to redefine how we experience interactive games, digital avatars, and even streaming content. Prepare&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://roger.rogverse.fyi/media/posts/9/qLexxnCJa42hzCuWJwFDzK-1152-80.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://roger.rogverse.fyi/media/posts/9/neurosync.jpg" class="type:primaryImage" alt="" /></p>
                 <h1 id="neurosync-the-future-of-interactive-digital-experiences-is-here">NeuroSync: The Future of Interactive Digital Experiences is Here</h1>
-<p>Get ready for a revolution in digital interaction! This blog post dives into the exciting world of NeuroSync, an open-source project poised to redefine how we experience interactive games, digital avatars, and even streaming content. Prepare to have your perception of reality in the digital realm challenged!</p><h2 id="the-quest-for-believable-digital-avatars">The Quest for Believable Digital Avatars</h2>
+<p>Get ready for a revolution in digital interaction! This blog post dives into the exciting world of <a href="https://neurosync.info/">NeuroSync</a>, an open-source project poised to redefine how we experience interactive games, digital avatars, and even streaming content. Prepare to have your perception of reality in the digital realm challenged!</p><h2 id="the-quest-for-believable-digital-avatars">The Quest for Believable Digital Avatars</h2>
 <p>We’re constantly seeking more immersive and dynamic digital experiences. Whether it’s diving into a new game, exploring the metaverse, or connecting on social media, the believability of digital avatars is key. Realistic facial animation, with all its subtle nuances, is crucial for conveying emotions and creating genuine engagement. Historically, this has been a complex and labor-intensive process. But now, <a href="https://huggingface.co/AnimaVR/NEUROSYNC_Audio_To_Face_Blendshape">NeuroSync</a> is stepping onto the scene to change the game.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/inzoi.jpg" alt="Digital Avatar"  data-is-external-image="true"></figure>
 <em>INZOI a glimpse into the world of digital avatars.</em></p><h2 id="neurosync-unlocking-real-time-facial-animation-in-unreal-engine-5">NeuroSync: Unlocking Real-Time Facial Animation in Unreal Engine 5</h2>
 <p>NeuroSync is an open-source marvel that allows for the real-time streaming of facial blendshapes into the powerful <a href="https://www.unrealengine.com/en-US/">Unreal Engine 5</a> using audio input. Let’s break down how this works:</p><h3 id="detailed-technical-overview">Detailed Technical Overview</h3>
