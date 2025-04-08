@@ -3,7 +3,7 @@
     <title>Ai.2.mations</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-04-08T23:26:23+08:00</updated>
+    <updated>2025-04-08T23:42:13+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -32,7 +32,7 @@
                     <p><img src="https://roger.rogverse.fyi/media/posts/10/joplin-screenshot1.png" class="type:primaryImage" alt="" /></p>
                 
   <p>
-    The digital landscape is saturated with note-taking applications, each promising to be the ultimate solution for organizing thoughts, managing projects, and boosting productivity. From the all-encompassing workspace of Notion to the established ecosystem of Evernote, the interconnected graph of Obsidian, and the simplicity of Google Keep, users have a plethora of options. However, amidst these giants, a lesser-known open-source application, Joplin, is quietly amassing power through a unique advantage: its extensive and versatile plugin ecosystem. While often positioned as an underdog, Joplin's ability to be customized and extended through these community-driven additions allows it to not only compete with but, in many ways, surpass the functionality offered by its more mainstream counterparts.&nbsp;&nbsp;
+    The digital landscape is saturated with note-taking applications, each promising to be the ultimate solution for organizing thoughts, managing projects, and boosting productivity. From the all-encompassing workspace of Notion to the established ecosystem of Evernote, the interconnected graph of Obsidian, and the simplicity of Google Keep, users have a plethora of options. However, amidst these giants, a lesser-known open-source application, <a href="https://joplinapp.org/">Joplin</a>, is quietly amassing power through a unique advantage: its extensive and versatile plugin ecosystem. While often positioned as an underdog, Joplin's ability to be customized and extended through these community-driven additions allows it to not only compete with but, in many ways, surpass the functionality offered by its more mainstream counterparts.&nbsp;&nbsp;
   </p>
 <div><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/ARNt7LFpzpw?si=7NVmCzTwdTiB4zwO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>
 
@@ -45,12 +45,13 @@
     </h2>
 
   <p>
-    The true potential of Joplin is unlocked by its thriving plugin ecosystem, which currently boasts over 150 extensions. This impressive number is a clear indicator of the active and dedicated community that supports and enhances the application. Installing these plugins is a remarkably user-friendly process. Many plugins can be found and installed directly from within the Joplin application itself through the settings menu. For users who prefer a more hands-on approach or want to explore the latest community contributions, plugins can also be downloaded from platforms like GitHub and installed manually. This dual approach to installation caters to users of all technical skill levels.
+    The true potential of Joplin is unlocked by its thriving <a href="https://joplinapp.org/plugins" target="_blank">plugin ecosystem</a>, which currently boasts over 150 extensions. This impressive number is a clear indicator of the active and dedicated community that supports and enhances the application. Installing these plugins is a remarkably user-friendly process. Many plugins can be found and installed directly from within the Joplin application itself through the settings menu. For users who prefer a more hands-on approach or want to explore the latest community contributions, plugins can also be downloaded from platforms like GitHub and installed manually. This dual approach to installation caters to users of all technical skill levels.
   </p>
 
   <p>
     The breadth of Joplin's plugin ecosystem is truly remarkable, covering a wide spectrum of functionalities designed to enhance productivity, organization, customization, task management, and integration with other tools. For productivity enhancements, plugins like Note Tabs address a common desire to work with multiple notes simultaneously by introducing a familiar tabbed interface. Rich Markdown elevates the writing experience by offering a more visually appealing and customizable Markdown editor. Navigating long documents becomes easier with the Outline plugin, which provides a sidebar table of contents. Consistent formatting is ensured by the Templates plugin, allowing users to create and reuse predefined note structures. Quick access to frequently used items is provided by the Favorites plugin , while the Quick Links plugin streamlines internal linking between notes, fostering a more interconnected knowledge base.
   </p>
+<div><p><img loading="lazy" src="https://cdn.rogverse.fyi/thorium_FwXeqlTMIX.png"  data-is-external-image="true"></p></div>
 
   <p>
     For users seeking advanced organization capabilities, Joplin offers powerful plugin options. Kanban plugins, such as KanMug and YesYouKan, transform Joplin into a visual task management system, allowing notes to be arranged on customizable boards, similar to Notion's board views or dedicated Kanban applications. To visualize the connections between notes, Graph View plugins like Sepremento's Awesome Graph, Link Graph UI, and Joplin Graph Plugin offer interactive network diagrams, akin to Obsidian's renowned graph view. Enhancing the interconnectedness of notes further, Backlinks plugins like Automatic Backlinks automatically create links from notes that reference the current one, a core feature of Roam Research's approach to knowledge management.
