@@ -3,12 +3,107 @@
     <title>Ai.2.mations</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-04-14T10:14:37+08:00</updated>
+    <updated>2025-05-18T10:50:43+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
     <id>https://roger.rogverse.fyi</id>
 
+    <entry>
+        <title>41 Million Smart Communications Subscriber Mobile Numbers Possibly Exposed by Critical Vulnerability</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/41-million-smart-communications-subscriber-mobile-numbers-possibly-exposed-by-critical-vulnerability.html"/>
+        <id>https://roger.rogverse.fyi/41-million-smart-communications-subscriber-mobile-numbers-possibly-exposed-by-critical-vulnerability.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/12/Smart-Live-More-Today-1.jpg" medium="image" />
+            <category term="vulnerability"/>
+            <category term="smart-telco"/>
+            <category term="cybersecurity"/>
+            <category term="Network"/>
+            <category term="Blog"/>
+
+        <updated>2025-04-18T13:15:36+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/12/Smart-Live-More-Today-1.jpg" alt="" />
+                    Overview Today I’m disclosing a significant security vulnerability affecting Smart Communications (TEL) mobile subscribers in the Philippines. This vulnerability exposes customers’ mobile phone numbers through insecure API communications, potentially contributing to the recent surge in SMS spam and SIM swapping attacks that have plagued Filipino&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/12/Smart-Live-More-Today-1.jpg" class="type:primaryImage" alt="" /></p>
+                <h2 id="overview">Overview</h2>
+<p>Today I’m disclosing a significant security vulnerability affecting Smart Communications (<a href="https://www.marketwatch.com/investing/stock/tel?countrycode=ph">TEL</a>) mobile subscribers in the Philippines. This vulnerability exposes customers’ mobile phone numbers through insecure API communications, potentially contributing to the recent surge in SMS spam and SIM swapping attacks that have plagued Filipino mobile users.</p><h2 id="discovery-timeline">Discovery Timeline</h2>
+<ul>
+<li><strong>December 12, 2024</strong>: Initially discovered the vulnerability while analyzing network traffic with Wireshark</li>
+<li><strong>April 15, 2025</strong>: Formal notification sent to Smart Communications with detailed findings</li>
+<li><strong>April 18, 2025</strong>: No response received; publishing initial disclosure with limited technical details</li>
+<li><strong>May 18, 2025</strong>: If no vendor response,  technical details and proof of concept will  published</li>
+</ul>
+<h2 id="technical-details">Technical Details</h2>
+<p>The vulnerability exists in an API endpoint used by <a href="https://play.google.com/store/apps/details?id=com.smart.consumer.app">Smart Communications Mobile App</a>. When users access the app, the server responds with a JSON payload containing a key called <code>x-nokia-msisdn</code> which contains the user’s full mobile phone number in plaintext.</p><p>This communication happens over standard HTTP rather than HTTPS, making it trivially interceptable on any network. The lack of encryption is especially concerning given the sensitive nature of the information being transmitted.</p><p><a href="https://cdn.rogverse.fyi/jbgoa8aOQe.png"><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/jbgoa8aOQe.png" alt="Wiresghark" data-is-external-image="true"></figure></a>
+(click image to view full resolution)</p><h3 id="attack-vectors">Attack Vectors</h3>
+<ol>
+<li><p><strong>Network Monitoring</strong>: Anyone on the same WiFi network can intercept this traffic using common tools like Wireshark, instantly revealing mobile numbers of all Smart customers using their apps on that network.</p></li>
+<li><p><strong>Malicious Mobile Apps</strong>: While CORS protections prevent website-based exploitation, any application installed on the user’s device can directly query the vulnerable API to retrieve the <code>x-nokia-msisdn</code> value without requiring special permissions.</p></li>
+<li><p><strong>Hotspot Exploitation</strong>: Users sharing their mobile connection via hotspot are vulnerable to malware on connected devices accessing this API through the established connection.</p></li>
+</ol>
+<p>Through additional reverse engineering using <a href="https://github.com/dweinstein/awesome-frida">Frida</a> and <a href="https://mitmproxy.org/">MITM</a> proxy tools, I was able to map numerous API method calls that transmit this sensitive information, suggesting the vulnerability is pervasive throughout their systems.</p><h2 id="additional-exploitation">Additional Exploitation</h2>
+<p>Since <code>http://app1.smart.com.ph/</code> also returns <code>Bearer</code> which is the bearer header authentication and <code>x-application-token</code> which is the JWT token in plain http we can exploit this fusther to get the information from <code>https://app1.smart.com.ph/api/v2/dashboard?number=09yyxxxxxxx</code> without user login.</p><p><a href="https://cdn.rogverse.fyi/thorium_U6btAJmVnw.png"><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/thorium_U6btAJmVnw.png" alt="MITM Proxy" data-is-external-image="true"></figure></a>
+(click image to view full resolution)</p><p>The response show all the same data from the app wthout login which includes:</p><table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Field</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Current load</td>
+<td><code>&quot;balance&quot;: &quot;34.00&quot;</code></td>
+</tr>
+<tr>
+<td>Load expiration</td>
+<td><code>&quot;expiration&quot;: &quot;08-DEC-2025 12:48AM&quot;</code></td>
+</tr>
+<tr>
+<td>Rewards point</td>
+<td><code>&quot;balance&quot;: &quot;190.55&quot;,</code></td>
+</tr>
+<tr>
+<td>Subscriptions</td>
+<td><code>&quot;name&quot;: &quot;UNLI 5G DATA 599&quot;,</code></td>
+</tr>
+<tr>
+<td>Sim registration</td>
+<td><code>&quot;register_sim_banner&quot;: null,</code></td>
+</tr>
+</tbody></table>
+<p><a href="https://cdn.rogverse.fyi/thorium_CKHZaPmOW1.png"><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/thorium_CKHZaPmOW1.png" alt="MITM Proxy" data-is-external-image="true"></figure></a>
+(click image to view full resolution)</p><p>This greatly provides informations that can be used for scams like sim swapping.</p><h2 id="impact-assessment">Impact Assessment</h2>
+<p>Based on the evidence gathered, I strongly believe this vulnerability has been actively exploited for years and represents a primary vector for how SMS spammers and SIM swap scammers have been able to:</p><ul>
+<li>Gather comprehensive databases of active Smart mobile numbers</li>
+<li>Target specific subscribers with high confidence in number validity</li>
+<li>Execute sophisticated phishing campaigns with user-specific information</li>
+<li>Potentially facilitate SIM swap attacks by providing the first piece of information needed</li>
+</ul>
+<h3 id="cvss-score">CVSS Score</h3>
+<p>The unofficial CVSS score for this vulnerability is:</p><pre><code>AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:P/RL:X/RC:U/CR:L/IR:L/AR:L/MAV:N/MAC:L/MPR:N/MUI:X/MS:U/MC:N/MI:N/MA:N
+</code></pre>
+<p>This translates to a <strong>Medium severity</strong> vulnerability with network-based attack vectors requiring low complexity to exploit, with no authentication needed.</p><h2 id="recommendations-for-users">Recommendations for Users</h2>
+<p>While waiting for Smart Communications to address this vulnerability:</p><ol>
+<li><strong>Limit app usage on public WiFi</strong>: When possible, use carrier data instead of public WiFi when accessing Smart applications</li>
+<li><strong>Be cautious with app permissions</strong>: Minimize the number of applications installed on your device, particularly those requesting network access</li>
+<li><strong>Monitor for suspicious activity</strong>: Be vigilant for unusual SMS messages, unexpected account access, or other signs your number may have been compromised</li>
+<li><strong>Consider secondary authentication</strong>: Where possible, use app-based authentication methods rather than SMS-based verification</li>
+</ol>
+<h2 id="vendor-response">Vendor Response</h2>
+<p>As of publication, Smart Communications has not responded to the vulnerability disclosure submitted on April 15, 2025. The vulnerability remains open and unaddressed.</p><p>Smart Communications has no publicly published contact information for vulnerability disclosure, so we also made best efforts to contact key persons that can act on our disclosure without success (list od names widheld).</p><p>No response was received within 30 days of the initial disclosure (by May 18, 2025).</p><h2 id="responsible-disclosure">Responsible Disclosure</h2>
+<p>This disclosure follows standard responsible disclosure practices, giving the vendor appropriate time to address the issue before publishing technical details that could facilitate exploitation. The limited information provided here is sufficient to alert users to the risk without enabling new attack vectors.</p><hr>
+<p><em>I will update this post with any vendor response or patch information when available.</em></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Interacting Minds: A Research Paper on Multi-Modal/MOE AI Agent Collaboration</title>
         <author>
@@ -495,33 +590,33 @@
                     <p><img src="https://roger.rogverse.fyi/media/posts/9/neurosync-2.jpg" class="type:primaryImage" alt="" /></p>
                 <h1 id="neurosync-the-future-of-interactive-digital-experiences-is-here">NeuroSync: The Future of Interactive Digital Experiences is Here</h1>
 <p>Get ready for a revolution in digital interaction! This blog post dives into the exciting world of <a href="https://neurosync.info/">NeuroSync</a>, an open-source project poised to redefine how we experience interactive games, digital avatars, and even streaming content. Prepare to have your perception of reality in the digital realm challenged!</p><h2 id="the-quest-for-believable-digital-avatars">The Quest for Believable Digital Avatars</h2>
-<p>We’re constantly seeking more immersive and dynamic digital experiences. Whether it’s diving into a new game, exploring the metaverse, or connecting on social media, the believability of digital avatars is key. Realistic facial animation, with all its subtle nuances, is crucial for conveying emotions and creating genuine engagement. Historically, this has been a complex and labor-intensive process. But now, <a href="https://huggingface.co/AnimaVR/NEUROSYNC_Audio_To_Face_Blendshape">NeuroSync</a> is stepping onto the scene to change the game.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/inzoi.jpg" alt="Digital Avatar"  data-is-external-image="true"></figure>
+<p>We’re constantly seeking more immersive and dynamic digital experiences. Whether it’s diving into a new game, exploring the metaverse, or connecting on social media, the believability of digital avatars is key. Realistic facial animation, with all its subtle nuances, is crucial for conveying emotions and creating genuine engagement. Historically, this has been a complex and labor-intensive process. But now, <a href="https://huggingface.co/AnimaVR/NEUROSYNC_Audio_To_Face_Blendshape">NeuroSync</a> is stepping onto the scene to change the game.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/inzoi.jpg" alt="Digital Avatar" data-is-external-image="true"></figure>
 <em>INZOI a glimpse into the world of digital avatars.</em></p><h2 id="neurosync-unlocking-real-time-facial-animation-in-unreal-engine-5">NeuroSync: Unlocking Real-Time Facial Animation in Unreal Engine 5</h2>
 <p>NeuroSync is an open-source marvel that allows for the real-time streaming of facial blendshapes into the powerful <a href="https://www.unrealengine.com/en-US/">Unreal Engine 5</a> using audio input. Let’s break down how this works:</p><h3 id="detailed-technical-overview">Detailed Technical Overview</h3>
 <p>At its core, NeuroSync utilizes a sophisticated transformer seq2seq model. This model cleverly translates audio features into facial blendshape coefficients in real-time, making digital characters’ faces move in sync with their speech and even express emotions.</p><h3 id="the-power-of-the-local-api">The Power of the Local API</h3>
 <p>For developers who crave control and minimal lag, NeuroSync offers a <a href="https://github.com/AnimaVR/NeuroSync_Local_API">Local API</a>. This allows you to host the pre-trained audio-to-face model on your own hardware, giving you complete command over the animation process and potentially reducing latency.</p><h3 id="seamless-integration-with-unreal-engine-5">Seamless Integration with Unreal Engine 5</h3>
 <p>Integrating NeuroSync into Unreal Engine 5 is a breeze thanks to the <a href="https://docs.unrealengine.com/5.3/en-US/livelink-in-unreal-engine/">LiveLink API</a>. The <a href="https://github.com/AnimaVR/NeuroSync_Player">NeuroSync Player</a> acts as the bridge, streaming the animation data directly into the engine. It leverages Apple’s ARKit blendshapes for a wide range of realistic facial movements.</p><h3 id="continuous-improvement">Continuous Improvement</h3>
-<p><a href="https://youtu.be/iqzbrE7KV_M?si=pw4LWBluneJRI57i">NeuroSync</a> is constantly evolving. Recent updates, like the one on February 4, 2025, have brought significant improvements in timing accuracy and the naturalness of expressions, especially in areas like brows, cheeks, and mouth shapes. Another update on March 29, 2025, further enhanced accuracy and smoothness through refined training data and model architecture.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/thorium_m0BM7Eu1AP.png" alt="NeuroSync in Unreal Engine 5"  data-is-external-image="true"></figure>
+<p><a href="https://youtu.be/iqzbrE7KV_M?si=pw4LWBluneJRI57i">NeuroSync</a> is constantly evolving. Recent updates, like the one on February 4, 2025, have brought significant improvements in timing accuracy and the naturalness of expressions, especially in areas like brows, cheeks, and mouth shapes. Another update on March 29, 2025, further enhanced accuracy and smoothness through refined training data and model architecture.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/thorium_m0BM7Eu1AP.png" alt="NeuroSync in Unreal Engine 5" data-is-external-image="true"></figure>
 <em>NeuroSync seamlessly integrates with Unreal Engine 5</em></p><h2 id="the-power-couple-neurosync-and-multimodal-llms-in-interactive-games">The Power Couple: NeuroSync and Multimodal LLMs in Interactive Games</h2>
 <p>Imagine combining NeuroSync’s realistic facial animation with the intelligence of multimodal Large Language Models (LLMs). This synergy could lead to truly revolutionary interactive gaming experiences.</p><h3 id="beyond-text-multimodal-llms-understand-the-game">Beyond Text: Multimodal LLMs Understand the Game</h3>
 <p>Multimodal LLMs can process various forms of data, including text, images, and audio. This allows them to understand the game’s context and the player’s input in a much richer way than traditional text-based LLMs. They can interpret visual cues, spoken dialogue, and even the overall game environment to create more intelligent and responsive NPCs.</p><h3 id="bringing-characters-to-life-with-expressive-animation">Bringing Characters to Life with Expressive Animation</h3>
 <p>NeuroSync provides the visual expressiveness that complements the intelligence of MLLMs. While an MLLM can generate smart dialogue, NeuroSync animates the character’s face in real-time, synchronized with the speech. This creates incredibly believable and relatable virtual characters.</p><h3 id="the-future-is-now-existing-integrations">The Future is Now: Existing Integrations</h3>
-<p>The integration of LLMs with game engines is already being explored. Projects like <a href="https://arxiv.org/html/2309.12276v2">LLMR (Large Language Model for Mixed Reality)</a> and <a href="https://www.immersivecomputinglab.org/wp-content/uploads/2024/08/2024-ISMAR-AgentBehaviorGeneration.pdf">VIVRA (Voice Interactive Virtual Reality Annotation)</a> showcase the potential of LLMs in creating dynamic and interactive virtual worlds. The <a href="https://github.com/AkshitIreddy/Interactive-LLM-Powered-NPCs">Interactive LLM Powered NPCs</a> project even aims to revolutionize NPC interactions in existing games using AI for dialogue and facial animation.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/graphic-features-supported-convai-1.png" alt="LLM Powered NPC"  data-is-external-image="true"></figure>
+<p>The integration of LLMs with game engines is already being explored. Projects like <a href="https://arxiv.org/html/2309.12276v2">LLMR (Large Language Model for Mixed Reality)</a> and <a href="https://www.immersivecomputinglab.org/wp-content/uploads/2024/08/2024-ISMAR-AgentBehaviorGeneration.pdf">VIVRA (Voice Interactive Virtual Reality Annotation)</a> showcase the potential of LLMs in creating dynamic and interactive virtual worlds. The <a href="https://github.com/AkshitIreddy/Interactive-LLM-Powered-NPCs">Interactive LLM Powered NPCs</a> project even aims to revolutionize NPC interactions in existing games using AI for dialogue and facial animation.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/graphic-features-supported-convai-1.png" alt="LLM Powered NPC" data-is-external-image="true"></figure>
 <em>Intelligent NPCs powered by LLMs.</em></p><h2 id="neurosync-and-metas-vision-digital-twins-and-ai-influencers">NeuroSync and Meta’s Vision: Digital Twins and AI Influencers</h2>
 <p>Tech giant Meta is heavily invested in the metaverse and the creation of realistic digital twins and engaging AI influencers. NeuroSync could play a vital role in bringing these digital entities to life.</p><h3 id="metas-ambitious-plans">Meta’s Ambitious Plans</h3>
 <p>Meta envisions a future where digital twins accurately represent real-world individuals in the metaverse. Engaging AI influencers would also require highly realistic and expressive avatars.</p><h3 id="enhancing-visual-fidelity-and-emotional-expression">Enhancing Visual Fidelity and Emotional Expression</h3>
 <p>NeuroSync’s real-time audio-to-facial animation can significantly contribute to the visual fidelity and emotional expressiveness of these Meta-driven avatars. The ability to generate nuanced facial expressions directly from audio will make digital twins and AI influencers feel more alive and believable.</p><h3 id="potential-for-collaboration">Potential for Collaboration</h3>
-<p>The synergy between NeuroSync and Meta’s goals opens up exciting possibilities for collaboration. Meta could integrate NeuroSync’s technology to enhance its avatar creation process, and the open-source nature of NeuroSync could benefit from the scale and resources of Meta’s platforms.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/Zucc_pgzaxw.jpg" alt="Metaverse Avatars"  data-is-external-image="true"></figure>
+<p>The synergy between NeuroSync and Meta’s goals opens up exciting possibilities for collaboration. Meta could integrate NeuroSync’s technology to enhance its avatar creation process, and the open-source nature of NeuroSync could benefit from the scale and resources of Meta’s platforms.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/Zucc_pgzaxw.jpg" alt="Metaverse Avatars" data-is-external-image="true"></figure>
 <em>Realistic avatars in the metaverse.</em></p><h2 id="blurring-reality-neurosync-unreal-engine-5-and-streaming-content">Blurring Reality: NeuroSync, Unreal Engine 5, and Streaming Content</h2>
 <p>The combination of NeuroSync and Unreal Engine 5’s incredible rendering capabilities could lead to a future where it’s hard to distinguish between computer-generated graphics and reality in streaming content.</p><h3 id="unreal-engine-5-a-master-of-photorealism">Unreal Engine 5: A Master of Photorealism</h3>
 <p>Unreal Engine 5 is renowned for its ability to create stunningly photorealistic visuals in real-time. Games like Unrecord and Bodycam (while not explicitly detailed in the provided snippets, their visual fidelity is well-known) showcase the engine’s power to produce graphics that can often be mistaken for real life.</p><h3 id="elevating-ai-avatars-in-live-streaming">Elevating AI Avatars in Live Streaming</h3>
-<p>When you pair UE5’s visual prowess with NeuroSync’s lifelike facial animation, AI avatars in live streaming scenarios can reach unprecedented levels of realism. Imagine AI streamers that not only look incredibly real but also speak and emote with natural facial expressions. This could truly blur the lines between virtual and human content creators.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/Unreal+Engine_spotlights_meet-vincent-a-real-time-digital-human-created-in-house-by-a-team-of-just-five_Spotlight_Giantstep_blog_body_img2-1640x1000-fcfc6112efbd1cceabc7687e7fb4d456276791f8.jpg" alt="Unreal Engine 5 Realism"  data-is-external-image="true"></figure>
+<p>When you pair UE5’s visual prowess with NeuroSync’s lifelike facial animation, AI avatars in live streaming scenarios can reach unprecedented levels of realism. Imagine AI streamers that not only look incredibly real but also speak and emote with natural facial expressions. This could truly blur the lines between virtual and human content creators.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/Unreal+Engine_spotlights_meet-vincent-a-real-time-digital-human-created-in-house-by-a-team-of-just-five_Spotlight_Giantstep_blog_body_img2-1640x1000-fcfc6112efbd1cceabc7687e7fb4d456276791f8.jpg" alt="Unreal Engine 5 Realism" data-is-external-image="true"></figure>
 <em>Meet Vincent: a real-time digital human. The photorealistic power of Unreal Engine 5.</em></p><h2 id="the-rise-of-ai-digital-personalities-surpassing-humans">The Rise of AI Digital Personalities: Surpassing Humans?</h2>
 <p>The emergence of AI digital personalities, such as the popular AI Vtubers Neurosama and Codemiko, raises the question: could AI eventually surpass human creators in online interactions?</p><h3 id="neurosama-and-codemiko-the-ai-vtubing-phenomenon">Neurosama and Codemiko: The AI Vtubing Phenomenon</h3>
 <p><a href="https://en.wikipedia.org/wiki/Neuro-sama">Neurosama</a> is an AI VTuber and chatbot on Twitch, created by developer Vedal. She uses a large language model to generate human-like responses and has gained a massive following, even breaking <a href="https://streamscharts.com/news/vedals-ai-vtuber-neuro-twitch-hype-train-record">Twitch’s Hype Train record</a>. <a href="https://en.wikipedia.org/wiki/CodeMiko">Codemiko</a>, on the other hand, is a VTuber known for her unique glitchy aesthetic and highly interactive streams. Behind the avatar is a real person, Youna Kang (The Technician), who uses motion capture and Unreal Engine to bring Codemiko to life.</p><h3 id="why-are-they-so-popular">Why Are They So Popular?</h3>
 <p>Neurosama’s success is partly due to the novelty of interacting with an AI, while Codemiko’s appeal lies in her unique character and high level of interactivity. Both demonstrate that engaging digital personalities, whether fully AI-driven or human-controlled with advanced avatars, can captivate online audiences.</p><h3 id="ai-vs-humans-the-great-debate">AI vs. Humans: The Great Debate</h3>
-<p>Could AI digital personalities truly surpass human creators? While AI offers advantages like 24/7 availability and scalability, it currently lacks the genuine emotions and lived experiences that drive deep human connection. It’s more likely that AI will become a powerful tool that complements human creativity rather than replacing it entirely.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/Neuro-sama-20231106-1.webp" alt="AI VTuber"  data-is-external-image="true"></figure>
-<em>AI VTubers like Neurosama are gaining popularity.</em></p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/thorium_9XrxXIYuJO-ezgif.com-cut.gif" alt="Codemiko"  data-is-external-image="true"></figure>
+<p>Could AI digital personalities truly surpass human creators? While AI offers advantages like 24/7 availability and scalability, it currently lacks the genuine emotions and lived experiences that drive deep human connection. It’s more likely that AI will become a powerful tool that complements human creativity rather than replacing it entirely.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/Neuro-sama-20231106-1.webp" alt="AI VTuber" data-is-external-image="true"></figure>
+<em>AI VTubers like Neurosama are gaining popularity.</em></p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/thorium_9XrxXIYuJO-ezgif.com-cut.gif" alt="Codemiko" data-is-external-image="true"></figure>
 <em>Codemiko, known for her interactive streams.</em></p><h2 id="conclusion-embracing-the-future-of-interactive-media">Conclusion: Embracing the Future of Interactive Media</h2>
 <p>NeuroSync, in conjunction with the power of multimodal LLMs and the stunning visuals of Unreal Engine 5, is paving the way for a truly transformative era in interactive media. From more engaging games and realistic digital avatars to the potential blurring of lines in streaming content, the possibilities are immense. While AI digital personalities are making waves, the unique essence of human creativity will likely ensure a future where both AI and human creators thrive, offering diverse and enriching digital experiences.</p>
             ]]>
