@@ -3,7 +3,7 @@
     <title>Ai.2.mations</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-05-18T17:35:19+08:00</updated>
+    <updated>2025-05-19T17:40:41+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -40,6 +40,11 @@
 <li><strong>April 15, 2025</strong>: Formal notification sent to Smart Communications with detailed findings</li>
 <li><strong>April 18, 2025</strong>: No response received; publishing initial disclosure with limited technical details</li>
 <li><strong>May 18, 2025</strong>: If no vendor response,  technical details and proof of concept   published</li>
+</ul>
+<h2 id="disclosure-timeline">Disclosure Timeline</h2>
+<ul>
+<li><strong>May 18, 2025</strong>: Disclosure submitted to <a href="https://hackerone.com/disclosure-assistance?type=team">HackerOne Disclosure Assistance</a> with Report ID #3151783 with Severity: Medium (4 - 6.9)</li>
+<li><strong>May 18, 2025</strong>: Disclosure submitted to Google Play Store Review.</li>
 </ul>
 <h2 id="technical-details">Technical Details</h2>
 <p>The vulnerability exists in an API endpoint used by <a href="https://play.google.com/store/apps/details?id=com.smart.consumer.app">Smart Communications Mobile App</a>. When users access the app, the server responds with a JSON payload containing a key called <code>x-nokia-msisdn</code> which contains the user’s full mobile phone number in plaintext.</p><p>This communication happens over standard HTTP rather than HTTPS, making it trivially interceptable on any network. The lack of encryption is especially concerning given the sensitive nature of the information being transmitted.</p><p><a href="https://cdn.rogverse.fyi/jbgoa8aOQe.png"><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/jbgoa8aOQe.png" alt="Wiresghark" data-is-external-image="true"></figure></a>
