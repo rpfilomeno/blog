@@ -3,7 +3,7 @@
     <title>Ai.2.mations</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-05-19T17:40:41+08:00</updated>
+    <updated>2025-05-19T19:40:56+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -103,8 +103,94 @@
 <li><strong>Consider secondary authentication</strong>: Where possible, use app-based authentication methods rather than SMS-based verification</li>
 </ol>
 <h2 id="vendor-response">Vendor Response</h2>
-<p>As of publication, Smart Communications has not responded to the vulnerability disclosure submitted on April 15, 2025. The vulnerability remains open and unaddressed.</p><p>Smart Communications has no publicly published contact information for vulnerability disclosure, so we also made best efforts to contact key persons that can act on our disclosure without success (list of names widheld).</p><p>No response was received within 30 days of the initial disclosure (by May 18, 2025).</p><h2 id="responsible-disclosure">Responsible Disclosure</h2>
-<p>This disclosure follows standard responsible disclosure practices, giving the vendor appropriate time to address the issue before publishing technical details that could facilitate exploitation. The limited information provided here is sufficient to alert users to the risk without enabling new attack vectors.</p><hr>
+<p>As of publication, Smart Communications has not responded to the vulnerability disclosure submitted on April 15, 2025. The vulnerability remains open and unaddressed.</p><p>Smart Communications has no publicly published contact information for vulnerability disclosure, so we also made best efforts to contact key persons that can act on our disclosure without success.</p><table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Position</th>
+<th>Response</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://www.linkedin.com/in/ronald-ryan-ruiz-9a330a90/">Ronald Ryan Ruiz</a></td>
+<td>Cyber Security Solution Architect, Strategist</td>
+<td>No Response</td>
+</tr>
+<tr>
+<td><a href="https://www.linkedin.com/in/ma-kristina-angela-ycasas-5801a29b/">Ma. Kristina Angela Ycasas</a></td>
+<td>Cyber Security Operations (IAM) - Information Security Supervisor</td>
+<td>No Response</td>
+</tr>
+<tr>
+<td><a href="https://www.linkedin.com/in/noelperlas/">Noel Perlas</a></td>
+<td>VP - App Product Design &amp; Management @ Smart Communications, Inc. / UI/UX Design</td>
+<td>No Response</td>
+</tr>
+<tr>
+<td><a href="https://www.linkedin.com/in/favian-ong-61920211/">Favian Ong</a></td>
+<td>IT Security Manager at Smart Communications</td>
+<td>No Response</td>
+</tr>
+</tbody></table>
+<p>No response was received within 30 days of the initial disclosure (by May 18, 2025).</p><h2 id="responsible-disclosure">Responsible Disclosure</h2>
+<p>This disclosure follows standard responsible disclosure practices, giving the vendor appropriate time to address the issue before publishing technical details that could facilitate exploitation. The limited information provided here is sufficient to alert users to the risk without enabling new attack vectors.</p><h2 id="recommended-vulnerability-mitigation-plan">Recommended Vulnerability Mitigation Plan</h2>
+<p>My suggestion for fast mitigation plan since this vulnerabiliy is already actively exploited long before this research is conducted.</p><h3 id="immediate-actions-0-7-days">Immediate Actions (0-7 days)</h3>
+<ol>
+<li><p><strong>Implement HTTPS/TLS</strong></p><ul>
+<li>Immediately deploy SSL certificates for all API endpoints, especially app1.smart.com.ph</li>
+<li>Configure secure TLS 1.3 protocols with modern cipher suites</li>
+<li>Implement HSTS (HTTP Strict Transport Security) to prevent downgrade attacks</li>
+</ul>
+</li>
+<li><p><strong>Emergency Authentication</strong></p><ul>
+<li>Deploy basic API authentication requirements for all endpoints (no dashboard without login)</li>
+<li>Implement token-based authentication for mobile apps</li>
+<li>Revoke and rotate any existing shared secrets (shorter jwt token lifetime)</li>
+</ul>
+</li>
+<li><p><strong>Response Headers</strong></p><ul>
+<li>Remove sensitive data from HTTP headers (especially x-nokia-msisdn use session based id)</li>
+<li>Implement proper Content-Security-Policy headers</li>
+<li>Ensure Referrer-Policy is set to restrict information leakage</li>
+</ul>
+</li>
+<li><p><strong>Communication</strong></p><ul>
+<li>Acknowledge receipt of vulnerability report to researcher</li>
+<li>Prepare customer communication strategy</li>
+<li>Brief executive leadership on situation severity</li>
+</ul>
+</li>
+</ol>
+<h3 id="short-term-actions-7-30-days">Short-Term Actions (7-30 days)</h3>
+<ol>
+<li><p><strong>API Architecture Overhaul</strong></p><ul>
+<li>Implement proper OAuth 2.0 authentication flow for all APIs</li>
+<li>Create secure token exchange that doesn’t expose subscriber identifiers</li>
+<li>Implement rate limiting to prevent mass enumeration</li>
+<li>Add request signing to prevent tampering and unauthorized access</li>
+</ul>
+</li>
+<li><p><strong>Mobile App Updates</strong></p><ul>
+<li>Push emergency updates to all mobile applications</li>
+<li>Implement certificate pinning to prevent MITM attacks</li>
+<li>Store sensitive data in secure app enclaves/keystores</li>
+<li>Implement additional app-level encryption for sensitive communications</li>
+</ul>
+</li>
+<li><p><strong>Monitoring &amp; Detection</strong></p><ul>
+<li>Deploy API monitoring for unusual access patterns</li>
+<li>Implement alerts for potential mass-harvesting attempts</li>
+<li>Create detection mechanisms for abnormal API usage</li>
+</ul>
+</li>
+<li><p><strong>Subscriber Protection (especially for known user of the velnerable app)</strong></p><ul>
+<li>Enhance SIM swap protection procedures</li>
+<li>Implement additional verification steps for high-risk transactions</li>
+<li>Review SMS spam filtering algorithms</li>
+</ul>
+</li>
+</ol>
+<hr>
 <p><em>I will update this post with any vendor response or patch information when available.</em></p>
             ]]>
         </content>
