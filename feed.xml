@@ -3,7 +3,7 @@
     <title>Ai.2.mations</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-05-19T19:48:11+08:00</updated>
+    <updated>2025-05-19T20:34:19+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -55,7 +55,7 @@
 <li><p><strong>Hotspot Exploitation</strong>: Users sharing their mobile connection via hotspot are vulnerable to malware on connected devices accessing this API through the established connection.</p></li>
 </ol>
 <p>Through additional reverse engineering using <a href="https://github.com/dweinstein/awesome-frida">Frida</a> and <a href="https://mitmproxy.org/">MITM</a> proxy tools, I was able to map numerous API method calls that transmit this sensitive information, suggesting the vulnerability is pervasive throughout their systems.</p><h2 id="additional-exploitation">Additional Exploitation</h2>
-<p>Since <code>http://app1.smart.com.ph/</code> also returns <code>Bearer</code> which is the bearer header authentication and <code>x-application-token</code> which is the JWT token in plain http we can exploit this fusther to get the information from <code>https://app1.smart.com.ph/api/v2/dashboard?number=09yyxxxxxxx</code> without user login.</p><p><a href="https://cdn.rogverse.fyi/thorium_U6btAJmVnw.png"><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/thorium_U6btAJmVnw.png" alt="MITM Proxy" data-is-external-image="true"></figure></a>
+<p>Since <code>http://app1.smart.com.ph/</code> also returns <code>Bearer</code> which is the bearer header authentication and <code>x-application-token</code> which is the JWT token in plain http we can exploit this fusther to get the information from <code>https://app1.smart.com.ph/api/v2/dashboard?number=09yyxxxxxxx</code> without user login. We also able to reuse the token since it expires only after 5 days.</p><p><a href="https://cdn.rogverse.fyi/thorium_U6btAJmVnw.png"><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/thorium_U6btAJmVnw.png" alt="MITM Proxy" data-is-external-image="true"></figure></a>
 (click image to view full resolution)</p><p>The response show all the same data from the app wthout login which includes:</p><table>
 <thead>
 <tr>
