@@ -3,7 +3,7 @@
     <title>Ai.2.mations</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-05-19T19:40:56+08:00</updated>
+    <updated>2025-05-19T19:48:11+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -149,7 +149,7 @@
 </ul>
 </li>
 <li><p><strong>Response Headers</strong></p><ul>
-<li>Remove sensitive data from HTTP headers (especially x-nokia-msisdn use session based id)</li>
+<li>Remove sensitive data from HTTP headers (especially x-nokia-msisdn, use session based id and pass the actual value via internal API call)</li>
 <li>Implement proper Content-Security-Policy headers</li>
 <li>Ensure Referrer-Policy is set to restrict information leakage</li>
 </ul>
