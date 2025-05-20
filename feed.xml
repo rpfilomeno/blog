@@ -3,7 +3,7 @@
     <title>Ai.2.mations</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-05-20T09:13:33+08:00</updated>
+    <updated>2025-05-20T09:39:42+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -172,7 +172,6 @@
 </li>
 <li><p><strong>Mobile App Updates</strong></p><ul>
 <li>Push emergency updates to all mobile applications</li>
-<li>Implement certificate pinning to prevent MITM attacks</li>
 <li>Store sensitive data in secure app enclaves/keystores</li>
 <li>Implement additional app-level encryption for sensitive communications</li>
 </ul>
