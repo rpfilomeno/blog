@@ -3,7 +3,7 @@
     <title>Ai.2.mations</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-05-19T23:30:41+08:00</updated>
+    <updated>2025-05-20T09:13:33+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -48,7 +48,7 @@
 </ul>
 <h2 id="technical-details">Technical Details</h2>
 <p>The vulnerability exists in an API endpoint used by <a href="https://play.google.com/store/apps/details?id=com.smart.consumer.app">Smart Communications Mobile App</a>. When users access the app, the server responds with a JSON payload containing a key called <code>x-nokia-msisdn</code> which contains the user’s full mobile phone number in plaintext.</p><p>This communication happens over standard HTTP rather than HTTPS, making it trivially interceptable on any network. The lack of encryption is especially concerning given the sensitive nature of the information being transmitted.</p><p><a href="https://cdn.rogverse.fyi/jbgoa8aOQe.png"><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/jbgoa8aOQe.png" alt="Wiresghark" data-is-external-image="true"></figure></a>
-(click image to view full resolution)</p><h3 id="attack-vectors">Attack Vectors</h3>
+(click image to view full resolution)</p><p>Apps can now reliably steal a user’s mobile number with their consent, without needing to request the <code>android.permission.READ_PHONE_STATE permission</code>.</p><h3 id="attack-vectors">Attack Vectors</h3>
 <ol>
 <li><p><strong>Network Monitoring</strong>: Anyone on the same WiFi network can intercept this traffic using common tools like Wireshark, instantly revealing mobile numbers of all Smart customers using their apps on that network.</p></li>
 <li><p><strong>Malicious Mobile Apps</strong>: While CORS protections prevent website-based exploitation, any application installed on the user’s device can directly query the vulnerable API to retrieve the <code>x-nokia-msisdn</code> value without requiring special permissions.</p></li>
