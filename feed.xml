@@ -3,7 +3,7 @@
     <title>The AI Sloth Slayer</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-05-27T13:26:11+08:00</updated>
+    <updated>2025-05-29T09:59:05+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -192,7 +192,7 @@
 <li><p><strong>Malicious Mobile Apps</strong>: While CORS protections prevent website-based exploitation, any application installed on the user’s device can directly query the vulnerable API to retrieve the <code>x-nokia-msisdn</code> value without requiring special permissions.</p></li>
 <li><p><strong>Hotspot Exploitation</strong>: Users sharing their mobile connection via hotspot are vulnerable to malware on connected devices accessing this API through the established connection.</p></li>
 </ol>
-<p>Through additional reverse engineering using <a href="https://github.com/dweinstein/awesome-frida">Frida</a> and <a href="https://mitmproxy.org/">MITM</a> proxy tools, I was able to map numerous API method calls that transmit this sensitive information, suggesting the vulnerability is pervasive throughout their systems.</p><h2 id="impact-assessment">Impact Assessment</h2>
+<p>Through additional reverse engineering using <a href="https://github.com/dweinstein/awesome-frida">Frida</a> and <a href="https://mitmproxy.org/">MITM</a> proxy tools (you can also use <a href="https://play.google.com/store/apps/details?id=com.emanuelef.remote_capture">PCAPdroid</a> for casual verfication), I was able to map numerous API method calls that transmit this sensitive information, suggesting the vulnerability is pervasive throughout their systems.</p><h2 id="impact-assessment">Impact Assessment</h2>
 <p>Based on the evidence gathered, I strongly believe this vulnerability has been actively exploited for years and represents a primary vector for how SMS spammers and SIM swap scammers have been able to:</p><ul>
 <li>Gather comprehensive databases of active Smart mobile numbers</li>
 <li>Target specific subscribers with high confidence in number validity</li>
