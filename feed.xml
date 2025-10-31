@@ -3,7 +3,7 @@
     <title>The AI Sloth Slayer</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-10-31T16:40:09+08:00</updated>
+    <updated>2025-10-31T16:49:46+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -51,8 +51,8 @@
 <li><strong>Ensure Uniformity:</strong> Apply a single, controlled proxy connection for <em>all</em> applications, extending the capability that most applications lack.</li>
 </ul>
 <hr>
-<h2 id="how-proxifyre-configuration-manager-helps-even-more">How ProxiFyre Configuration Manager Helps Even More</h2>
-<p>ProxiFyre itself relies on a simple, yet complex, <strong>JSON-based configuration file</strong> named <code>app-config.json</code>. Manually editing this file to manage multiple proxies, define different app names, and ensure correct JSON syntax can be cumbersome and error-prone.</p><p>This is where the <strong>ProxiFyre Configuration Manager</strong> comes in as the ultimate quality-of-life upgrade.</p><p>The <a href="https://github.com/rpfilomeno/ProxiFyre-Config-Manager">ProxiFyre Configuration Manager</a> is a modern Windows <strong>GUI application</strong> built to simplify managing the underlying SOCKS5 proxy configurations. It transforms a command-line utility into a user-friendly tool, offering a visual interface that helps you manage your entire proxy setup.</p><h3 id="manager-features-that-simplify-your-life">Manager Features That Simplify Your Life</h3>
+<h2 id="proxifyre-configuration-manager-makes-evertthing-easier">ProxiFyre Configuration Manager Makes Evertthing Easier</h2>
+<p>ProxiFyre itself relies on a simple, yet complex, <strong>JSON-based configuration file</strong> named <code>app-config.json</code>. Manually editing this file to manage multiple proxies, define different app names, and ensure correct JSON syntax can be cumbersome and error-prone.</p><p>This is where my own opensource project the <strong>ProxiFyre Configuration Manager</strong> comes in as the ultimate quality-of-life upgrade.</p><p>The <a href="https://github.com/rpfilomeno/ProxiFyre-Config-Manager">ProxiFyre Configuration Manager</a> is a modern Windows <strong>GUI application</strong> built to simplify managing the underlying SOCKS5 proxy configurations. It transforms a command-line utility into a user-friendly tool, offering a visual interface that helps you manage your entire proxy setup.</p><h3 id="manager-features-that-simplify-your-life">Manager Features That Simplify Your Life</h3>
 <p>The GUI makes ProxiFyre’s powerful features effortless to use:</p><table>
 <thead>
 <tr>
