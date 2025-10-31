@@ -10,6 +10,23 @@
     },
     "items": [
         {
+            "id": "https://roger.rogverse.fyi/proxifyre-force-any-appprocess-windows-to-use-a-socks5-proxy.html",
+            "url": "https://roger.rogverse.fyi/proxifyre-force-any-appprocess-windows-to-use-a-socks5-proxy.html",
+            "title": "ProxiFyre: Force Any App/Process Windows To Use A Socks5 Proxy",
+            "summary": "Tired of network applications that refuse to work with a proxy? For a long time, enabling proxy support for non-natively-supported Windows applications was&hellip;",
+            "content_html": "<p>Tired of network applications that refuse to work with a proxy? For a long time, enabling proxy support for non-natively-supported Windows applications was complex, often requiring commercial solutions or convoluted setups.</p><p>Enter <strong>ProxiFyre</strong>.</p><p><a href=\"https://github.com/wiresock/proxifyre\">ProxiFyre</a> is an advanced, open-source <strong>SOCKS5 proxifier for Windows</strong> built on the Windows Packet Filter driver. It acts as a transparent layer, allowing you to force specific Windows processes to route their entire network traffic through a SOCKS5 proxy.</p><h2 id=\"key-features-and-use-cases-of-proxifyre\">Key Features and Use Cases of ProxiFyre</h2>\n<p>ProxiFyre significantly enhances the base functionality of a typical proxifier with a powerful set of features:</p><h3 id=\"core-capabilities\">Core Capabilities</h3>\n<ul>\n<li><strong>Protocol Flexibility:</strong> It supports both <strong>TCP and UDP</strong> protocols, essential for a wide range of modern applications, including gaming and VoIP.</li>\n<li><strong>Per-Application Routing:</strong> You gain granular control by routing different Windows applications through various SOCKS5 proxies. This is key to controlling your app-specific internet settings.</li>\n<li><strong>Multiple Proxy Instances:</strong> You can manage and use an <strong>unlimited number of different proxy configurations</strong> simultaneously.</li>\n<li><strong>Authentication Support:</strong> It supports SOCKS5 proxy authentication using a username and password.</li>\n<li><strong>Windows Service Mode:</strong> ProxiFyre can be configured to run as an optional Windows Service, ensuring continuous, always-on operation without needing a user to be logged in.</li>\n</ul>\n<h3 id=\"advanced-control\">Advanced Control</h3>\n<ul>\n<li><strong>Flexible Matching Rules:</strong> You can match applications by their executable name (e.g., <code>firefox.exe</code>), partial name, or by a full or partial file path, making it great for UWP apps.</li>\n<li><strong>Process Exclusions:</strong> As of v2.1.1, ProxiFyre supports <strong>process exclusions</strong>, allowing you to specify applications that should <em>bypass</em> the proxy, even if a global proxy is configured.</li>\n</ul>\n<h3 id=\"common-use-cases\">Common Use Cases</h3>\n<p>ProxiFyre is invaluable for users who need to:</p><ul>\n<li><strong>Secure Specific Apps:</strong> Tunnel applications through a secure, encrypted channel, like forwarding an RDP client or a browser through an SSH-created SOCKS5 proxy for enhanced security.</li>\n<li><strong>Circumvent Geo-Restrictions:</strong> Route region-locked applications or games through a proxy located in the required geography.</li>\n<li><strong>Ensure Uniformity:</strong> Apply a single, controlled proxy connection for <em>all</em> applications, extending the capability that most applications lack.</li>\n</ul>\n<hr>\n<h2 id=\"how-proxifyre-configuration-manager-helps-even-more\">How ProxiFyre Configuration Manager Helps Even More</h2>\n<p>ProxiFyre itself relies on a simple, yet complex, <strong>JSON-based configuration file</strong> named <code>app-config.json</code>. Manually editing this file to manage multiple proxies, define different app names, and ensure correct JSON syntax can be cumbersome and error-prone.</p><p>This is where the <strong>ProxiFyre Configuration Manager</strong> comes in as the ultimate quality-of-life upgrade.</p><p>The <a href=\"https://github.com/rpfilomeno/ProxiFyre-Config-Manager\">ProxiFyre Configuration Manager</a> is a modern Windows <strong>GUI application</strong> built to simplify managing the underlying SOCKS5 proxy configurations. It transforms a command-line utility into a user-friendly tool, offering a visual interface that helps you manage your entire proxy setup.</p><h3 id=\"manager-features-that-simplify-your-life\">Manager Features That Simplify Your Life</h3>\n<p>The GUI makes ProxiFyre’s powerful features effortless to use:</p><table>\n<thead>\n<tr>\n<th align=\"left\">Feature</th>\n<th align=\"left\">How It Helps You</th>\n</tr>\n</thead>\n<tbody><tr>\n<td align=\"left\"><strong>Intuitive GUI</strong></td>\n<td align=\"left\">Replaces manual, error-prone JSON file editing with a clean, easy-to-use graphical interface.</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>Real-time Validation</strong></td>\n<td align=\"left\">Ensures the integrity of your settings by validating your inputs as you type, preventing configuration errors before you run the service.</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>Service Control</strong></td>\n<td align=\"left\">Allows you to <strong>restart the ProxiFyre service</strong> directly from the application’s interface. This eliminates the need to use the command line every time you update your settings.</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>Feature Management</strong></td>\n<td align=\"left\">Provides simple, visual tools to manage <strong>multiple proxy instances</strong> and set up your <strong>process exclusions</strong>, putting ProxiFyre’s advanced features at your fingertips.</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>Auto-Save</strong></td>\n<td align=\"left\">Your configuration changes are preserved automatically, ensuring you never lose your settings.</td>\n</tr>\n</tbody></table>\n<p>By transforming the technical process of editing a JSON configuration file into a simple, point-and-click experience, the ProxiFyre Configuration Manager ensures that you can harness the full power of ProxiFyre quickly and reliably. It’s the perfect companion tool to get the most out of your open-source SOCKS5 proxifier.</p>",
+            "image": "https://roger.rogverse.fyi/media/posts/19/503076550-36083d12-597d-4a74-9d99-e1725d915b2b.png",
+            "author": {
+                "name": "Roger Filomeno"
+            },
+            "tags": [
+                   "cybersecurity",
+                   "Blog"
+            ],
+            "date_published": "2025-10-31T16:36:19+08:00",
+            "date_modified": "2025-10-31T16:37:45+08:00"
+        },
+        {
             "id": "https://roger.rogverse.fyi/the-ai-shift-nobodys-talking-about-why-were-not-ready-for-whats-coming.html",
             "url": "https://roger.rogverse.fyi/the-ai-shift-nobodys-talking-about-why-were-not-ready-for-whats-coming.html",
             "title": "The AI Shift Nobody&#x27;s Talking About: Why We&#x27;re Not Ready for What&#x27;s Coming",
@@ -24,7 +41,7 @@
                    "AI"
             ],
             "date_published": "2025-10-16T15:31:33+08:00",
-            "date_modified": "2025-10-16T15:56:20+08:00"
+            "date_modified": "2025-10-31T16:37:54+08:00"
         },
         {
             "id": "https://roger.rogverse.fyi/philippines-companies-using-ai-in-hiring.html",
@@ -167,25 +184,6 @@
             ],
             "date_published": "2025-03-23T19:03:03+08:00",
             "date_modified": "2025-05-27T10:28:48+08:00"
-        },
-        {
-            "id": "https://roger.rogverse.fyi/crystalwire-10-release.html",
-            "url": "https://roger.rogverse.fyi/crystalwire-10-release.html",
-            "title": "Crystalwire 1.0 Release",
-            "summary": "When you don't care about the firewall but need the jumping graphs that track which process consumes all your bandwidth, it's like Glasswire&hellip;",
-            "content_html": "\n  <p>\n    When you don't care about the firewall but need the jumping graphs that track which process consumes all your bandwidth, it's like Glasswire for terminals!\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://roger.rogverse.fyi/media/posts/4/image-2.png\" height=\"583\" width=\"817\" alt=\"\"  sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://roger.rogverse.fyi/media/posts/4/responsive/image-2-xs.webp 300w ,https://roger.rogverse.fyi/media/posts/4/responsive/image-2-sm.webp 480w ,https://roger.rogverse.fyi/media/posts/4/responsive/image-2-md.webp 768w ,https://roger.rogverse.fyi/media/posts/4/responsive/image-2-lg.webp 1024w ,https://roger.rogverse.fyi/media/posts/4/responsive/image-2-xl.webp 1360w ,https://roger.rogverse.fyi/media/posts/4/responsive/image-2-2xl.webp 1600w\">\n      \n    </figure>\n\n  <p>\n    Crystalwire is a command-line tool that monitors network bandwidth usage for each running process in real-time. It utilizes the psutil library for gathering system information and displays the data in a user-friendly format.<br>\n  </p>\n\n    <h2 id=\"installation\">\n      Installation\n    </h2>\n\n  <p>\n    1. Clone the project\n  </p>\n<pre class=\"line-numbers  language-bash\"><code>gh repo clone rpfilomeno/crystalwire</code></pre>\n\n  <p>\n    2. install 'crystalwire' the dependencies\n  </p>\n<pre class=\"line-numbers  language-bash\"><code>pip install -r requirements.txt</code></pre>\n\n    <h2 id=\"usage\">\n      Usage\n    </h2>\n\n  <p>\n    Once installed, you can run 'crystalwire' from the command line:\n  </p>\n<pre class=\"line-numbers  language-bash\"><code>python -m crystalwire.main</code></pre>\n\n  <p>\n    \n  </p>",
-            "image": "https://roger.rogverse.fyi/media/posts/4/Python-logo-notext.svg.png",
-            "author": {
-                "name": "Roger Filomeno"
-            },
-            "tags": [
-                   "Python",
-                   "Network",
-                   "Monitoring",
-                   "Blog"
-            ],
-            "date_published": "2025-03-22T22:54:21+08:00",
-            "date_modified": "2025-05-27T10:28:41+08:00"
         }
     ]
 }
