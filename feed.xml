@@ -3,7 +3,7 @@
     <title>The AI Sloth Slayer</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-12-03T14:25:48+08:00</updated>
+    <updated>2025-12-03T19:18:20+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -57,16 +57,20 @@ result = [item for item in high_scoring_items if validate(item)]
 <p>The doc surfaced edge cases (duplicate payments, partial refunds) that would have been disasters in production.</p><h3 id="treat-api-stability-as-a-sacred-contract">Treat API Stability as a Sacred Contract</h3>
 <p>When hundreds of services depend on your API, breaking changes are catastrophic. I learned this the hard way when I renamed a field and broke 47 internal services overnight.</p><p><strong>Example:</strong> If you have an API endpoint:</p><pre><code class="language-json">{
   &quot;userId&quot;: &quot;123&quot;,
-  &quot;name&quot;: &quot;Alice&quot;,
+  &quot;name&quot;: &quot;Alice J. Doe&quot;,
   &quot;email&quot;: &quot;alice@example.com&quot;
 }
 </code></pre>
 <p>And you want to add address info, create a new version:</p><pre><code class="language-json">// v2 - backward compatible, v1 still works
 {
   &quot;userId&quot;: &quot;123&quot;,
-  &quot;name&quot;: &quot;Alice&quot;,
+  &quot;name&quot;: &quot;Alice J. Doe&quot;,
   &quot;email&quot;: &quot;alice@example.com&quot;,
-  &quot;address&quot;: { ... }  // New optional field
+  &quot;name_parts&quot;: {  // New optional field
+      &quot;first_name&quot;: &quot;Alice&quot;,
+        &quot;middle_name&quot;:&quot;Johansen&quot;,
+        &quot;last_name&quot;:&quot;Doe&quot;
+    }  
 }
 </code></pre>
 <p>Never remove fields or change types without a major version bump. Deprecate old versions slowly, with months of warning.</p><h3 id="test-behavior-not-implementation">Test Behavior, Not Implementation</h3>
