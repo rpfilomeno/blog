@@ -3,7 +3,7 @@
     <title>The AI Sloth Slayer</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-12-03T12:57:03+08:00</updated>
+    <updated>2025-12-03T14:25:48+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -32,21 +32,21 @@
                     <p><img src="https://roger.rogverse.fyi/media/posts/21/image-1764736949880.png" class="type:primaryImage" alt="Using the following content, summarize the Engineering Best Practicesin a chalkboard-style, hand‑written look, and break it down with diagrams and easy‑to‑understand expressions as if a teacher had written it." /></p>
                 <p>After spending over two decades building and maintaining large-scale systems, I’ve accumulated a treasure trove of lessons—often learned the hard way. These aren’t abstract principles from textbooks; they’re battle-tested insights from countless outages, design reviews, and production incidents. Here’s what I wish I’d known on day one.</p><h2 id="engineering-best-practices">Engineering Best Practices</h2>
 <h3 id="write-boring-readable-code">Write Boring, Readable Code</h3>
-<p>The most maintainable code isn’t the cleverest—it’s the most obvious. Early in my career, I prided myself on writing succinct, “elegant” one-liners. Then I had to debug one at 3 AM during an outage, and I couldn’t remember what it did.</p><p><strong>Example:</strong> Instead of writing:</p><pre><code class="language-python">result = [x for x in data if x.status == &#39;active&#39; and x.score &gt; threshold and validate(x)]
+<p>The most maintainable code isn’t the cleverest—it’s the most obvious. Early in my career, I prided myself on writing succinct, “elegant” one-liners. Then I had to debug one at 3 AM during an outage, and I couldn’t remember what it did. Also I’m talking about you Mark :3</p><p><strong>Example:</strong> Instead of writing:</p><pre><code class="language-python">result = [x for x in data if x.status == &#39;active&#39; and x.score &gt; threshold and validate(x)]
 </code></pre>
 <p>Write it like a story:</p><pre><code class="language-python">active_items = [item for item in data if item.status == &#39;active&#39;]
 high_scoring_items = [item for active_items if item.score &gt; threshold]
 result = [item for item in high_scoring_items if validate(item)]
 </code></pre>
 <p>When your service is down and customers are impacted, you want code that reads like plain English.</p><h3 id="design-for-10x-scale-not-2x">Design for 10x Scale, Not 2x</h3>
-<p>Every system design should assume it will handle ten times the current load, not just double. This forces you to think deeply about architecture from day one.</p><p><strong>Example:</strong> When building a user authentication service handling 1,000 requests per second, don’t just add more servers. Ask: “What happens at 10,000 requests per second?” You’ll quickly realize you need:</p><ul>
+<p>Every system design should assume it will handle ten times the current load, not just double. This forces you to think deeply about architecture from day one. Reminds me of Friendster Mobile :3</p><p><strong>Example:</strong> When building a user authentication service handling 1,000 requests per second, don’t just add more servers. Ask: “What happens at 10,000 requests per second?” You’ll quickly realize you need:</p><ul>
 <li>Database read replicas and connection pooling</li>
 <li>Distributed caching (Redis/Memcached)</li>
 <li>Rate limiting and request prioritization</li>
 <li>Horizontal sharding by user ID ranges</li>
 </ul>
 <p>This thinking upfront saves you from painful rewrites later.</p><h3 id="prioritize-statelessness-and-immutability">Prioritize Statelessness and Immutability</h3>
-<p>In distributed systems, machines fail constantly. If your service stores state locally, you’re asking for trouble.</p><p><strong>Example:</strong> I once built a session management service that cached user sessions in local memory. When a container crashed, thousands of users were logged out. The fix? Store all session data in a distributed system like Redis or a database. Now any container can handle any request, and failures are invisible to users.</p><p>Make your services cattle, not pets—any instance should be disposable and replaceable.</p><h3 id="write-clear-design-documents">Write Clear Design Documents</h3>
+<p>In distributed systems, machines fail constantly. If your service stores state locally, you’re asking for trouble.</p><p><strong>Example:</strong> I once built a session management service that cached user sessions in local memory. When a container crashed, thousands of users were logged out. The fix? Store all session data in a distributed system like Redis or a database. Now any container can handle any request, and failures are invisible to users.</p><p>Make your services cattle, not pets—any instance should be disposable and replaceable. </p><h3 id="write-clear-design-documents">Write Clear Design Documents</h3>
 <p>Design docs aren’t bureaucracy; they’re thinking tools. Writing forces you to confront problems you’d otherwise discover in production.</p><p><strong>Example:</strong> Before building a payment processing system, I wrote a design doc that included:</p><ul>
 <li><strong>Problem:</strong> Process 50,000 transactions/day with &lt;1% failure rate</li>
 <li><strong>Alternatives:</strong> Synchronous vs. asynchronous processing, third-party vs. custom</li>
