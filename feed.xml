@@ -3,7 +3,7 @@
     <title>The AI Sloth Slayer</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-12-03T20:00:08+08:00</updated>
+    <updated>2025-12-03T20:24:35+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -92,7 +92,7 @@ result = [item for item in high_scoring_items if validate(item)]
 urllib3==1.26.12
 certifi==2022.9.24
 </code></pre>
-<p>With tools like <a href="https://bazel.build/">Bazel</a> or Docker, you can ensure that the same inputs always produce the same outputs. This makes large-scale refactors safe—you can verify that millions of lines of code still compile and work identically.</p><h2 id="resilience-and-performance">Resilience and Performance</h2>
+<p>With tools like <a href="https://bazel.build/">Bazel</a> or <a href="https://devpod.sh/">Docker</a>, you can ensure that the same inputs always produce the same outputs. This makes large-scale refactors safe—you can verify that millions of lines of code still compile and work identically.</p><h2 id="resilience-and-performance">Resilience and Performance</h2>
 <h3 id="assume-failure-is-the-default-state">Assume Failure is the Default State</h3>
 <p>In large distributed systems, something is always broken. Design for it.</p><p><strong>Example:</strong> When calling a payment gateway API:</p><pre><code class="language-python">def charge_customer(amount, max_retries=3):
     for attempt in range(max_retries):
