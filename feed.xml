@@ -3,7 +3,7 @@
     <title>The AI Sloth Slayer</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-12-03T19:26:06+08:00</updated>
+    <updated>2025-12-03T20:00:08+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -123,7 +123,7 @@ certifi==2022.9.24
 </ul>
 <p>At P99, the user waits for the slowest service. With 10 services, there’s a high probability at least one is slow, making the page consistently sluggish for some percentage of users.</p><p>Solutions:</p><ul>
 <li>Set aggressive timeouts (e.g., 200ms)</li>
-<li>Use “hedge requests” (send duplicate requests to different servers, use whichever responds first)</li>
+<li>Use “hedge requests” (send duplicate requests to different servers, use whichever responds first), See <a href="https://medium.com/@mr.sourav.raj/request-hedging-vs-request-coalescing-a-software-engineers-guide-to-optimizing-distributed-fdcc6590ba9d">Hedging vs Coalescing</a> </li>
 <li>Cache aggressively at the edge</li>
 <li>Budget your latency carefully across services</li>
 </ul>
