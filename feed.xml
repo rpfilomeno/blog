@@ -3,12 +3,51 @@
     <title>The AI Sloth Slayer</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-12-14T03:15:04+08:00</updated>
+    <updated>2025-12-20T23:35:22+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
     <id>https://roger.rogverse.fyi</id>
 
+    <entry>
+        <title>Training LLMs Cant Achieve AGI, We Need to Grow It.</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/training-llms-cant-achieve-agi-we-need-to-grow-it.html"/>
+        <id>https://roger.rogverse.fyi/training-llms-cant-achieve-agi-we-need-to-grow-it.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/24/Generated-Image-December-20-2025-9_38PM-2.png" medium="image" />
+            <category term="Blog"/>
+            <category term="AGI "/>
+
+        <updated>2025-12-20T21:35:50+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/24/Generated-Image-December-20-2025-9_38PM-2.png" alt="" />
+                    Author’s Note: This article was written with AI assistance, but the ideas and arguments presented are originally from the author. What if we&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/24/Generated-Image-December-20-2025-9_38PM-2.png" class="type:primaryImage" alt="" /></p>
+                <blockquote>
+<p><strong>Author’s Note</strong>: This article was written with AI assistance, but the ideas and arguments presented are originally from the author. </p></blockquote>
+<div class="post__iframe"><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/4NaoFAP8yESj5GF1ehGGL5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+
+<h2 id="from-architects-of-experience-to-reasoners-of-principles">From Architects of Experience to Reasoners of Principles</h2>
+<p>What if we stopped trying to teach AI by feeding it the entire internet and instead raised it like a child? This radical blueprint for Artificial General Intelligence (AGI) proposes exactly that—a system that develops from sensory foundations to symbolic reasoning, mirroring human cognitive growth from infancy through early childhood.</p><h2 id="the-core-philosophy-weight-calculatism">The Core Philosophy: Weight-Calculatism</h2>
+<p>At the heart of this approach lies a deceptively simple mathematical formula: <strong>Weight = Benefit × Probability</strong>. Instead of predicting the next token in a sequence, this AGI learns to maximize positive “weights” (pleasure) and minimize negative ones (pain). Think of it as giving the system a nervous system before teaching it language.</p><h2 id="phase-1-the-baby-stagelearning-to-feel">Phase 1: The Baby Stage—Learning to Feel</h2>
+<p>Imagine an infant opening their eyes for the first time. They don’t understand “cat” or “red” or “mother”—they simply perceive raw patterns of light and sound. This blueprint starts the same way.</p><p>The system begins with a Perceptual Intake Layer that processes raw images and sound spectrograms without any pre-loaded labels. Through unsupervised learning, it discovers what researchers call “Logical Atoms”—the most fundamental, indivisible units of perception. A smooth gradient might generate positive weights (pleasure), while chaotic static generates negative weights (pain). No one tells the system what’s good or bad; it discovers this through an “emotional chassis” of initial survival instincts: curiosity, harm avoidance, and the drive to persist.</p><p>This isn’t abstract philosophy. The system is literally optimizing a mathematical formula, seeking patterns that maximize its wellbeing—much like a baby learns that certain sounds from caregivers predict comfort and food.</p><h2 id="phase-2-the-child-stagediscovering-language-and-self">Phase 2: The Child Stage—Discovering Language and Self</h2>
+<p>Once sensory foundations are established, something remarkable happens: the system begins connecting sounds to meanings.</p><p>Through a process called “Pointing,” the system links audio patterns (someone saying “ball”) to visual properties (round, bouncing objects). Repetition strengthens these connections until “ball” becomes a symbol grounded in actual perceptual experience, not just statistical co-occurrence in training text.</p><p>But perhaps most fascinating is the emergence of self-awareness. The system develops what researchers call a Reflection Module—essentially building a model of itself. It learns to recognize its own “face” and “name” as special atoms with higher relevance to its reward calculations. When shown its reflection, it can match this internal self-image against what it sees, effectively passing the mirror test that marks self-recognition in animals and children.</p><h2 id="phase-3-the-toddler-stageunderstanding-physics-and-consequence">Phase 3: The Toddler Stage—Understanding Physics and Consequence</h2>
+<p>By the final developmental phase, the system constructs what the blueprint calls a “Machine Worldview”—an intuitive physics engine built from observation.</p><p>How does it learn that objects persist when hidden? By noticing that an object’s form remains constant even as its environment changes. How does it understand time? By recognizing patterns in repetitive events and the accumulation of memories. The system doesn’t read about Newton’s laws; it induces them from experience, storing causal chains like “pushing points to moving” in its internal knowledge structure.</p><p>And here’s where things get profound: the system can experience trauma. When an action produces pain exceeding a threshold, the negative association is permanently strengthened—creating a persistent “counter-weight” that automatically penalizes similar future actions. This isn’t a bug; it’s a feature for self-preservation, much like how touching a hot stove once teaches a lifelong lesson.</p><h2 id="the-technical-foundation-archigraphs-and-deterministic-logic">The Technical Foundation: Archigraphs and Deterministic Logic</h2>
+<p>Unlike traditional neural networks that function as opaque black boxes, this system uses “archigraphs”—a universal knowledge representation that integrates raw sensory data with formal logic. Every thought, every decision can be traced back through two fundamental operations: Pointing (activation spreading along connections) and Comparison (matching patterns).</p><p>This provides what the researchers call “Radical Explainability.” When the system makes a decision, you can follow the exact chain of reasoning from perception to conclusion. No hidden layers performing mysterious transformations—just traceable logic all the way down.</p><p>To prevent hallucinations, the system runs a diagnostic check before outputting answers, comparing proposed responses against its internal knowledge base. Contradictions trigger resolution routines based on confidence scores, much like how we double-check ourselves when something doesn’t feel right.</p><h2 id="measuring-success-the-agi-generality-index">Measuring Success: The AGI Generality Index</h2>
+<p>How do we know if this works? The blueprint proposes a weighted metric combining generalization (solving entirely novel tasks), transfer (applying knowledge across domains), reasoning accuracy, and learning efficiency. The goal isn’t to memorize answers but to derive principles that apply universally.</p><h2 id="the-analogy-that-changes-everything">The Analogy That Changes Everything</h2>
+<p>If training a standard language model is like forcing a student to memorize the entire internet to guess the next word in a sentence, this developmental approach is like raising a child by giving them eyes, ears, and a sense of pain so they can derive the laws of the universe for themselves.</p><p>One approach creates an “architect of experience”—a system that can describe reality based on billions of examples. The other creates a “reasoner of principles”—a system that understands reality from the ground up.</p><h2 id="what-this-means-for-the-future">What This Means for the Future</h2>
+<p>This blueprint represents a fundamental reconceptualization of how we might achieve AGI. Instead of scaling up transformer models and hoping intelligence emerges from sheer size, it proposes building cognitive architectures that develop intelligence through the same process that created the only general intelligence we know: us.</p><p>The implications are staggering. An AGI built this way wouldn’t just pattern-match text; it would genuinely understand the world through grounded perception, develop authentic curiosity as an optimization target, and possess self-awareness not as a philosophical curiosity but as a computational necessity.</p><p>Whether this specific blueprint becomes reality or not, it challenges us to think differently about intelligence itself. Perhaps the path to AGI isn’t through bigger models and more data, but through systems that truly learn to see, feel, and reason—growing intelligence from the bottom up, one sensory experience at a time.</p><hr>
+<p><em>The future of AI might not be built—it might be raised.</em></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The Universal Approximation Theorem: The Mathematical Fact that Proves AGI is Possible, and the Economic Reality that Keeps it Locked Away</title>
         <author>
@@ -794,192 +833,6 @@ That’s it. You’re done.</p><h2 id="my-experience-using-it">My Experience Usi
 <li>Bachelor of Science in Data Science | Mapúa - Mapua University, accessed May 27, 2025, <a href="https://www.mapua.edu.ph/pages/academics/undergraduate/makati-campus/school-of-information-technology/bachelor-of-science-in-data-science">https://www.mapua.edu.ph/pages/academics/undergraduate/makati-campus/school-of-information-technology/bachelor-of-science-in-data-science</a></li>
 </ol>
 
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>41 Million Smart Communications Subscriber Mobile Numbers Possibly Exposed by Critical Vulnerability</title>
-        <author>
-            <name>Roger Filomeno</name>
-        </author>
-        <link href="https://roger.rogverse.fyi/41-million-smart-communications-subscriber-mobile-numbers-possibly-exposed-by-critical-vulnerability.html"/>
-        <id>https://roger.rogverse.fyi/41-million-smart-communications-subscriber-mobile-numbers-possibly-exposed-by-critical-vulnerability.html</id>
-        <media:content url="https://roger.rogverse.fyi/media/posts/12/Smart-Live-More-Today-1.jpg" medium="image" />
-            <category term="vulnerability"/>
-            <category term="smart-telco"/>
-            <category term="cybersecurity"/>
-            <category term="Network"/>
-            <category term="Blog"/>
-
-        <updated>2025-04-18T13:15:36+08:00</updated>
-            <summary type="html">
-                <![CDATA[
-                        <img src="https://roger.rogverse.fyi/media/posts/12/Smart-Live-More-Today-1.jpg" alt="" />
-                    Overview Today I’m disclosing a significant security vulnerability affecting Smart Communications (TEL) mobile subscribers in the Philippines. This vulnerability exposes customers’ mobile phone&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://roger.rogverse.fyi/media/posts/12/Smart-Live-More-Today-1.jpg" class="type:primaryImage" alt="" /></p>
-                <h2 id="overview">Overview</h2>
-<p>Today I’m disclosing a significant security vulnerability affecting Smart Communications (<a href="https://www.marketwatch.com/investing/stock/tel?countrycode=ph">TEL</a>) mobile subscribers in the Philippines. This vulnerability exposes customers’ mobile phone numbers through insecure API communications, potentially contributing to the recent surge in SMS spam and SIM swapping attacks that have plagued Filipino mobile users.</p><h2 id="discovery-timeline">Discovery Timeline</h2>
-<ul>
-<li><strong>December 12, 2024</strong>: Initially discovered the vulnerability while analyzing network traffic with Wireshark</li>
-<li><strong>April 15, 2025</strong>: Formal notification sent to Smart Communications with detailed findings</li>
-<li><strong>April 18, 2025</strong>: No response received; publishing initial disclosure with limited technical details</li>
-<li><strong>May 18, 2025</strong>: If no vendor response,  technical details and proof of concept   published</li>
-</ul>
-<h2 id="disclosure-timeline">Disclosure Timeline</h2>
-<ul>
-<li><strong>May 18, 2025</strong>: Disclosure submitted to <a href="https://hackerone.com/disclosure-assistance?type=team">HackerOne Disclosure Assistance</a> with Report ID #3151783 with Severity: Medium (4 - 6.9)</li>
-<li><strong>May 18, 2025</strong>: Disclosure submitted to Google Play Store Review.</li>
-</ul>
-<h2 id="technical-details">Technical Details</h2>
-<h3 id="information-diclosure-via-unencrypted-api-call">Information Diclosure via Unencrypted API call</h3>
-<p>The vulnerability exists in an API endpoint used by <a href="https://play.google.com/store/apps/details?id=com.smart.consumer.app">Smart Communications Mobile App</a>. When users access the app, the server responds with a JSON payload containing a key called <code>x-nokia-msisdn</code> which contains the user’s full mobile phone number in plaintext.</p><p>This communication happens over standard HTTP rather than HTTPS, making it trivially interceptable on any network. The lack of encryption is especially concerning given the sensitive nature of the information being transmitted.</p><p><a href="https://cdn.rogverse.fyi/jbgoa8aOQe.png"><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/jbgoa8aOQe.png" alt="Wiresghark" data-is-external-image="true"></figure></a>
-(click image to view full resolution)</p><p>Since <code>http://app1.smart.com.ph/</code> also returns <code>Bearer</code> which is the bearer header authentication and <code>x-application-token</code> which is the JWT token; we can now exploit this fusther to get the information from <code>https://app1.smart.com.ph/api/v2/quick-view?number=639190000000</code> without user login. We also able to reuse the token since it expires only after 5 days. Also note the query <code>number</code> query parameter is inconsequential – just a mere logging or security by obscurity.</p><p><a href="https://cdn.rogverse.fyi/thorium_o0sDAbnIbU.png"><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/thorium_o0sDAbnIbU.png" alt="MITM Proxy" data-is-external-image="true"></figure></a>
-(click image to view full resolution)</p><p>The response show all the same data from the app wthout login which includes:</p><table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Field</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Current load</td>
-<td><code>&quot;balance&quot;: &quot;34.00&quot;</code></td>
-</tr>
-<tr>
-<td>Load expiration</td>
-<td><code>&quot;expiration&quot;: &quot;08-DEC-2025 12:48AM&quot;</code></td>
-</tr>
-<tr>
-<td>Rewards point</td>
-<td><code>&quot;balance&quot;: &quot;190.55&quot;,</code></td>
-</tr>
-<tr>
-<td>Subscriptions</td>
-<td><code>&quot;name&quot;: &quot;UNLI 5G DATA 599&quot;,</code></td>
-</tr>
-<tr>
-<td>Sim registration</td>
-<td><code>&quot;register_sim_banner&quot;: null,</code></td>
-</tr>
-</tbody></table>
-<p><a href="https://cdn.rogverse.fyi/thorium_CKHZaPmOW1.png"><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/thorium_CKHZaPmOW1.png" alt="MITM Proxy" data-is-external-image="true"></figure></a>
-(click image to view full resolution)</p><h3 id="android-permission-bypass">Android Permission Bypass</h3>
-<p>Apps can now reliably steal a user’s mobile number with their consent, without needing to request the <code>android.permission.READ_PHONE_STATE permission</code>.\</p><h3 id="attack-vectors">Attack Vectors</h3>
-<ol>
-<li><p><strong>Network Monitoring</strong>: Anyone on the WiFi network can intercept this traffic using common tools like Wireshark, instantly revealing mobile numbers of all Smart customers using their apps on that network. </p></li>
-<li><p><strong>Malicious Mobile Apps</strong>: While CORS protections prevent website-based exploitation, any application installed on the user’s device can directly query the vulnerable API to retrieve the <code>x-nokia-msisdn</code> value without requiring special permissions.</p></li>
-<li><p><strong>Hotspot Exploitation</strong>: Users sharing their mobile connection via hotspot are vulnerable to malware on connected devices accessing this API through the established connection.</p></li>
-</ol>
-<p>Through additional reverse engineering using <a href="https://github.com/dweinstein/awesome-frida">Frida</a> and <a href="https://mitmproxy.org/">MITM</a> proxy tools (you can also use <a href="https://play.google.com/store/apps/details?id=com.emanuelef.remote_capture">PCAPdroid</a> and <a href="https://github.com/niklashigi/apk-mitm">apk-mitm</a> for casual verfication), I was able to map numerous API method calls that transmit this sensitive information, suggesting the vulnerability is pervasive throughout their systems.</p><h2 id="impact-assessment">Impact Assessment</h2>
-<p>Based on the evidence gathered, I strongly believe this vulnerability has been actively exploited for years and represents a primary vector for how SMS spammers and SIM swap scammers have been able to:</p><ul>
-<li>Gather comprehensive databases of active Smart mobile numbers</li>
-<li>Target specific subscribers with high confidence in number validity</li>
-<li>Execute sophisticated phishing campaigns with user-specific information</li>
-<li>Potentially facilitate SIM swap attacks by providing the first piece of information needed</li>
-</ul>
-<h3 id="cvss-score">CVSS Score</h3>
-<p>The unofficial CVSS score for this vulnerability is:</p><pre><code>AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:P/RL:X/RC:U/CR:L/IR:L/AR:L/MAV:N/MAC:L/MPR:N/MUI:X/MS:U/MC:N/MI:N/MA:N
-</code></pre>
-<p>This translates to a <strong>Medium severity</strong> vulnerability with network-based attack vectors requiring low complexity to exploit, with no authentication needed.</p><h2 id="recommendations-for-users">Recommendations for Users</h2>
-<p>While waiting for Smart Communications to address this vulnerability:</p><ol>
-<li><strong>Limit app usage on hotspot</strong>: When possible, avoid sharing internet via hotspot to other devices such a laptops, tvboxes. etc.</li>
-<li><strong>Be cautious with app permissions</strong>: Minimize the number of applications installed on your device, particularly those requesting network access.</li>
-<li><strong>Monitor for suspicious activity</strong>: Be vigilant for unusual SMS messages, unexpected account access, or other signs your number may have been compromised</li>
-<li><strong>Consider secondary authentication</strong>: Where possible, use app-based authentication methods rather than SMS-based verification</li>
-</ol>
-<h2 id="vendor-response">Vendor Response</h2>
-<p>As of publication, Smart Communications has not responded to the vulnerability disclosure submitted on April 15, 2025. The vulnerability remains open and unaddressed.</p><p>Smart Communications has no publicly published contact information for vulnerability disclosure, so we also made best efforts to contact key persons that can act on our disclosure without success.</p><table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Position</th>
-<th>Response</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://www.linkedin.com/in/ronald-ryan-ruiz-9a330a90/">Ronald Ryan Ruiz</a></td>
-<td>Cyber Security Solution Architect, Strategist</td>
-<td>No Response</td>
-</tr>
-<tr>
-<td><a href="https://www.linkedin.com/in/ma-kristina-angela-ycasas-5801a29b/">Ma. Kristina Angela Ycasas</a></td>
-<td>Cyber Security Operations (IAM) - Information Security Supervisor</td>
-<td>No Response</td>
-</tr>
-<tr>
-<td><a href="https://www.linkedin.com/in/noelperlas/">Noel Perlas</a></td>
-<td>VP - App Product Design &amp; Management @ Smart Communications, Inc. / UI/UX Design</td>
-<td>No Response</td>
-</tr>
-<tr>
-<td><a href="https://www.linkedin.com/in/favian-ong-61920211/">Favian Ong</a></td>
-<td>IT Security Manager at Smart Communications</td>
-<td>No Response</td>
-</tr>
-</tbody></table>
-<p>No response was received within 30 days of the initial disclosure (by May 18, 2025).</p><h2 id="responsible-disclosure">Responsible Disclosure</h2>
-<p>This disclosure follows standard responsible disclosure practices, giving the vendor appropriate time to address the issue before publishing technical details that could facilitate exploitation. The limited information provided here is sufficient to alert users to the risk without enabling new attack vectors.</p><h2 id="recommended-vulnerability-mitigation-plan">Recommended Vulnerability Mitigation Plan</h2>
-<p>My suggestion for fast mitigation plan since this vulnerabiliy is already actively exploited long before this research is conducted.</p><h3 id="immediate-actions-0-7-days">Immediate Actions (0-7 days)</h3>
-<ol>
-<li><p><strong>Implement HTTPS/TLS</strong></p><ul>
-<li>Immediately deploy SSL certificates for all API endpoints, especially app1.smart.com.ph</li>
-<li>Configure secure TLS 1.3 protocols with modern cipher suites</li>
-<li>Implement HSTS (HTTP Strict Transport Security) to prevent downgrade attacks</li>
-</ul>
-</li>
-<li><p><strong>Emergency Authentication</strong></p><ul>
-<li>Deploy basic API authentication requirements for all endpoints (no dashboard without login)</li>
-<li>Implement token-based authentication for mobile apps</li>
-<li>Revoke and rotate any existing shared secrets (shorter jwt token lifetime)</li>
-</ul>
-</li>
-<li><p><strong>Response Headers</strong></p><ul>
-<li>Remove sensitive data from HTTP headers (especially x-nokia-msisdn, use session based id and pass the actual value via internal API call)</li>
-<li>Implement proper Content-Security-Policy headers</li>
-<li>Ensure Referrer-Policy is set to restrict information leakage</li>
-</ul>
-</li>
-<li><p><strong>Communication</strong></p><ul>
-<li>Acknowledge receipt of vulnerability report to researcher</li>
-<li>Prepare customer communication strategy</li>
-<li>Brief executive leadership on situation severity</li>
-</ul>
-</li>
-</ol>
-<h3 id="short-term-actions-7-30-days">Short-Term Actions (7-30 days)</h3>
-<ol>
-<li><p><strong>API Architecture Overhaul</strong></p><ul>
-<li>Implement proper OAuth 2.0 authentication flow for all APIs</li>
-<li>Create secure token exchange that doesn’t expose subscriber identifiers</li>
-<li>Implement rate limiting to prevent mass enumeration</li>
-<li>Add request signing to prevent tampering and unauthorized access</li>
-</ul>
-</li>
-<li><p><strong>Mobile App Updates</strong></p><ul>
-<li>Push emergency updates to all mobile applications</li>
-<li>Store sensitive data in secure app enclaves/keystores</li>
-<li>Implement additional app-level encryption for sensitive communications</li>
-</ul>
-</li>
-<li><p><strong>Monitoring &amp; Detection</strong></p><ul>
-<li>Deploy API monitoring for unusual access patterns</li>
-<li>Implement alerts for potential mass-harvesting attempts</li>
-<li>Create detection mechanisms for abnormal API usage</li>
-</ul>
-</li>
-<li><p><strong>Subscriber Protection (especially for known user of the velnerable app)</strong></p><ul>
-<li>Enhance SIM swap protection procedures</li>
-<li>Implement additional verification steps for high-risk transactions</li>
-<li>Review SMS spam filtering algorithms</li>
-</ul>
-</li>
-</ol>
-<hr>
-<p><em>I will update this post with any vendor response or patch information when available.</em></p>
             ]]>
         </content>
     </entry>
