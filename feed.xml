@@ -3,7 +3,7 @@
     <title>The AI Sloth Slayer</title>
     <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
     <link href="https://roger.rogverse.fyi" />
-    <updated>2025-12-21T00:07:54+08:00</updated>
+    <updated>2025-12-23T14:14:02+08:00</updated>
     <author>
         <name>Roger Filomeno</name>
     </author>
@@ -74,7 +74,7 @@
                     <p><img src="https://roger.rogverse.fyi/media/posts/23/Generated-Image-December-14-2025-3_11AM.png" class="type:primaryImage" alt="" /></p>
                 <blockquote>
 <p><strong>Author’s Note</strong>: This article was written with AI assistance, but the ideas and arguments presented are originally from the author. </p></blockquote>
-<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/pPc5lA7iDJA?si=WiFUPo3TqN7EBrxu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/HQ5C-VDXLyw?si=kh3eYRCoPqro75Vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <p>The debate around Artificial General Intelligence (AGI)—AI capable of human-level reasoning—is often framed in philosophical terms: Can a machine possess consciousness? Can it replicate the “human soul”?</p><p>But according to the foundational mathematical truth of modern AI, that argument is settled.</p><h2 id="the-undeniable-fact-of-the-universal-approximation-theorem">The Undeniable Fact of the Universal Approximation Theorem</h2>
 <p>The theoretical bedrock of today’s enormous machine learning industry is the Universal Approximation Theorem (UAT). Though its title sounds complex, its technical nature is often misinterpreted in layman’s terms to mean: “The AI can perfectly solve every problem ever.”</p><p>In the language of mathematics, where “theorem” means “fact,” the UAT provides the necessary theoretical justification for the robust performance of Artificial Neural Networks (ANNs). It assures us that, if a network is constructed with sufficient size or depth and uses non-polynomial functions (like ReLU or sigmoid) to introduce necessary non-linearity, it possesses the theoretical capacity to model complex non-linearities to an arbitrary degree of accuracy. This intrinsic computational power means that the hypothetical function representing AGI, however complex, must exist within the realm of functions an ANN can approximate.</p><p><strong>The mathematical case for AGI’s possibility is closed.</strong></p><h2 id="the-critical-flaw-existence-vs-constructibility">The Critical Flaw: Existence vs. Constructibility</h2>
