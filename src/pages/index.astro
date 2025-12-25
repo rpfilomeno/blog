@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 import { SITE_BASE, SocialLinks } from '../consts'
 import { Icon } from 'astro-icon/components'
 import BlogCard from '../components/BlogCard.astro'
+import RetroSloth from '../components/RetroSloth.astro'
 import { getCollection } from 'astro:content'
 
 const posts = (await getCollection('blog'))
@@ -12,27 +13,35 @@ const posts = (await getCollection('blog'))
 
 <BaseLayout>
 	<main
-		class="app-container flex flex-col gap-12 justify-center py-36 md:py-48 pt-44 md:pt-56 relative"
+		class="app-container grid lg:grid-cols-2 gap-12 items-center py-20 md:py-32 pt-32 md:pt-40 relative"
 	>
-		<div>
-			<p class="block text-3xl opacity-70 mt-9 mb-4">Welcome to</p>
-			<h1 class="text-8xl font-bold leading-none">A.I. Sloth Slayer</h1>
+		<div class="flex flex-col gap-8 order-2 lg:order-1">
+			<div>
+				<p class="block text-3xl opacity-70 mb-2">Welcome to</p>
+				<h1 class="text-6xl md:text-8xl font-bold leading-none tracking-tight">
+					A.I. Sloth Slayer
+				</h1>
+			</div>
+			<p class="text-2xl font-light leading-normal opacity-90 max-w-2xl">
+				Deep dives into the latest trends in Automation, AI and Machine Learning.
+			</p>
+			<div class="flex flex-wrap gap-6">
+				{
+					SocialLinks.map((link) => (
+						<a
+							class="text-xl text-primary dark:text-primary-dark underline hover:underline underline-offset-4"
+							href={link.url}
+							target="_blank"
+						>
+							{link.name}
+						</a>
+					))
+				}
+			</div>
 		</div>
-		<p class="text-2xl max-w-2xl font-light leading-normal">
-			Deep dives into the latest trends in Automation, AI and Machine Learning.
-		</p>
-		<div class="flex flex-wrap gap-8">
-			{
-				SocialLinks.map((link) => (
-					<a
-						class="text-xl text-primary dark:text-primary-dark underline hover:underline underline-offset-4"
-						href={link.url}
-						target="_blank"
-					>
-						{link.name}
-					</a>
-				))
-			}
+
+		<div class="relative w-full max-w-[500px] mx-auto lg:ml-auto order-1 lg:order-2">
+			<RetroSloth />
 		</div>
 	</main>
 
