@@ -11,6 +11,9 @@ const blogImages = import.meta.glob<{ default: ImageMetadata }>(
 )
 
 const coverImagePath = `/src/assets/blogimages/${post.slug}/cover.jpg`
+const conventionalCover = blogImages[coverImagePath]
+
+const explicitCover = post.data.cover
 ---
 
 <a
@@ -18,12 +21,28 @@ const coverImagePath = `/src/assets/blogimages/${post.slug}/cover.jpg`
 	class="flex flex-col gap-4 pb-8 h-full group transition-colors"
 >
 	{
-		blogImages[coverImagePath] && (
-			<Image
-				src={blogImages[coverImagePath]()}
-				alt={post.data.title}
-				class="object-cover rounded-xl aspect-video"
-			/>
+		explicitCover ? (
+			typeof explicitCover === 'string' ? (
+				<img
+					src={explicitCover}
+					alt={post.data.title}
+					class="object-cover rounded-xl aspect-video w-full"
+				/>
+			) : (
+				<Image
+					src={explicitCover}
+					alt={post.data.title}
+					class="object-cover rounded-xl aspect-video"
+				/>
+			)
+		) : (
+			conventionalCover && (
+				<Image
+					src={conventionalCover()}
+					alt={post.data.title}
+					class="object-cover rounded-xl aspect-video"
+				/>
+			)
 		)
 	}
 	<h4
