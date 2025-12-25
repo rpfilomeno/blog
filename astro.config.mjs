@@ -13,6 +13,9 @@ import { remarkModifiedTime } from './src/plugins/remark-modified-time.mjs'
 export default defineConfig({
 	site: 'https://yashjawale.github.io',
 	base: '',
+	build: {
+		format: 'file',
+	},
 	integrations: [
 		mdx(),
 		sitemap(),
