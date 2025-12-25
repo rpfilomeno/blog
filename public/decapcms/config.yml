@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: yashjawale/blog # Path to your GitHub repository
+  repo: rpfilomeno/blog # Path to your GitHub repository
   branch: main
 
 media_folder: 'src/assets/images'
