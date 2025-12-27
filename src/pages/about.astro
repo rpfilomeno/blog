@@ -1,0 +1,70 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro'
+import profileImage from '../assets/images/profile.jpg';
+---
+
+<BaseLayout>
+	<main class="app-container pt-36">
+		<h1 class="text-6xl pb-2 font-bold">About Me</h1>
+	</main>
+	<section class="app-container py-12 mb-8">
+		<div
+			class="prose prose-neutral prose-lg md:prose-xl dark:prose-invert prose-img:rounded-xl prose-figure:text-center prose-img:mx-auto"
+		>
+			<h2>The Journey of a Tech Pioneer: From Telecom to the AI Frontier</h2> 
+
+			<Image
+											src={profileImage}
+											alt="profile picture"
+											class="rounded-lg"
+										/>
+
+			<p>My journey in technology didn't start with the sleek interfaces we see today. It began in the early days of mobile, working with the fundamental building blocks of <strong>SMS and MMS development</strong> shortly after earning my Computer Science degree from the <strong>University of the Philippines</strong>.</p>
+
+			<p>Over the past two decades, I have navigated the shifting tides of the digital landscape, evolving from a Systems Developer into roles as a <strong>CTO and Senior System Architect</strong>. Whether I was overhauling recruitment systems in Manila , building e-commerce solutions in Los Angeles , or designing complex debit card systems for international markets , my focus has always been the same: bridging the gap between complex, high-level technology and the real-world needs of businesses.</p>
+
+			<hr />
+
+			<h3>Building the Backbone of Connectivity</h3>
+
+			<p>A significant chapter of my story was spent mastering the infrastructure that keeps us connected. At <strong>CrossPoint</strong>, I spent over seven years architecting managed IT infrastructure and unified communications. During this same era, I delved deep into <strong>IT Governance, Risk, and Compliance (IT-GRC)</strong> with CleverCloud, championing the idea that if you don't capture or store sensitive data, it cannot be stolen—simplifying security through smarter architecture.</p>
+
+			<p>My experience spans the full spectrum of the industry, including:</p>
+
+			<ul>
+				<li><strong>Digital Monetization</strong>: Crafting strategies to turn traditional print media into digital revenue at MegaMobile.</li>
+				<li><strong>Project Management</strong>: Coordinating cross-border teams in Singapore, Dubai, and Melbourne to deliver agile tech solutions.</li>
+				<li><strong>Social Platforms</strong>: Designing and maintaining the mobile platform for Friendster in the Philippines during its peak.</li>
+			</ul>
+
+			<hr />
+
+			<h3>The New Chapter: ROGVERSE and the AI Revolution</h3>
+
+			<p>Today, I have returned to my R&D roots as the founder and CEO of <strong>ROGVERSE</strong>. We are currently pioneering the next wave of <strong>Conversational AI</strong>. My daily work now involves:</p>
+
+			<ul>
+				<li><strong>Large Language Models (LLMs)</strong>: Building advanced knowledge-base retrieval systems using vector databases and knowledge graphs.</li>
+				<li><strong>Voice & Entertainment</strong>: Developing <strong>Retrieval-based Voice Conversion</strong> and creating AI-driven virtual entertainers and influencers.</li>
+				<li><strong>Next-Gen Support</strong>: Architecting AI CSP agents and automated business intelligence reporting.</li>
+				<li><strong>Security Evolution</strong>: Enhancing safety with AI-driven XDR (Extended Detection and Response) and assisted SIEM.</li>
+			</ul>
+
+			<p>I believe that technology is at its best when it solves human challenges. At ROGVERSE, I am passionate about applying cutting-edge tools to create innovative solutions that reshape the telecommunications and entertainment sectors.</p>
+
+			<hr />
+
+			<h3>Let's Connect</h3>
+
+			<p>Whether you are interested in the intricacies of <strong>AWS and Microservices</strong> or the future of <strong>AI-driven content creation</strong>, I’m always happy to share insights.</p>
+
+			<ul>
+				<li><strong>Location:</strong> Makati, Philippines</li> 
+				<li><strong>Email:</strong> roger@rogverse.fyi</li> 
+				<li><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/rpfilomeno" target="_blank" rel="noopener noreferrer">linkedin.com/in/rpfilomeno</a></li> 
+				<li><strong>My Services:</strong> <a href="http://rogverse.fyi/" target="_blank" rel="noopener noreferrer">rogverse.fyi</a></li> 
+			</ul>
+		</div>
+	</section>
+</BaseLayout>
