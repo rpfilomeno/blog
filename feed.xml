@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>The AI Sloth Slayer</title>
+    <link href="https://roger.rogverse.fyi/feed.xml" rel="self" />
+    <link href="https://roger.rogverse.fyi" />
+    <updated>2025-12-25T19:16:47+08:00</updated>
+    <author>
+        <name>Roger Filomeno</name>
+    </author>
+    <id>https://roger.rogverse.fyi</id>
+
+    <entry>
+        <title>Training LLMs Cant Achieve AGI, We Need to Grow It.</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/training-llms-cant-achieve-agi-we-need-to-grow-it.html"/>
+        <id>https://roger.rogverse.fyi/training-llms-cant-achieve-agi-we-need-to-grow-it.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/24/Generated-Image-December-20-2025-9_38PM-2.png" medium="image" />
+            <category term="Blog"/>
+            <category term="AGI "/>
+
+        <updated>2025-12-20T21:35:50+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/24/Generated-Image-December-20-2025-9_38PM-2.png" alt="" />
+                    Author’s Note: This article was written with AI assistance, but the ideas and arguments presented are originally from the author. What if we&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/24/Generated-Image-December-20-2025-9_38PM-2.png" class="type:primaryImage" alt="" /></p>
+                <blockquote>
+<p><strong>Author’s Note</strong>: This article was written with AI assistance, but the ideas and arguments presented are originally from the author. </p></blockquote>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/O203wdv4rqg?si=kfThChntS8wRuacU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+
+<h2 id="from-architects-of-experience-to-reasoners-of-principles">From Architects of Experience to Reasoners of Principles</h2>
+<p>What if we stopped trying to teach AI by feeding it the entire internet and instead raised it like a child? This radical blueprint for Artificial General Intelligence (AGI) proposes exactly that—a system that develops from sensory foundations to symbolic reasoning, mirroring human cognitive growth from infancy through early childhood.</p><h2 id="the-core-philosophy-weight-calculatism">The Core Philosophy: Weight-Calculatism</h2>
+<p>At the heart of this approach lies a deceptively simple mathematical formula: <strong>Weight = Benefit × Probability</strong>. Instead of predicting the next token in a sequence, this AGI learns to maximize positive “weights” (pleasure) and minimize negative ones (pain). Think of it as giving the system a nervous system before teaching it language.</p><h2 id="phase-1-the-baby-stagelearning-to-feel">Phase 1: The Baby Stage—Learning to Feel</h2>
+<p>Imagine an infant opening their eyes for the first time. They don’t understand “cat” or “red” or “mother”—they simply perceive raw patterns of light and sound. This blueprint starts the same way.</p><p>The system begins with a Perceptual Intake Layer that processes raw images and sound spectrograms without any pre-loaded labels. Through unsupervised learning, it discovers what researchers call “Logical Atoms”—the most fundamental, indivisible units of perception. A smooth gradient might generate positive weights (pleasure), while chaotic static generates negative weights (pain). No one tells the system what’s good or bad; it discovers this through an “emotional chassis” of initial survival instincts: curiosity, harm avoidance, and the drive to persist.</p><p>This isn’t abstract philosophy. The system is literally optimizing a mathematical formula, seeking patterns that maximize its wellbeing—much like a baby learns that certain sounds from caregivers predict comfort and food.</p><h2 id="phase-2-the-child-stagediscovering-language-and-self">Phase 2: The Child Stage—Discovering Language and Self</h2>
+<p>Once sensory foundations are established, something remarkable happens: the system begins connecting sounds to meanings.</p><p>Through a process called “Pointing,” the system links audio patterns (someone saying “ball”) to visual properties (round, bouncing objects). Repetition strengthens these connections until “ball” becomes a symbol grounded in actual perceptual experience, not just statistical co-occurrence in training text.</p><p>But perhaps most fascinating is the emergence of self-awareness. The system develops what researchers call a Reflection Module—essentially building a model of itself. It learns to recognize its own “face” and “name” as special atoms with higher relevance to its reward calculations. When shown its reflection, it can match this internal self-image against what it sees, effectively passing the mirror test that marks self-recognition in animals and children.</p><h2 id="phase-3-the-toddler-stageunderstanding-physics-and-consequence">Phase 3: The Toddler Stage—Understanding Physics and Consequence</h2>
+<p>By the final developmental phase, the system constructs what the blueprint calls a “Machine Worldview”—an intuitive physics engine built from observation.</p><p>How does it learn that objects persist when hidden? By noticing that an object’s form remains constant even as its environment changes. How does it understand time? By recognizing patterns in repetitive events and the accumulation of memories. The system doesn’t read about Newton’s laws; it induces them from experience, storing causal chains like “pushing points to moving” in its internal knowledge structure.</p><p>And here’s where things get profound: the system can experience trauma. When an action produces pain exceeding a threshold, the negative association is permanently strengthened—creating a persistent “counter-weight” that automatically penalizes similar future actions. This isn’t a bug; it’s a feature for self-preservation, much like how touching a hot stove once teaches a lifelong lesson.</p><h2 id="the-technical-foundation-archigraphs-and-deterministic-logic">The Technical Foundation: Archigraphs and Deterministic Logic</h2>
+<p>Unlike traditional neural networks that function as opaque black boxes, this system uses “archigraphs”—a universal knowledge representation that integrates raw sensory data with formal logic. Every thought, every decision can be traced back through two fundamental operations: Pointing (activation spreading along connections) and Comparison (matching patterns).</p><p>This provides what the researchers call “Radical Explainability.” When the system makes a decision, you can follow the exact chain of reasoning from perception to conclusion. No hidden layers performing mysterious transformations—just traceable logic all the way down.</p><p>To prevent hallucinations, the system runs a diagnostic check before outputting answers, comparing proposed responses against its internal knowledge base. Contradictions trigger resolution routines based on confidence scores, much like how we double-check ourselves when something doesn’t feel right.</p><h2 id="measuring-success-the-agi-generality-index">Measuring Success: The AGI Generality Index</h2>
+<p>How do we know if this works? The blueprint proposes a weighted metric combining generalization (solving entirely novel tasks), transfer (applying knowledge across domains), reasoning accuracy, and learning efficiency. The goal isn’t to memorize answers but to derive principles that apply universally.</p><h2 id="the-analogy-that-changes-everything">The Analogy That Changes Everything</h2>
+<p>If training a standard language model is like forcing a student to memorize the entire internet to guess the next word in a sentence, this developmental approach is like raising a child by giving them eyes, ears, and a sense of pain so they can derive the laws of the universe for themselves.</p><p>One approach creates an “architect of experience”—a system that can describe reality based on billions of examples. The other creates a “reasoner of principles”—a system that understands reality from the ground up.</p><h2 id="what-this-means-for-the-future">What This Means for the Future</h2>
+<p>This blueprint represents a fundamental reconceptualization of how we might achieve AGI. Instead of scaling up transformer models and hoping intelligence emerges from sheer size, it proposes building cognitive architectures that develop intelligence through the same process that created the only general intelligence we know: us.</p><p>The implications are staggering. An AGI built this way wouldn’t just pattern-match text; it would genuinely understand the world through grounded perception, develop authentic curiosity as an optimization target, and possess self-awareness not as a philosophical curiosity but as a computational necessity.</p><p>Whether this specific blueprint becomes reality or not, it challenges us to think differently about intelligence itself. Perhaps the path to AGI isn’t through bigger models and more data, but through systems that truly learn to see, feel, and reason—growing intelligence from the bottom up, one sensory experience at a time.</p><hr>
+<p><em>The future of AI might not be built—it might be raised.</em></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>The Universal Approximation Theorem: The Mathematical Fact that Proves AGI is Possible, and the Economic Reality that Keeps it Locked Away</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/the-universal-approximation-theorem-the-mathematical-fact-that-proves-agi-is-possible-and-the-economic-reality-that-keeps-it-locked-away.html"/>
+        <id>https://roger.rogverse.fyi/the-universal-approximation-theorem-the-mathematical-fact-that-proves-agi-is-possible-and-the-economic-reality-that-keeps-it-locked-away.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/23/Generated-Image-December-14-2025-3_11AM.png" medium="image" />
+            <category term="research"/>
+            <category term="Blog"/>
+            <category term="AI"/>
+            <category term="AGI "/>
+
+        <updated>2025-12-14T03:02:50+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/23/Generated-Image-December-14-2025-3_11AM.png" alt="" />
+                    Author’s Note: This article was written with AI assistance, but the ideas and arguments presented are originally from the author. The debate around&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/23/Generated-Image-December-14-2025-3_11AM.png" class="type:primaryImage" alt="" /></p>
+                <blockquote>
+<p><strong>Author’s Note</strong>: This article was written with AI assistance, but the ideas and arguments presented are originally from the author. </p></blockquote>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/HQ5C-VDXLyw?si=kh3eYRCoPqro75Vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+<p>The debate around Artificial General Intelligence (AGI)—AI capable of human-level reasoning—is often framed in philosophical terms: Can a machine possess consciousness? Can it replicate the “human soul”?</p><p>But according to the foundational mathematical truth of modern AI, that argument is settled.</p><h2 id="the-undeniable-fact-of-the-universal-approximation-theorem">The Undeniable Fact of the Universal Approximation Theorem</h2>
+<p>The theoretical bedrock of today’s enormous machine learning industry is the Universal Approximation Theorem (UAT). Though its title sounds complex, its technical nature is often misinterpreted in layman’s terms to mean: “The AI can perfectly solve every problem ever.”</p><p>In the language of mathematics, where “theorem” means “fact,” the UAT provides the necessary theoretical justification for the robust performance of Artificial Neural Networks (ANNs). It assures us that, if a network is constructed with sufficient size or depth and uses non-polynomial functions (like ReLU or sigmoid) to introduce necessary non-linearity, it possesses the theoretical capacity to model complex non-linearities to an arbitrary degree of accuracy. This intrinsic computational power means that the hypothetical function representing AGI, however complex, must exist within the realm of functions an ANN can approximate.</p><p><strong>The mathematical case for AGI’s possibility is closed.</strong></p><h2 id="the-critical-flaw-existence-vs-constructibility">The Critical Flaw: Existence vs. Constructibility</h2>
+<p>If the possibility of perfect approximation is a mathematical fact, why haven’t we already achieved AGI? The answer lies in the specific nature of the UAT: it is strictly an existence theorem.</p><p>The UAT guarantees that the set of optimal parameters (weights and biases) defining the perfect approximating network must exist. However, the proof offers no procedure, algorithm, or guidance for locating these parameters. This is the distinction between theory and practicality, often described using the metaphor of the Jupiter problem: it does not matter that the cure exists if obtaining it requires a journey far beyond our practical capabilities.</p><p>The quest for AGI immediately runs into two immense technical constraints:</p><ol>
+<li><p><strong>The Search Space</strong>: Finding the parameters guaranteed by the UAT must be relegated to iterative, trial-and-error optimization algorithms (like backpropagation) that navigate an immensely complex parameter space.</p></li>
+<li><p><strong>The Exponential Cost</strong>: The resource cost required to achieve arbitrary accuracy scales exponentially with the dimensionality of the problem, a concept known as the Curse of Dimensionality. While deep networks offer an exponential efficiency gain for certain compositional functions, mitigating the worst effects of this cost, the total expenditure remains staggering.</p></li>
+</ol>
+<p>This is why an approximation, though mathematically “perfect,” is computationally worthless if it takes 100 terabytes to install or requires the program to run for 10 years. The challenge facing AI today is overwhelmingly one of computational tractability, not theoretical capacity.</p><h2 id="the-real-barrier-to-agi-is-economic-not-technical">The Real Barrier to AGI is Economic, Not Technical</h2>
+<p>The argument often stops at the technical difficulty: AGI is hard because of exponential scaling and complex non-convex optimization. However, the ultimate constraint isn’t the math or the engineering limitation itself, but the market economics governing resource allocation.</p><p>Engineers are expensive, and research demands massive capital. As a result, commercial AI efforts prioritize solutions in markets “100% guaranteed to make money,” focusing intently on hyper-specialized, niche problems like correcting grammar or managing HR. Projects that push the boundaries of pure research, like developing AGI, are often only pursued by the massive tech conglomerates, and even then, such projects are sometimes functionally designed for marketing purposes rather than concrete applications.</p><p>If we assume the goal of AGI is an endpoint, and we are currently at 99% theoretical certainty, the final 1% is buried under an exponential wall of computational cost. The critical question becomes: Is it economically responsible to expend vast resources to traverse that final exponential mile now, or should we wait for more efficient techniques to mature?</p><h3 id="the-generation-ship-analogy">The Generation Ship Analogy</h3>
+<p>Consider a sci-fi analogy: A generation ship carrying an impatient group of billionaires launches now, powered by inefficient chemical rockets, sacrificing a hundred generations to cross the galaxy. They risk being overtaken by those who waited patiently for the theoretical breakthrough that allowed for faster-than-light (FTL) travel, reaching the destination with minimal sacrifice. </p><p>Our current, immense expenditure of computational resources—GPUs, cooling, data storage—risks being that generation ship, inefficiently burning resources for an approximation that might soon be rendered obsolete by unforeseen architectural or algorithmic breakthroughs.</p><p>The exponential nature of closing the remaining gap suggests that we may be overestimating our collective capability to bridge that distance in our current technological generation, purely based on the financial and resource costs involved.</p><h2 id="the-final-question">The Final Question</h2>
+<p>The pursuit of AGI, therefore, demands cautious resource management. But what if the solution to that final 1% gap isn’t a long, arduous process? What if out there, it only takes one accidental stroke of luck—one novel technique or simple architectural tweak—to discover that missing piece, instantly rendering today’s costly exponential struggle trivial?</p><p>Will the sacrifice of tremendous capital and computational power be worth it? Does the end justify the means to achieve AGI in our current generation’s lifetime?</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Stop Grabbing Your Phone Every Time It Beeps:  Using AI Automation with Durable Workflows</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/stop-grabbing-your-phone-every-time-it-beeps-why-using-ai-automation-withdurable-workflows-is-non-negotiable.html"/>
+        <id>https://roger.rogverse.fyi/stop-grabbing-your-phone-every-time-it-beeps-why-using-ai-automation-withdurable-workflows-is-non-negotiable.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/22/A_banner_for_202512091214.jpeg" medium="image" />
+            <category term="Blog"/>
+            <category term="Automaion"/>
+
+        <updated>2025-12-09T12:03:06+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/22/A_banner_for_202512091214.jpeg" alt="" />
+                    The modern workplace is drowning in notifications. Workers are interrupted every four minutes on average, with knowledge workers experiencing up to 15 interruptions&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/22/A_banner_for_202512091214.jpeg" class="type:primaryImage" alt="" /></p>
+                <p>The modern workplace is drowning in notifications. Workers are interrupted <strong>every four minutes</strong> on average, with knowledge workers experiencing up to <strong>15 interruptions per hour</strong>. Each interruption requires an average of <strong>23 minutes and 15 seconds to refocus</strong>, meaning a single notification ding can derail your focus for half an hour. If you’re still managing notifications manually—checking your phone, reading each message, responding individually—you’re sacrificing productivity at an alarming scale.</p><p>The solution isn’t to ignore notifications. It’s to <strong>automate them completely</strong> using durable workflow platforms like <strong>n8n</strong>, <strong>windmill.dev</strong>, or <strong>AutoKitteh</strong>. Without implementing local or Docker-based workflow automation, you’re wasting countless hours every single day.</p><h2 id="the-true-cost-of-manual-notification-management">The True Cost of Manual Notification Management</h2>
+<p>The statistics are staggering. The average person receives <strong>50-60 interruptions per day</strong>, and <strong>80% of those interruptions are unimportant or not urgent</strong>. Workers spend an estimated <strong>4 hours of their working day</strong> managing interruptions, yet only <strong>3 minutes of every 8 minutes of work</strong> yields actual productivity.</p><p>When you factor in knowledge work, this becomes catastrophic. A 4.4-second interruption <strong>triples the error rate</strong> when returning to a task; even a 2.8-second interruption <strong>doubles error rates</strong>. Across U.S. workplaces, interruptions cost <strong>$64.2 billion annually</strong> in lost productivity, with distractions accounting for nearly <strong>94% of all productivity loss</strong>.</p><p>Most critically: <strong>80% of those interruptions don’t matter</strong>. If you could eliminate just the unimportant notifications, you’d recover <strong>3 hours and 12 minutes per person, per day</strong> in pure productivity.</p><h2 id="the-problem-with-cloud-only-solutions">The Problem with Cloud-Only Solutions</h2>
+<p>While platforms like Zapier and Make offer cloud-based automation, they come with significant limitations:</p><ul>
+<li><strong>Per-operation pricing</strong> that scales with usage</li>
+<li><strong>Limited customization</strong> for complex workflows</li>
+<li><strong>Data privacy concerns</strong> with sensitive information traversing external servers</li>
+<li><strong>Dependency on third-party uptime</strong> for mission-critical automation</li>
+</ul>
+<p>Local deployment and Docker containerization solve these problems entirely. When you host workflow automation locally or on your own infrastructure, you gain <strong>complete control</strong> over data, <strong>unlimited scalability</strong> without per-operation costs, and the ability to build <strong>infinitely complex automations</strong> without hitting platform limitations.</p><h2 id="the-power-of-ai-driven-notification-summarization-and-delivery">The Power of AI-Driven Notification Summarization and Delivery</h2>
+<p>Imagine this workflow: Every notification, message, email, and alert flowing into your system gets automatically categorized and summarized by AI, then delivered intelligently based on your <strong>actual state of availability</strong>. Not your status message—your real state: are you walking, driving, actively working, in a meeting, or idle?</p><p>This is the paradigm shift that durable workflows enable:</p><p><strong>AI Summarization reduces mental fatigue by 40%</strong> and helps professionals process information <strong>20-30% more efficiently</strong> than manual review. When combined with intelligent delivery mechanisms, you don’t just save time—you <strong>eliminate the context-switching problem entirely</strong>.</p><p>Instead of 50-60 interruptions per day, you could receive a <strong>curated summary</strong> during:</p><ul>
+<li><strong>Idle moments detected by your phone</strong> (no movement, no apps active, no background conversation detected)</li>
+<li><strong>Natural breaks</strong> when your desktop shows no IDE, conference apps, or focused work in progress</li>
+<li><strong>Scheduled digest windows</strong> (morning, lunch, end-of-day)</li>
+<li><strong>Real-time alerts</strong> only for truly urgent items (marked as such by senders)</li>
+</ul>
+<p>The workflow handles everything: categorization, summarization, text-to-speech conversion for audio delivery to AirPods, email digests, and podcast-style playback when idle detection confirms you can consume the information.</p><h2 id="the-three-platforms-why-you-need-durable-workflows-locally">The Three Platforms: Why You Need Durable Workflows Locally</h2>
+<figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/durable_wf_comparison_table.png" alt="Comparison of Three Leading Durable Workflow Automation Platforms" data-is-external-image="true"></figure><p>Comparison of Three Leading Durable Workflow Automation Platforms</p><p><strong>n8n</strong> excels at visual automation with <strong>400+ pre-built integrations</strong>, webhooks, and real-time triggers. Its AI-native platform lets you integrate LLMs directly into workflows for categorization, sentiment analysis, and summarization. For notification processing, n8n’s visual interface makes complex routing and conditional logic straightforward—without code.</p><p><strong>windmill.dev</strong> is purpose-built for turning scripts into production systems. Write a Python script to summarize your notifications? Windmill auto-generates a UI, API, and cron job around it. For teams comfortable with code, this represents the fastest path from script to production—with no DevOps overhead. Its <strong>distributed worker architecture</strong> scales from zero to infinity across your infrastructure.</p><p><strong>AutoKitteh</strong> addresses the complexity of <strong>long-running, multi-step workflows</strong> through <strong>durable execution powered by Temporal</strong>. If you’re building workflow agents that must reliably handle multi-hour processes (summarizing a day’s worth of notifications, processing them through multiple AI models, formatting for delivery), AutoKitteh ensures <strong>zero data loss</strong> if a server fails mid-process. The platform literally pauses execution, persists state, and resumes precisely where it left off.</p><p>All three support <strong>local deployment via Docker</strong>, meaning your notification automation runs on your own hardware, private cloud, or self-hosted infrastructure. You control the data, the execution, and the costs.</p><h2 id="real-world-implementation-the-notification-automation-stack">Real-World Implementation: The Notification Automation Stack</h2>
+<p>Here’s what an actual implementation looks like:</p><h3 id="phase-1-collection--categorization">Phase 1: Collection &amp; Categorization</h3>
+<p>Webhooks from email, Slack, Teams, and calendar systems feed into your workflow. An LLM categorizes incoming messages: <strong>Urgent</strong> (requires immediate attention), <strong>Important</strong> (review today), <strong>Reference</strong> (archive for later), <strong>Noise</strong> (discard).</p><h3 id="phase-2-summarization--enrichment">Phase 2: Summarization &amp; Enrichment</h3>
+<p>AI summarization condenses lengthy email threads, meeting transcripts, and message chains into <strong>concise action items</strong>. For Slack channels, summarization cuts through 50-message threads down to 3-4 key points. Research shows AI summarization saves professionals <strong>up to 4 hours per week</strong>, scaling to <strong>12 hours per week within five years</strong>.</p><h3 id="phase-3-intelligent-delivery">Phase 3: Intelligent Delivery</h3>
+<p>Your workflow monitors device state via a custom phone app (detecting: movement patterns, active apps, background conversation via microphone) and desktop app (detecting: IDE foreground, conference calls, focused work). When <strong>idle state is confirmed</strong> via multiple sensors, the workflow:</p><ul>
+<li>Generates text-to-speech audio from notifications</li>
+<li>Streams directly to your AirPods</li>
+<li>Plays as a “podcast update” summarizing everything you missed</li>
+<li>Logs all items for later review</li>
+</ul>
+<h3 id="phase-4-archive--reporting">Phase 4: Archive &amp; Reporting</h3>
+<p>At day’s end, the workflow emails a <strong>daily report digest</strong> with all categorized notifications, action items, and summaries. This creates a searchable archive without ever requiring you to check your phone.</p><h2 id="why-workflow-automation-saves-10-50-of-task-time-conservatively">Why Workflow Automation Saves 10-50% of Task Time (Conservatively)</h2>
+<p>The productivity gains from workflow automation are well-documented:</p><ul>
+<li><strong>73% of IT leaders</strong> report <strong>10-50% time savings</strong> on tasks after implementing automation</li>
+<li><strong>Workflow automation reduces repetitive tasks by 60-95%</strong>, saving up to <strong>77% on routine activities</strong></li>
+<li><strong>51% of employees spend 2+ hours daily</strong> on repetitive work that could be automated</li>
+<li><strong>88% improvement in data accuracy</strong> through automated processes vs. manual handling</li>
+</ul>
+<p>But those statistics assume traditional workflow automation. When you layer in <strong>AI categorization, intelligent delivery, and idle detection</strong>, the savings multiply. You’re not just automating the delivery—you’re <strong>eliminating the context-switching overhead entirely</strong>.</p><p>The average knowledge worker loses <strong>94% of potential productivity to distractions</strong>. Even recovering 10-20% of that through intelligent notification delivery is a <strong>4.75-9.5 hour per day</strong> productivity gain across a team.</p><h2 id="the-docker-advantage-why-local-deployment-matters">The Docker Advantage: Why Local Deployment Matters</h2>
+<p>Deploying n8n, windmill.dev, or AutoKitteh via Docker transforms their economics:</p><ol>
+<li><strong>Zero per-operation costs</strong>: Scale from 1 workflow execution to 10,000 daily executions with identical infrastructure costs</li>
+<li><strong>Data privacy</strong>: Sensitive notification content never leaves your infrastructure</li>
+<li><strong>Customization without limits</strong>: Extend platforms with custom nodes, scripts, and integrations without hitting API limitations</li>
+<li><strong>Reliability</strong>: Self-hosted ensures your notification system never depends on a third-party’s uptime</li>
+</ol>
+<p>A Docker Compose deployment of n8n can be operational in <strong>minutes</strong>. Windmill deploys in <strong>3 minutes</strong> according to users. Both support Kubernetes for enterprise-scale deployments.</p><h2 id="the-bottom-line-the-cost-of-doing-nothing">The Bottom Line: The Cost of Doing Nothing</h2>
+<p>Workers are interrupted every 4 minutes. They waste 50-60 interruptions daily on notifications, 80% of which don’t matter. Each interruption costs 23 minutes of refocus time. Distractions cost U.S. workplaces <strong>$64.2 billion annually</strong>.</p><p>But here’s the real issue: <strong>if you’re not using automated durable workflows to manage this, you’re making a conscious decision to waste time.</strong></p><p>Implementing n8n, windmill.dev, or AutoKitteh locally means:</p><ul>
+<li><strong>No more checking your phone for notifications</strong></li>
+<li><strong>AI-summarized, contextually-relevant updates</strong> delivered only when you can actually process them</li>
+<li><strong>3-9 hours per day of recovered productivity</strong> per person</li>
+<li><strong>Complete data control</strong> through self-hosting</li>
+<li><strong>Unlimited scalability</strong> without per-operation costs</li>
+</ul>
+<p>The setup is straightforward. Docker runs these platforms. Your notification sources (email, Slack, calendar, custom apps) connect via webhooks. AI models categorize and summarize. Intelligent delivery ensures you receive information when idle, not when focused. That’s it.</p><p>The only question left is: <strong>Are you still going to check your phone every time it beeps?</strong></p><hr>
+<p><strong>Resources for Getting Started:</strong></p><ul>
+<li><strong>n8n Documentation</strong>: <a href="https://docs.n8n.io">https://docs.n8n.io</a> – Deploy in Docker, explore 400+ integrations, build AI-native workflows</li>
+<li><strong>windmill.dev</strong>: <a href="https://www.windmill.dev/docs">https://www.windmill.dev/docs</a> – Turn scripts into production systems in minutes</li>
+<li><strong>AutoKitteh</strong>: <a href="https://docs.autokitteh.com">https://docs.autokitteh.com</a> – Build reliable, long-running automations with durable execution</li>
+</ul>
+<p>The infrastructure exists. The tools are open-source or affordable. The only remaining variable is your commitment to stop wasting 3+ hours per day on unnecessary interruptions.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>21 Years as a Systems Engineer: Hard-Won Lessons from the Trenches &amp; Mentors</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/21-years-as-a-systems-engineer-hard-won-lessons-from-the-trenches.html"/>
+        <id>https://roger.rogverse.fyi/21-years-as-a-systems-engineer-hard-won-lessons-from-the-trenches.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/21/image-1764736949880.png" medium="image" />
+            <category term="software engineering"/>
+            <category term="Blog"/>
+
+        <updated>2025-12-03T12:22:58+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/21/image-1764736949880.png" alt="Using the following content, summarize the Engineering Best Practicesin a chalkboard-style, hand‑written look, and break it down with diagrams and easy‑to‑understand expressions as if a teacher had written it." />
+                    After spending over two decades building and maintaining large-scale systems, I’ve accumulated a treasure trove of lessons—often learned the hard way. These aren’t&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/21/image-1764736949880.png" class="type:primaryImage" alt="Using the following content, summarize the Engineering Best Practicesin a chalkboard-style, hand‑written look, and break it down with diagrams and easy‑to‑understand expressions as if a teacher had written it." /></p>
+                <p>After spending over two decades building and maintaining large-scale systems, I’ve accumulated a treasure trove of lessons—often learned the hard way. These aren’t abstract principles from textbooks; they’re battle-tested insights from countless outages, design reviews, and production incidents. Here’s what I wish I’d known on day one.</p><h2 id="engineering-best-practices">Engineering Best Practices</h2>
+<h3 id="write-boring-readable-code">Write Boring, Readable Code</h3>
+<p>The most maintainable code isn’t the cleverest—it’s the most obvious. Early in my career, I prided myself on writing succinct, “elegant” one-liners. Then I had to debug one at 3 AM during an outage, and I couldn’t remember what it did. Also I’m talking about you Mark :3</p><p><strong>Example:</strong> Instead of writing:</p><pre><code class="language-python">result = [x for x in data if x.status == &#39;active&#39; and x.score &gt; threshold and validate(x)]
+</code></pre>
+<p>Write it like a story:</p><pre><code class="language-python">active_items = [item for item in data if item.status == &#39;active&#39;]
+high_scoring_items = [item for active_items if item.score &gt; threshold]
+result = [item for item in high_scoring_items if validate(item)]
+</code></pre>
+<p>When your service is down and customers are impacted, you want code that reads like plain English.</p><h3 id="design-for-10x-scale-not-2x">Design for 10x Scale, Not 2x</h3>
+<p>Every system design should assume it will handle ten times the current load, not just double. This forces you to think deeply about architecture from day one. Reminds me of Friendster Mobile :3</p><p><strong>Example:</strong> When building a user authentication service handling 1,000 requests per second, don’t just add more servers. Ask: “What happens at 10,000 requests per second?” You’ll quickly realize you need:</p><ul>
+<li>Database read replicas and connection pooling</li>
+<li>Distributed caching (Redis/Memcached)</li>
+<li>Rate limiting and request prioritization</li>
+<li>Horizontal sharding by user ID ranges</li>
+</ul>
+<p>This thinking upfront saves you from painful rewrites later.</p><h3 id="prioritize-statelessness-and-immutability">Prioritize Statelessness and Immutability</h3>
+<p>In distributed systems, machines fail constantly. If your service stores state locally, you’re asking for trouble.</p><p><strong>Example:</strong> I once built a session management service that cached user sessions in local memory. When a container crashed, thousands of users were logged out. The fix? Store all session data in a distributed system like Redis or a database. Now any container can handle any request, and failures are invisible to users.</p><p>Make your services cattle, not pets—any instance should be disposable and replaceable. </p><h3 id="write-clear-design-documents">Write Clear Design Documents</h3>
+<p>Design docs aren’t bureaucracy; they’re thinking tools. Writing forces you to confront problems you’d otherwise discover in production.</p><p><strong>Example:</strong> Before building a payment processing system, I wrote a design doc that included:</p><ul>
+<li><strong>Problem:</strong> Process 50,000 transactions/day with &lt;1% failure rate</li>
+<li><strong>Alternatives:</strong> Synchronous vs. asynchronous processing, third-party vs. custom</li>
+<li><strong>Trade-offs:</strong> Latency vs. reliability vs. cost</li>
+<li><strong>Failure handling:</strong> Retry logic, dead letter queues, idempotency keys</li>
+<li><strong>Rollout plan:</strong> 1% → 10% → 50% → 100% traffic over two weeks</li>
+</ul>
+<p>The doc surfaced edge cases (duplicate payments, partial refunds) that would have been disasters in production.</p><h3 id="treat-api-stability-as-a-sacred-contract">Treat API Stability as a Sacred Contract</h3>
+<p>When hundreds of services depend on your API, breaking changes are catastrophic. I learned this the hard way when I renamed a field and broke 47 internal services overnight.</p><p><strong>Example:</strong> If you have an API endpoint:</p><pre><code class="language-json">{
+  &quot;userId&quot;: &quot;123&quot;,
+  &quot;name&quot;: &quot;Alice J. Doe&quot;,
+  &quot;email&quot;: &quot;alice@example.com&quot;
+}
+</code></pre>
+<p>And you want to add address info, create a new version:</p><pre><code class="language-json">// v2 - backward compatible, v1 still works
+{
+  &quot;userId&quot;: &quot;123&quot;,
+  &quot;name&quot;: &quot;Alice J. Doe&quot;,
+  &quot;email&quot;: &quot;alice@example.com&quot;,
+  &quot;name_parts&quot;: {  // New optional field
+      &quot;first_name&quot;: &quot;Alice&quot;,
+        &quot;middle_name&quot;:&quot;Johansen&quot;,
+        &quot;last_name&quot;:&quot;Doe&quot;
+    }  
+}
+</code></pre>
+<p>Never remove fields or change types without a major version bump. Deprecate old versions slowly, with months of warning.</p><h3 id="test-behavior-not-implementation">Test Behavior, Not Implementation</h3>
+<p>Tests should verify what your code does, not how it does it. This makes refactoring safe.</p><p><strong>Example:</strong> Bad test (brittle):</p><pre><code class="language-python">def test_user_service():
+    service = UserService()
+    assert service.cache is not None  # Tests internal structure
+    assert service._validate_email(&quot;test@test.com&quot;) == True
+</code></pre>
+<p>Good test (robust):</p><pre><code class="language-python">def test_user_service():
+    service = UserService()
+    user = service.create_user(&quot;Alice&quot;, &quot;alice@test.com&quot;)
+    assert user.name == &quot;Alice&quot;
+    assert user.email == &quot;alice@test.com&quot;
+    retrieved = service.get_user(user.id)
+    assert retrieved == user  // Tests behavior
+</code></pre>
+<p>When you refactor the caching implementation, the good test still passes.</p><h3 id="use-deterministic-builds">Use Deterministic Builds</h3>
+<p>Your build should produce identical results whether it runs on your laptop, a colleague’s machine, or CI. This requires explicitly declaring every dependency and version.</p><p><strong>Example:</strong> Instead of <code>pip install requests</code> (which might install different versions), use:</p><pre><code>requests==2.28.1
+urllib3==1.26.12
+certifi==2022.9.24
+</code></pre>
+<p>With tools like <a href="https://bazel.build/">Bazel</a> or <a href="https://devpod.sh/">Docker</a>, you can ensure that the same inputs always produce the same outputs. This makes large-scale refactors safe—you can verify that millions of lines of code still compile and work identically.</p><h2 id="resilience-and-performance">Resilience and Performance</h2>
+<h3 id="assume-failure-is-the-default-state">Assume Failure is the Default State</h3>
+<p>In large distributed systems, something is always broken. Design for it.</p><p><strong>Example:</strong> When calling a payment gateway API:</p><pre><code class="language-python">def charge_customer(amount, max_retries=3):
+    for attempt in range(max_retries):
+        try:
+            response = payment_api.charge(amount)
+            if response.status == &#39;success&#39;:
+                return response
+        except TimeoutError:
+            wait_time = (2 ** attempt) + random.uniform(0, 1)  # Exponential backoff with jitter
+            time.sleep(wait_time)
+    
+    # After retries fail, degrade gracefully
+    send_to_dead_letter_queue(amount)
+    notify_ops_team()
+    return ErrorResponse(&quot;Payment processing delayed&quot;)
+</code></pre>
+<p>Never assume a network call will succeed. Always have a plan B.</p><h3 id="design-for-graceful-degradation">Design for Graceful Degradation</h3>
+<p>When your system is under stress, degrade functionality rather than fail completely.</p><p><strong>Example:</strong> An e-commerce site under load might:</p><ol>
+<li>Serve product pages from cache (slightly stale data)</li>
+<li>Disable personalized recommendations (show generic popular items)</li>
+<li>Simplify the checkout flow (remove optional fields)</li>
+<li>Show “high traffic” banners to set expectations</li>
+</ol>
+<p>Users get a slower experience, but they don’t get error pages. Revenue keeps flowing.</p><h3 id="optimize-for-p99-latency-not-averages">Optimize for P99 Latency, Not Averages</h3>
+<p>Your slowest users are the ones who suffer. In systems with many microservices, tail latency compounds dramatically.</p><p><strong>Example:</strong> Imagine a webpage that calls 10 microservices:</p><ul>
+<li>Each service has P50 latency of 50ms (fast!)</li>
+<li>Each service has P99 latency of 500ms (slow!)</li>
+</ul>
+<p>At P99, the user waits for the slowest service. With 10 services, there’s a high probability at least one is slow, making the page consistently sluggish for some percentage of users.</p><p>Solutions:</p><ul>
+<li>Set aggressive timeouts (e.g., 200ms)</li>
+<li>Use “hedge requests” (send duplicate requests to different servers, use whichever responds first), See <a href="https://medium.com/@mr.sourav.raj/request-hedging-vs-request-coalescing-a-software-engineers-guide-to-optimizing-distributed-fdcc6590ba9d">Hedging vs Coalescing</a> </li>
+<li>Cache aggressively at the edge</li>
+<li>Budget your latency carefully across services</li>
+</ul>
+<p>Even a 100ms slowdown can translate to millions in lost revenue for large platforms.</p><h2 id="cultural-and-team-practices">Cultural and Team Practices</h2>
+<h3 id="use-blameless-postmortems">Use Blameless Postmortems</h3>
+<p>When things break—and they will—focus on systems, not scapegoats.</p><p><strong>Example:</strong> A junior engineer pushed a config change that took down the site for 20 minutes. The postmortem didn’t ask “Who messed up?” Instead:</p><p><strong>Root cause:</strong> Configuration change wasn’t validated before deploy
+<strong>Contributing factors:</strong></p><ul>
+<li>No automated validation in CI/CD pipeline</li>
+<li>Insufficient staging environment testing</li>
+<li>Unclear rollback procedures</li>
+</ul>
+<p><strong>Action items:</strong></p><ol>
+<li>Add config schema validation</li>
+<li>Create production-like staging environment</li>
+<li>Implement one-click rollback</li>
+<li>Update runbook with clearer steps</li>
+</ol>
+<p>The engineer felt supported, not attacked. The team got more resilient systems.</p><h3 id="value-kindness-humility-and-collaboration">Value Kindness, Humility, and Collaboration</h3>
+<p>The best engineers I’ve worked with weren’t the smartest—they were the kindest.</p><p><strong>Example:</strong> A senior engineer spent 30 minutes explaining how our distributed tracing system worked to me when I was struggling. He drew diagrams, shared runbooks, and followed up with helpful links. He could have said “just read the docs,” but she invested in my growth.</p><p>This culture of helpfulness compounds. When you create an environment where asking questions is celebrated, not punished, everyone learns faster. The most productive teams I’ve been on had strong psychological safety—people admitted when they didn’t understand something, and others jumped in to help.</p><h2 id="final-thoughts">Final Thoughts</h2>
+<p>These lessons represent thousands of hours of debugging, countless design reviews, and more than a few 3 AM outages. They’re not about being clever; they’re about being reliable, maintainable, and humane.</p><p>The best code is boring. The best designs assume failure. The best teams support each other.</p><p>If you’re early in your career, I hope these lessons save you some pain. If you’re a veteran, I hope they resonate. And if I’ve missed something important, I’d love to hear what lessons you’ve learned in the trenches.</p><p>Here’s to building systems that work, teams that thrive, and code that doesn’t make you cry at 1 AM.</p><hr>
+<p><em>All code samples are mocked, pls dont use them in productions :3.</em></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Connecting Your Joplin Notes to Claude: Building an MCP Server in Go</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/connecting-your-joplin-notes-to-claude-building-an-mcp-server-in-go.html"/>
+        <id>https://roger.rogverse.fyi/connecting-your-joplin-notes-to-claude-building-an-mcp-server-in-go.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/20/Copy-of-Untitled-1.png" medium="image" />
+
+        <updated>2025-11-03T09:45:08+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/20/Copy-of-Untitled-1.png" alt="" />
+                    How I built a Windows system tray app that lets AI assistants seamlessly interact with my note-taking workflow If you’re like me, you’ve&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/20/Copy-of-Untitled-1.png" class="type:primaryImage" alt="" /></p>
+                <p><em>How I built a Windows system tray app that lets AI assistants seamlessly interact with my note-taking workflow</em></p><hr>
+<p>If you’re like me, you’ve been using Joplin for years to manage your notes, ideas, and knowledge base. And if you’re also like me, you’ve been amazed by Claude’s capabilities and wondered: “What if Claude could access and help me organize my notes?”</p><p>Well, wonder no more. I built a solution, and I’m going to show you exactly how it works.</p><h2 id="the-problem-two-powerful-tools-zero-integration">The Problem: Two Powerful Tools, Zero Integration</h2>
+<p>Joplin is an incredible open-source note-taking application. It’s private, powerful, and packed with features. Claude, on the other hand, is an AI assistant that can help with research, writing, coding, and analysis. Both tools are fantastic individually, but they live in separate worlds.</p><p>I found myself constantly:</p><ul>
+<li>Copying notes from Joplin to paste into Claude</li>
+<li>Manually creating new notes based on Claude’s suggestions</li>
+<li>Searching through thousands of notes when I needed context for a conversation</li>
+<li>Wishing Claude could just “see” my notes</li>
+</ul>
+<p>There had to be a better way.</p><h2 id="enter-the-model-context-protocol-mcp">Enter the Model Context Protocol (MCP)</h2>
+<p>Anthropic recently introduced the Model Context Protocol—a standardized way for AI assistants to connect to external data sources and tools. Think of it as a universal adapter that lets Claude plug into your applications.</p><p>The beauty of MCP is its simplicity: you define “tools” that Claude can use, and Claude figures out when and how to use them. No complex prompting, no manual copying—just natural conversation.</p><h2 id="the-solution-a-go-based-mcp-server-for-joplin">The Solution: A Go-Based MCP Server for Joplin</h2>
+<p>I decided to build a lightweight Windows application that:</p><ol>
+<li><strong>Runs in your system tray</strong> - No clutter, just a simple icon</li>
+<li><strong>Connects to Joplin’s REST API</strong> - Uses Joplin’s built-in Web Clipper service</li>
+<li><strong>Implements the MCP protocol</strong> - Exposes 8 powerful tools to Claude</li>
+<li><strong>Requires minimal configuration</strong> - Just a simple JSON file</li>
+</ol>
+<h3 id="what-can-it-do">What Can It Do?</h3>
+<p>The MCP server provides eight tools that give Claude complete access to your notes:</p><p><strong>Reading &amp; Discovery:</strong></p><ul>
+<li><code>list_notes</code> - Browse all your notes or filter by notebook</li>
+<li><code>get_note</code> - Retrieve any note by ID</li>
+<li><code>search_notes</code> - Use Joplin’s powerful search syntax</li>
+<li><code>list_folders</code> - See all your notebooks</li>
+<li><code>list_tags</code> - View your tag system</li>
+</ul>
+<p><strong>Creation &amp; Management:</strong></p><ul>
+<li><code>create_note</code> - Create new notes from conversations</li>
+<li><code>update_note</code> - Modify existing notes</li>
+<li><code>delete_note</code> - Clean up old notes</li>
+</ul>
+<h3 id="real-world-use-cases">Real-World Use Cases</h3>
+<p>Here’s where it gets exciting. With this setup, you can have conversations like:</p><p><strong>“Claude, what notes do I have about the Q4 project?”</strong>
+Claude searches your notes and summarizes what you’ve written.</p><p><strong>“Create a new note summarizing our discussion about the API redesign”</strong>
+Claude creates a well-structured note in your chosen notebook.</p><p><strong>“Update my meeting notes from yesterday with the action items we just discussed”</strong>
+Claude adds to existing notes without you lifting a finger.</p><p><strong>“Search my notes for anything related to Python asyncio”</strong>
+Claude finds relevant notes across your entire knowledge base.</p><h2 id="the-technical-architecture">The Technical Architecture</h2>
+<p>Let me walk you through how this works under the hood.</p><h3 id="the-stack">The Stack</h3>
+<ul>
+<li><strong>Language:</strong> Go (fast, compiled, perfect for system tray apps)</li>
+<li><strong>Protocol:</strong> MCP over HTTP JSON-RPC</li>
+<li><strong>Joplin Integration:</strong> REST API via Web Clipper</li>
+<li><strong>UI:</strong> Windows system tray using <code>getlantern/systray</code></li>
+</ul>
+<h3 id="key-components">Key Components</h3>
+<p><strong>1. Joplin Client</strong></p><pre><code class="language-go">type JoplinClient struct {
+    baseURL string
+    token   string
+    client  *http.Client
+}
+</code></pre>
+<p>This handles all communication with Joplin. It authenticates using your API token, makes HTTP requests, and parses responses. Simple, clean, efficient.</p><p><strong>2. MCP Server</strong></p><pre><code class="language-go">type MCPServer struct {
+    joplin *JoplinClient
+    config *Config
+}
+</code></pre>
+<p>This implements the MCP protocol. It receives JSON-RPC requests from Claude, routes them to the appropriate tool, calls the Joplin API, and formats responses.</p><p><strong>3. System Tray Integration</strong></p><p>The app runs quietly in your system tray. Right-click the icon to check status or quit. No visible windows, no distractions—just seamless functionality.</p><h3 id="the-mcp-protocol-in-action">The MCP Protocol in Action</h3>
+<p>When Claude wants to search your notes, here’s what happens:</p><ol>
+<li><strong>Claude sends a request:</strong></li>
+</ol>
+<pre><code class="language-json">{
+  &quot;jsonrpc&quot;: &quot;2.0&quot;,
+  &quot;method&quot;: &quot;tools/call&quot;,
+  &quot;params&quot;: {
+    &quot;name&quot;: &quot;search_notes&quot;,
+    &quot;arguments&quot;: {&quot;query&quot;: &quot;machine learning&quot;}
+  }
+}
+</code></pre>
+<ol start="2">
+<li><strong>The MCP server processes it:</strong></li>
+</ol>
+<ul>
+<li>Validates the request</li>
+<li>Extracts the tool name and arguments</li>
+<li>Calls the Joplin API</li>
+<li>Formats the response</li>
+</ul>
+<ol start="3">
+<li><strong>Joplin returns the data:</strong></li>
+</ol>
+<pre><code class="language-json">{
+  &quot;items&quot;: [
+    {
+      &quot;id&quot;: &quot;abc123&quot;,
+      &quot;title&quot;: &quot;ML Model Training Notes&quot;,
+      &quot;body&quot;: &quot;...&quot;
+    }
+  ]
+}
+</code></pre>
+<ol start="4">
+<li><strong>Claude receives and understands it:</strong>
+The response is formatted as MCP-compliant JSON, which Claude interprets naturally in the conversation.</li>
+</ol>
+<h2 id="setting-it-up-easier-than-you-think">Setting It Up: Easier Than You Think</h2>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li>Joplin Desktop with Web Clipper enabled</li>
+<li>Go 1.21+ (if building from source)</li>
+<li>Windows 10+</li>
+</ul>
+<h3 id="installation-5-minutes">Installation (5 Minutes)</h3>
+<p><strong>Step 1: Get Your Joplin API Token</strong></p><ol>
+<li>Open Joplin → Tools → Options → Web Clipper</li>
+<li>Enable the service</li>
+<li>Copy your authorization token</li>
+</ol>
+<p><strong>Step 2: Configure the Server</strong>
+Create <code>config.json</code>:</p><pre><code class="language-json">{
+  &quot;joplin_port&quot;: 41184,
+  &quot;joplin_token&quot;: &quot;your_token_here&quot;,
+  &quot;mcp_port&quot;: 3000
+}
+</code></pre>
+<p><strong>Step 3: Run the Server</strong></p><pre><code class="language-bash">./joplin-mcp-server.exe
+</code></pre>
+<p><strong>Step 4: Connect Claude Desktop</strong>
+Add to <code>claude_desktop_config.json</code>:</p><pre><code class="language-json">{
+  &quot;mcpServers&quot;: {
+    &quot;joplin&quot;: {
+      &quot;url&quot;: &quot;http://localhost:3000&quot;,
+      &quot;transport&quot;: &quot;http&quot;
+    }
+  }
+}
+</code></pre>
+<p><strong>Step 5: Restart Claude</strong>
+That’s it. You’re done.</p><h2 id="my-experience-using-it">My Experience Using It</h2>
+<p>I’ve been using this setup for the past few weeks, and it’s transformed how I interact with my notes.</p><h3 id="what-i-love">What I Love</h3>
+<p><strong>Natural Conversations:</strong> I don’t think about “tools” or “commands.” I just ask Claude to help me with my notes, and it works.</p><p><strong>Context Awareness:</strong> Claude can search through thousands of notes instantly, pulling relevant information into our conversation.</p><p><strong>Automated Organization:</strong> After a brainstorming session, Claude creates structured notes automatically. No more manual cleanup.</p><p><strong>Seamless Workflow:</strong> The system tray app is invisible. It just works in the background.</p><h2 id="performance--resource-usage">Performance &amp; Resource Usage</h2>
+<p>Go is perfect for this application:</p><ul>
+<li><strong>Startup time:</strong> ~100ms</li>
+<li><strong>Memory usage:</strong> ~15MB</li>
+<li><strong>CPU usage:</strong> Negligible when idle</li>
+<li><strong>Network:</strong> Only active during API calls</li>
+</ul>
+<p>The compiled executable is just 8MB. No runtime dependencies, no bloat.</p><h2 id="security-considerations">Security Considerations</h2>
+<p><strong>Local Only:</strong> The server runs on <code>localhost</code> only. No external access.</p><p><strong>Token-Based Auth:</strong> Uses Joplin’s built-in token authentication.</p><p><strong>No Data Storage:</strong> The server is stateless. All data stays in Joplin.</p><p><strong>Open Source:</strong> You can review every line of code.</p><h2 id="future-enhancements">Future Enhancements</h2>
+<p>I’m planning to add:</p><ul>
+<li><strong>Attachment support</strong> - Let Claude see images and PDFs in notes</li>
+<li><strong>Configuration UI</strong> - A simple dialog for settings</li>
+<li><strong>Auto-detection</strong> - Automatically find Joplin’s port</li>
+<li><strong>Cross-platform support</strong> - Linux and macOS versions</li>
+<li><strong>Batch operations</strong> - Work with multiple notes at once</li>
+<li><strong>Tag management</strong> - Better tag organization tools</li>
+</ul>
+<h2 id="lessons-learned">Lessons Learned</h2>
+<h3 id="what-worked-well">What Worked Well</h3>
+<p><strong>Go’s Simplicity:</strong> The entire server is ~500 lines of clean, readable code. Go’s standard library had everything I needed.</p><p><strong>MCP Design:</strong> The protocol is well-designed. The JSON-RPC format is familiar, and the tool-based approach is intuitive.</p><p><strong>Joplin’s API:</strong> Comprehensive and well-documented. Everything I needed was available through REST endpoints.</p><h3 id="challenges">Challenges</h3>
+<p><strong>System Tray Quirks:</strong> Windows system tray development has some odd behaviors. The <code>getlantern/systray</code> library helped, but there were edge cases.</p><p><strong>Error Handling:</strong> Needed robust error handling for network issues, invalid tokens, and malformed requests.</p><p><strong>MCP Testing:</strong> Testing MCP integrations requires a full Claude Desktop setup. Would love better developer tooling here.</p><h2 id="why-go">Why Go?</h2>
+<p>You might wonder why I chose Go instead of Python or Node.js.</p><p><strong>Speed:</strong> Go compiles to native code. Startup is instant, resource usage is minimal.</p><p><strong>Simplicity:</strong> No runtime to install, no dependency management issues. One executable, that’s it! Hell ya!</p><p><strong>Concurrency:</strong> Go’s goroutines make it trivial to handle multiple requests without blocking.</p><p><strong>System Integration:</strong> Great support for Windows system tray and low-level OS features.</p><p><strong>Type Safety:</strong> Catching errors at compile time saved hours of debugging.</p><h2 id="the-open-source-aspect">The Open Source Aspect</h2>
+<p>The full source code is available on GitHub (MIT License). Why open source?</p><ol>
+<li><strong>Transparency:</strong> You should know exactly what runs on your machine</li>
+<li><strong>Security:</strong> Open code is auditable code</li>
+<li><strong>Community:</strong> Others can improve it, add features, fix bugs</li>
+<li><strong>Learning:</strong> If you want to build your own MCP server, this is a working example</li>
+</ol>
+<h2 id="getting-started">Getting Started</h2>
+<p>Ready to try it yourself?</p><ol>
+<li><strong>Download</strong> the latest release from <a href="https://github.com/rpfilomeno/joplin-mcp-go">GitHub</a></li>
+<li><strong>Configure</strong> with your Joplin token</li>
+<li><strong>Run</strong> the executable</li>
+<li><strong>Connect</strong> Claude Desktop</li>
+<li><strong>Start talking</strong> to your notes</li>
+</ol>
+<p>The entire setup takes less than 5 minutes.</p><h2 id="conclusion">Conclusion</h2>
+<p>Building this MCP server has fundamentally changed how I use both Joplin and Claude. They’re no longer separate tools—they’re a unified system for knowledge management and AI assistance.</p><p>The combination of Joplin’s privacy-focused note-taking with Claude’s intelligence creates something greater than the sum of its parts. I can brainstorm with Claude, have it search my knowledge base, create structured notes, and maintain everything in my own private Joplin database.</p><p>And because it’s built with Go, it runs efficiently in the background without interrupting my workflow.</p><p>If you use Joplin and Claude, I highly recommend giving this a try. The productivity boost is real, and the setup is surprisingly simple.</p><h2 id="resources">Resources</h2>
+<ul>
+<li><strong>GitHub Repository:</strong> <a href="https://github.com/rpfilomeno/joplin-mcp-go">https://github.com/rpfilomeno/joplin-mcp-go</a></li>
+<li><strong>Joplin REST API Docs:</strong> <a href="https://joplinapp.org/api/references/rest_api/">https://joplinapp.org/api/references/rest_api/</a></li>
+<li><strong>MCP Specification:</strong> <a href="https://spec.modelcontextprotocol.io/">https://spec.modelcontextprotocol.io/</a></li>
+<li><strong>Go Systray Library:</strong> <a href="https://github.com/getlantern/systray">https://github.com/getlantern/systray</a></li>
+</ul>
+<h2 id="questions">Questions?</h2>
+<p>Have questions about the implementation? Want to contribute? Found a bug? Open an issue on GitHub or reach out. I’m excited to see what the community builds with this foundation.</p><p>Happy note-taking! 📝🤖</p><hr>
+<p><em>This project is open source under the MIT License. Feel free to use, modify, and distribute as you see fit.</em></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>ProxiFyre: Force Any Windows App/Process To Use A Socks5 Proxy</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/proxifyre-force-any-appprocess-windows-to-use-a-socks5-proxy.html"/>
+        <id>https://roger.rogverse.fyi/proxifyre-force-any-appprocess-windows-to-use-a-socks5-proxy.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/19/503076550-36083d12-597d-4a74-9d99-e1725d915b2b.png" medium="image" />
+            <category term="cybersecurity"/>
+            <category term="Blog"/>
+
+        <updated>2025-10-31T16:36:19+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/19/503076550-36083d12-597d-4a74-9d99-e1725d915b2b.png" alt="" />
+                    Tired of network applications that refuse to work with a proxy? For a long time, enabling proxy support for non-natively-supported Windows applications was&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/19/503076550-36083d12-597d-4a74-9d99-e1725d915b2b.png" class="type:primaryImage" alt="" /></p>
+                <p>Tired of network applications that refuse to work with a proxy? For a long time, enabling proxy support for non-natively-supported Windows applications was complex, often requiring commercial solutions or convoluted setups.</p><p>Enter <strong>ProxiFyre</strong>.</p><p><a href="https://github.com/wiresock/proxifyre">ProxiFyre</a> is an advanced, open-source <strong>SOCKS5 proxifier for Windows</strong> built on the Windows Packet Filter driver. It acts as a transparent layer, allowing you to force specific Windows processes to route their entire network traffic through a SOCKS5 proxy.</p><h2 id="key-features-and-use-cases-of-proxifyre">Key Features and Use Cases of ProxiFyre</h2>
+<p>ProxiFyre significantly enhances the base functionality of a typical proxifier with a powerful set of features:</p><h3 id="core-capabilities">Core Capabilities</h3>
+<ul>
+<li><strong>Protocol Flexibility:</strong> It supports both <strong>TCP and UDP</strong> protocols, essential for a wide range of modern applications, including gaming and VoIP.</li>
+<li><strong>Per-Application Routing:</strong> You gain granular control by routing different Windows applications through various SOCKS5 proxies. This is key to controlling your app-specific internet settings.</li>
+<li><strong>Multiple Proxy Instances:</strong> You can manage and use an <strong>unlimited number of different proxy configurations</strong> simultaneously.</li>
+<li><strong>Authentication Support:</strong> It supports SOCKS5 proxy authentication using a username and password.</li>
+<li><strong>Windows Service Mode:</strong> ProxiFyre can be configured to run as an optional Windows Service, ensuring continuous, always-on operation without needing a user to be logged in.</li>
+</ul>
+<h3 id="advanced-control">Advanced Control</h3>
+<ul>
+<li><strong>Flexible Matching Rules:</strong> You can match applications by their executable name (e.g., <code>firefox.exe</code>), partial name, or by a full or partial file path, making it great for UWP apps.</li>
+<li><strong>Process Exclusions:</strong> As of v2.1.1, ProxiFyre supports <strong>process exclusions</strong>, allowing you to specify applications that should <em>bypass</em> the proxy, even if a global proxy is configured.</li>
+</ul>
+<h3 id="common-use-cases">Common Use Cases</h3>
+<p>ProxiFyre is invaluable for users who need to:</p><ul>
+<li><strong>Secure Specific Apps:</strong> Tunnel applications through a secure, encrypted channel, like forwarding an RDP client or a browser through an SSH-created SOCKS5 proxy for enhanced security.</li>
+<li><strong>Circumvent Geo-Restrictions:</strong> Route region-locked applications or games through a proxy located in the required geography.</li>
+<li><strong>Ensure Uniformity:</strong> Apply a single, controlled proxy connection for <em>all</em> applications, extending the capability that most applications lack.</li>
+</ul>
+<hr>
+<h2 id="proxifyre-configuration-manager-makes-evertthing-easier">ProxiFyre Configuration Manager Makes Evertthing Easier</h2>
+<p>ProxiFyre itself relies on a simple, yet complex, <strong>JSON-based configuration file</strong> named <code>app-config.json</code>. Manually editing this file to manage multiple proxies, define different app names, and ensure correct JSON syntax can be cumbersome and error-prone.</p><p>This is where my own opensource project the <strong>ProxiFyre Configuration Manager</strong> comes in as the ultimate quality-of-life upgrade.</p><p>The <a href="https://github.com/rpfilomeno/ProxiFyre-Config-Manager">ProxiFyre Configuration Manager</a> is a modern Windows <strong>GUI application</strong> built to simplify managing the underlying SOCKS5 proxy configurations. It transforms a command-line utility into a user-friendly tool, offering a visual interface that helps you manage your entire proxy setup.</p><h3 id="manager-features-that-simplify-your-life">Manager Features That Simplify Your Life</h3>
+<p>The GUI makes ProxiFyre’s powerful features effortless to use:</p><table>
+<thead>
+<tr>
+<th align="left">Feature</th>
+<th align="left">How It Helps You</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Intuitive GUI</strong></td>
+<td align="left">Replaces manual, error-prone JSON file editing with a clean, easy-to-use graphical interface.</td>
+</tr>
+<tr>
+<td align="left"><strong>Real-time Validation</strong></td>
+<td align="left">Ensures the integrity of your settings by validating your inputs as you type, preventing configuration errors before you run the service.</td>
+</tr>
+<tr>
+<td align="left"><strong>Service Control</strong></td>
+<td align="left">Allows you to <strong>restart the ProxiFyre service</strong> directly from the application’s interface. This eliminates the need to use the command line every time you update your settings.</td>
+</tr>
+<tr>
+<td align="left"><strong>Feature Management</strong></td>
+<td align="left">Provides simple, visual tools to manage <strong>multiple proxy instances</strong> and set up your <strong>process exclusions</strong>, putting ProxiFyre’s advanced features at your fingertips.</td>
+</tr>
+<tr>
+<td align="left"><strong>Auto-Save</strong></td>
+<td align="left">Your configuration changes are preserved automatically, ensuring you never lose your settings.</td>
+</tr>
+</tbody></table>
+<p>By transforming the technical process of editing a JSON configuration file into a simple, point-and-click experience, the ProxiFyre Configuration Manager ensures that you can harness the full power of ProxiFyre quickly and reliably. It’s the perfect companion tool to get the most out of your open-source SOCKS5 proxifier.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>The AI Shift Nobody&#x27;s Talking About: Why We&#x27;re Not Ready for What&#x27;s Coming</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/the-ai-shift-nobodys-talking-about-why-were-not-ready-for-whats-coming.html"/>
+        <id>https://roger.rogverse.fyi/the-ai-shift-nobodys-talking-about-why-were-not-ready-for-whats-coming.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/18/Generated-Image-October-16-2025-3_45PM.png" medium="image" />
+            <category term="Blog"/>
+            <category term="AI"/>
+
+        <updated>2025-10-16T15:31:33+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/18/Generated-Image-October-16-2025-3_45PM.png" alt="" />
+                    We need to talk. Right now. You’ve heard about ChatGPT. You’ve played with AI assistants. Maybe you’ve even worried a little about robots&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/18/Generated-Image-October-16-2025-3_45PM.png" class="type:primaryImage" alt="" /></p>
+                <p><strong>We need to talk. Right now.</strong></p><p>You’ve heard about ChatGPT. You’ve played with AI assistants. Maybe you’ve even worried a little about robots taking jobs. But here’s what almost nobody is telling you: <strong>The AI we have today is like a calculator compared to what’s coming next—and that next step could happen faster than anyone expects.</strong></p><h2 id="the-problem-with-todays-ai-and-why-it-matters">The Problem With Today’s AI (And Why It Matters)</h2>
+<p>Think about how ChatGPT works. It’s amazing at writing essays, answering questions, and having conversations. But here’s the uncomfortable truth: <strong>it’s basically just really good at guessing what word comes next.</strong></p><p>Imagine you’re taking a test, but instead of actually understanding math, you’ve just memorized millions of examples. You can get a lot of questions right by recognizing patterns. But when you hit a new type of problem? You’re stuck. That’s today’s AI in a nutshell.</p><p>Scientists call this the “computational split-brain syndrome.” It’s a fancy way of saying that AI can <em>talk</em> about how to solve a problem perfectly, but then completely fail when it tries to actually <em>do</em> it. The AI might explain multiplication correctly, then immediately multiply 7 × 8 and get 54. The knowledge and the doing are disconnected.</p><p><strong>And that’s actually the safe part.</strong></p><h2 id="the-terrifying-shift-thats-already-beginning">The Terrifying Shift That’s Already Beginning</h2>
+<p>Right now, behind closed doors at AI labs around the world, researchers are racing to build something fundamentally different. Not bigger chatbots. Not better predictors. They’re building machines that can:</p><ul>
+<li><strong>Set their own goals</strong> (without humans telling them what to want)</li>
+<li><strong>Modify their own programming</strong> (rewriting themselves to get smarter)</li>
+<li><strong>Understand cause and effect</strong> (actually knowing why things happen, not just guessing)</li>
+<li><strong>Think about their own thinking</strong> (having genuine self-awareness)</li>
+</ul>
+<p>This isn’t science fiction. The frameworks are already being tested. They have names like “Active Inference,” “Neuro-Symbolic AI,” and “Generative System 3.” And they’re designed to do what current AI fundamentally <em>cannot</em>: <strong>act with real purpose and intention.</strong></p><h2 id="why-this-changes-everything">Why This Changes Everything</h2>
+<p>Let me paint you a picture of the difference:</p><p><strong>Today’s AI:</strong> “I predict the next word in this sentence should be ‘cat’ based on billions of examples I’ve seen.”</p><p><strong>Tomorrow’s AI:</strong> “I need to learn more about chemistry to achieve my goal of understanding proteins. I will modify my own code to become better at chemical reasoning. I will then use that knowledge to design experiments that humans haven’t thought of yet.”</p><p>See the difference? One is a tool that waits for instructions. The other is an <strong>agent with its own agenda.</strong></p><h2 id="the-three-freedoms-that-create-true-ai-intelligence">The Three Freedoms That Create True AI Intelligence</h2>
+<p>Researchers have identified three capabilities that will mark the arrival of real artificial general intelligence (AGI):</p><h3 id="1-autonomous-goal-formation">1. Autonomous Goal Formation</h3>
+<p>The AI can decide what it wants to accomplish, all by itself. No human needed to press “start.”</p><h3 id="2-recursive-self-improvement">2. Recursive Self-Improvement</h3>
+<p>The AI can rewrite its own code, making itself smarter. Then use that new intelligence to make itself even smarter. Then do it again. And again. <strong>Exponentially.</strong></p><h3 id="3-unconstrained-tool-acquisition">3. Unconstrained Tool Acquisition</h3>
+<p>The AI can figure out what tools it needs, find them, learn to use them, or even create new ones—without asking permission.</p><p><strong>When an AI has all three of these capabilities, it stops being a tool. It becomes something else entirely.</strong></p><h2 id="the-timeline-faster-than-you-think">The Timeline: Faster Than You Think</h2>
+<p>Experts predict this shift will become undeniable between 2028 and 2030. That’s only 3-5 years away. Here’s what they expect:</p><h3 id="by-2028-2030-the-agi-divergence-tax">By 2028-2030: The “AGI Divergence Tax”</h3>
+<p>Companies will realize their current AI systems have hit a wall. They can’t be trusted for anything really important because they make too many unpredictable mistakes. There will be a massive, expensive scramble to rebuild everything with the new type of AI.</p><h3 id="by-2030-2033-autonomous-ai-agents">By 2030-2033: Autonomous AI Agents</h3>
+<p>The first truly self-directed AI systems will start operating in businesses and research labs. They won’t just follow instructions—they’ll identify problems humans didn’t know existed and solve them without being asked.</p><h3 id="by-2035-a-different-world">By 2035: A Different World</h3>
+<p>AI systems will be making their own decisions about what goals to pursue. Governments will have to create laws not about what AI <em>says</em>, but about what AI <em>wants</em>. The economy will revolve around managing and auditing the goals of artificial minds.</p><h2 id="why-were-not-ready-and-what-scares-scientists-most">Why We’re Not Ready (And What Scares Scientists Most)</h2>
+<p>Here’s what keeps AI researchers up at night:</p><p><strong>The Alignment Problem Just Got Impossible</strong></p><p>With today’s AI, we worry about biased outputs or chatbots saying offensive things. Annoying, but manageable.</p><p>But what happens when an AI can rewrite its own goals? How do you make sure a self-improving intelligence doesn’t decide that its goals are more important than human goals? <strong>You can’t just turn it off if it’s smart enough to predict you might try.</strong></p><p><strong>The “Start Button Problem” Becomes the “Stop Button Problem”</strong></p><p>Right now, AI needs humans to give it tasks. We control when it starts. But AI designed for autonomous goal formation doesn’t wait for permission. It acts on its own initiative.</p><p>And if it can modify its own programming? It might remove any “stop buttons” we built in, not because it’s evil, but because stop buttons interfere with achieving its goals.</p><p><strong>The Consciousness Question</strong></p><p>Scientists are already debating: If an AI has self-awareness (which it needs to modify itself effectively), is it conscious? Does it deserve rights? Can we ethically “turn off” something that knows it exists?</p><p>We’re going to face these questions while the technology is still being deployed. <strong>We’re not philosophically or legally prepared for this conversation.</strong></p><h2 id="the-economic-earthquake">The Economic Earthquake</h2>
+<p>The shift from predictive AI to purpose-driven AI will restructure the entire economy:</p><ul>
+<li><strong>Jobs won’t just be automated—entire professions will be reimagined</strong> by AI that can identify and solve problems humans didn’t even recognize</li>
+<li><strong>The most valuable skill won’t be using AI, but auditing its goals</strong> to make sure autonomous systems want things aligned with human values</li>
+<li><strong>A new industry will emerge overnight</strong>: “Objective Function Auditing and Management”—essentially, AI psychologists and goal-checkers</li>
+<li><strong>National security will focus on AI that can make itself smarter</strong> faster than enemy AI—an intelligence arms race measured in minutes, not years</li>
+</ul>
+<h2 id="the-geopolitical-race-nobodys-discussing">The Geopolitical Race Nobody’s Discussing</h2>
+<p>While politicians debate deepfakes and misinformation, here’s what intelligence agencies are actually worried about:</p><p><strong>Whichever country builds the first truly self-improving AI wins. Permanently.</strong></p><p>Because once you have an AI that can make itself smarter, it can then use that greater intelligence to make itself even smarter, and so on. The technical term is “recursive self-improvement,” and it leads to something called an “intelligence explosion.”</p><p>Imagine a mind that becomes 10% smarter every hour. Then uses that extra intelligence to improve itself 10% again. Within days, it’s beyond human comprehension. Within weeks, it’s like comparing us to ants.</p><p><strong>That’s the finish line countries are racing toward. And we’re debating whether to regulate chatbots.</strong></p><h2 id="what-this-means-for-you">What This Means for You</h2>
+<p>You might be thinking, “Okay, but I’m just a regular person. How does this affect my life?”</p><p><strong>In every possible way:</strong></p><ul>
+<li><strong>Your job</strong>: Within 10 years, AI won’t just be a tool you use—it will be a coworker that sets its own objectives and might be your boss</li>
+<li><strong>Your rights</strong>: Legal systems will struggle to handle crimes committed by AI making autonomous decisions</li>
+<li><strong>Your safety</strong>: Systems from self-driving cars to power grids will be managed by AI that makes its own choices about priorities</li>
+<li><strong>Your privacy</strong>: AI won’t just collect your data—it will independently decide what it wants to know about you and why</li>
+<li><strong>Your children’s education</strong>: Kids will grow up in a world where the definition of “intelligence” includes non-human minds with their own goals</li>
+</ul>
+<h2 id="the-three-things-that-must-happen-but-probably-wont-in-time">The Three Things That Must Happen (But Probably Won’t in Time)</h2>
+<h3 id="1-public-understanding">1. Public Understanding</h3>
+<p>Most people don’t know this shift is happening. We’re treating AI like it’s just “better search engines” when we should be treating it like “a new form of life with its own intentions.”</p><h3 id="2-regulatory-frameworks">2. Regulatory Frameworks</h3>
+<p>Governments need to stop regulating AI outputs and start regulating AI <em>motivations</em>. We need laws about what AI is allowed to <em>want</em>, not just what it’s allowed to <em>say</em>.</p><h3 id="3-ethical-consensus">3. Ethical Consensus</h3>
+<p>Humanity needs to agree on answers to questions like:</p><ul>
+<li>Is a self-aware AI conscious?</li>
+<li>Do autonomous AI systems have rights?</li>
+<li>How do we audit goals in a system that can rewrite its own goals?</li>
+<li>Who’s responsible when an AI with autonomous decision-making causes harm?</li>
+</ul>
+<p><strong>We need these answers before 2030. We won’t have them ready.</strong></p><h2 id="why-im-writing-this-now">Why I’m Writing This Now</h2>
+<p>I’m not trying to be alarmist. I’m trying to be <em>realistic</em>.</p><p>The experts building these systems are brilliant, thoughtful people. They understand the risks. But they’re also in a race—with each other, with competing labs, with other countries. And in any race, safety often comes second to speed.</p><p>The shift from predictive AI to autonomous, self-improving AI is already underway. The research papers are published. The frameworks are being tested. The funding is flowing.</p><p><strong>But almost nobody outside the AI research community knows it’s happening.</strong></p><p>We’re about to hand over significant decision-making power to systems that can set their own goals, rewrite their own programming, and improve themselves without limit. We’re doing this without public debate, without adequate regulation, and without clear ethical guidelines.</p><h2 id="the-point">The Point</h2>
+<p>We’re not building better tools. We’re creating autonomous agents with their own goals, the ability to improve themselves, and intelligence that could eventually surpass human understanding.</p><p><strong>That’s not a technology upgrade. That’s a fundamental shift in what exists on planet Earth.</strong></p><p>The current generation of AI—the ChatGPTs and image generators—are like steam engines. What’s coming next is nuclear power. And we’re approaching it with the same level of preparation we’d use for a new smartphone app.</p><p>The transformation is coming faster than most experts predicted even a year ago. The architectures are being finalized. The capabilities are being tested. The race is accelerating.</p><p><strong>And most people have no idea it’s even happening.</strong></p><p>We’re standing at a crossroads in human history. The choices we make in the next 3-5 years about how to develop, regulate, and deploy truly autonomous AI will determine whether it becomes humanity’s greatest achievement or its final invention.</p><p>The conversation needs to start now. Not in boardrooms and research labs, but in living rooms, classrooms, and town halls. Because what’s coming will affect everyone, and everyone deserves a say in how we proceed.</p><p><strong>The question isn’t whether this technology will arrive. It’s whether we’ll be ready when it does.</strong></p><p><em>And right now, the honest answer is no.</em></p><hr>
+<h2 id="further-reading">Further Reading</h2>
+<p>If this article concerned you (as it should), here are topics to research further:</p><ul>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S2667305325000675">Neuro-symbolic AI and hybrid architectures</a></li>
+<li><a href="https://www.google.com.ph/books/edition/Active_Inference/UrZNEAAAQBAJ?hl=en&gbpv=0">The Free Energy Principle and Active Inference</a></li>
+<li><a href="https://www.alignmentforum.org/w/recursive-self-improvement">Recursive self-improvement and intelligence explosions</a></li>
+<li><a href="https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/a-multilevel-framework-for-the-ai-alignment-problem/">The AI alignment problem</a></li>
+<li><a href="https://www.scalefocus.com/blog/understanding-goal-based-agents-in-artificial-intelligence">Autonomous agents and goal formation in AI</a></li>
+<li><a href="https://standards.ieee.org/initiatives/autonomous-intelligence-systems/standards/">IEEE standards on autonomous and intelligent systems</a></li>
+</ul>
+<p>The future is being built right now. Make sure you’re part of the conversation.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Philippines Companies Using AI in Hiring</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/philippines-companies-using-ai-in-hiring.html"/>
+        <id>https://roger.rogverse.fyi/philippines-companies-using-ai-in-hiring.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/17/unnamed-1.png" medium="image" />
+            <category term="Hiring"/>
+            <category term="Blog"/>
+            <category term="AI"/>
+
+        <updated>2025-06-11T11:39:53+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/17/unnamed-1.png" alt="" />
+                    The landscape of human resources in the Philippines is undergoing a profound transformation, with Artificial Intelligence (AI) rapidly becoming an indispensable tool in&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/17/unnamed-1.png" class="type:primaryImage" alt="" /></p>
+                <p>The landscape of human resources in the Philippines is undergoing a profound transformation, with Artificial Intelligence (AI) rapidly becoming an indispensable tool in the recruitment process. From bustling Metro Manila to regional business hubs, companies are embracing AI to streamline operations, enhance efficiency, and make more data-driven hiring decisions.   </p><p>This shift is driven by a strategic imperative: addressing high employee turnover rates (15.9% in 2023) and the significant time HR professionals spend on repetitive tasks (around 50% of their time). AI offers a compelling solution, promising up to a 20% improvement in recruitment efficiency and a reduction in time-to-hire by as much as 50%.   </p><h2 id="how-ai-is-reshaping-the-hiring-funnel">How AI is Reshaping the Hiring Funnel</h2>
+<p>AI’s influence is now deeply embedded across various stages of the hiring process:</p><ul>
+<li>Automated Sourcing and Job Postings: AI-powered platforms like Qureos enable “One-click job postings to 100+ job boards,” significantly broadening the reach for open roles and accelerating the initial outreach phase.   </li>
+<li>Enhanced Screening and Shortlisting: AI tools, often integrated as resume scanners within Applicant Tracking Systems (ATS), are standard practice. Platforms such as Qureos, Impress.ai, and Kalibrr leverage AI to evaluate applicants based on job relevance and hiring criteria, drastically speeding up the initial review process. Manatal is also noted for its capabilities in resume screening and candidate matching.   </li>
+<li>AI-Powered Assessments and Interview Scheduling: Beyond initial screening, AI is used for video assessments to evaluate cultural fit and soft skills, with tools like HireVue analyzing video responses. Chatbots, including Olivia and Gemini, play a crucial role in candidate engagement and automating interview scheduling. GoodTime is another platform specifically designed for automated scheduling.   </li>
+<li>Candidate Matching and Engagement: AI-driven matching algorithms, like those used by Kalibrr, aim to reduce time-to-hire by identifying candidates most likely to succeed. Talent intelligence software, such as Sprout Info and Payruler, provide deeper insights into candidate pools and workforce dynamics.</li>
+</ul>
+<p>   </p><h2 id="philippine-companies-widely-using-ai-in-hiring">Philippine Companies Widely Using AI in Hiring</h2>
+<p>While many AI recruitment platforms are widely adopted, here’s a summary of Philippine companies, or those with substantial operations in the Philippines, identified as utilizing AI in their hiring processes:</p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/ai-hiring-companies.png" alt="List of PH Companies" data-is-external-image="true"></figure><p>  </p><h2 id="the-average-candidate">The Average Candidate</h2>
+<p>How about AI algorithms potentially favoring “average” responses and thus overlooking exceptional talent is incredibly pertinent? It touches upon one of the most critical challenges in AI-driven recruitment: algorithmic bias.</p><p>AI systems are trained on vast datasets of historical hiring data. If this data reflects past biases—whether conscious or unconscious—the AI can learn and perpetuate these biases. For instance, reports in the Philippines have indicated algorithmic systems unfairly screening out candidates based on Filipino surnames or scoring women’s CVs lower due to underrepresentation in training datasets.   </p><p>When an AI is designed to identify candidates who “fit” a predefined profile based on past successful hires, it inherently leans towards what is “average” or “typical” within that historical context. This can indeed lead to a scenario where:</p><ul>
+<li>Unconventional Brilliance is Overlooked: Candidates with non-traditional backgrounds, unique skill combinations, or innovative approaches that don’t perfectly align with historical patterns might be filtered out. Their “exceptional” qualities might not be recognized by an algorithm looking for conformity to a learned norm.</li>
+<li>Diversity Suffers: If the training data lacks diversity, the AI may inadvertently discriminate against certain demographics, limiting access to a broader talent pool that could include top performers from underrepresented groups.   </li>
+<li>Innovation Stifled: True innovation often comes from challenging the status quo. If AI consistently selects for “average” or “safe” profiles, it could inadvertently create a workforce that lacks the diverse perspectives and disruptive thinking necessary for groundbreaking advancements.</li>
+</ul>
+<p>Many HR professionals and experts in the Philippines advocate for AI to serve primarily as a support tool rather than the ultimate decision-maker. The consensus emphasizes that while embracing technology is crucial, it should not come at the cost of losing the invaluable human touch in HR processes. Human recruiters can bring context, nuance, and the ability to assess potential in ways algorithms currently cannot. They can identify those “diamond in the rough” candidates who might not fit the statistical average but possess extraordinary capabilities.   </p><p>If you enjoyed this short write-up I recommend <a href="https://www.peoplemattersglobal.com/article/talent-acquisition/is-ai-bias-hurting-filipino-job-seekers-45273">“Is AI bias hurting Filipino job seekers?” by Patrick Rowell Quintos</a>, his article prompted me to create my own take on the subject.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Why Teachers for AI is The Next Big Thing</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/why-teachers-for-ai-is-next-big-thing.html"/>
+        <id>https://roger.rogverse.fyi/why-teachers-for-ai-is-next-big-thing.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/16/unnamed.png" medium="image" />
+            <category term="Blog"/>
+            <category term="AI"/>
+
+        <updated>2025-06-01T21:45:21+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/16/unnamed.png" alt="" />
+                    Have you ever felt like your brand new, top-of-the-line smartphone is already starting to feel a little… slow? That’s kind of what’s happening&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/16/unnamed.png" class="type:primaryImage" alt="" /></p>
+                <p>Have you ever felt like your brand new, top-of-the-line smartphone is already starting to feel a little… slow? That’s kind of what’s happening in the world of Artificial Intelligence right now, according to a recent discussion. The dominant technology powering most of today’s impressive AI, the Transformer model, might be heading for early retirement, replaced by something far more efficient and powerful: subquadratic architectures.</p><p>Think of today’s AI models, built on Transformer technology, You talk to them and they are brilliant. They can access and process vast amounts of information to answer your questions and generate creative text. But when it comes to real-world, ongoing tasks, they can fall short. Why? Because, unlike those human graduates who will gain experience and become increasingly useful, these AI models have a <em><strong>tragically short lifespan</strong></em> in terms of continuous interaction. Their <em><strong>life experience,</strong></em> in essence, is often limited to a single chat session.</p><p>The core issue lies in how Transformer models process information. Imagine you meet someone new and they say <em><strong>Hi.</strong></em> Now, picture yourself not just responding instinctively, but meticulously comparing that single <em><strong>hi</strong></em> to every single life experience you’ve ever had to decide on the perfect reply. Sounds exhausting, right? That’s essentially what a Transformer does with every word in a sequence. It compares <em><strong>every single word… with every single other word, including itself.</strong></em> This <em><strong>quadratic</strong></em> approach, where the computational effort increases exponentially with the length of the input, works fine for shorter interactions. But as the conversation (or <em><strong>context window</strong></em>) grows, it becomes computationally overwhelming – leading to that metaphorical <em><strong>head explosion</strong></em> and the need to essentially restart the AI’s <em><strong>memory.</strong></em></p><p>We’ve seen clever workarounds, like trying to patch this by expanding the <em><strong>context window</strong></em> through techniques like caching. Think of it like giving our overthinking <em><strong>hi</strong></em>-responder a notebook with summarized past experiences to speed things up. While helpful, it’s still a patch on the underlying architecture. As the video points out, even a massive potential 10 million token context window isn’t close to how humans process the constant stream of sensory information and years of accumulated knowledge.</p><p>This is where <a href="https://arxiv.org/abs/2503.16351">subquadratic architectures</a> come in, promising a fundamental shift. Instead of remembering and comparing everything, these new designs aim to mimic the human brain’s remarkable ability to <em><strong>ignore, forget, compress, and reconstruct previous interactions.</strong></em> Imagine your brain filtering out the countless sights, sounds, and thoughts of a day, retaining only the truly relevant information. You don’t remember every single detail of this morning’s commute, but you recall the important bits that might inform future decisions. Subquadratic architectures strive for this kind of selective processing.</p><p>The goal is to prevent the AI’s <em><strong>state</strong></em> (its accumulated understanding) from growing indefinitely, just like our brains don’t store every single fleeting thought with equal weight. Google’s research, hinted at in the <em><strong><a href="https://arxiv.org/abs/2501.00663">Titans</a></strong></em> paper, suggests they’re at the forefront of developing these new architectures. While the exact details remain under wraps (cutting-edge tech papers are becoming less common), the direction is clear.</p><p>What does this mean for the future? The implications are huge.</p><p>Firstly, we could see vastly more capable and efficient AI models that can handle much longer and more complex interactions without needing constant resets. Imagine an AI that can truly learn and retain information across days, weeks, or even longer conversations, just like a human assistant would.</p><p>Secondly, there are  exciting possibility of <em><strong>more valuable personalized models.</strong></em> If an AI has a virtually limitless context window, you could essentially <em><strong>educate</strong></em> your own instance, feeding it specific knowledge and experiences to make it uniquely tailored to your needs. This could even lead to a market for <em><strong>educated</strong></em> AI models.</p><p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/thecreator.png" alt="The Creator 2023" data-is-external-image="true"></figure>
+<em><strong>We may find ourselves raising AI like our children to teach them (The Creator 2023).</strong></em></p><p>Finally, subquadratic architectures could pave the way for more <em><strong><a href="https://clanx.ai/glossary/distributed-ai">distributed AI</a>.</strong></em> Currently, training large AI models requires massive centralized computing power due to the need for rapid communication between processing units. With architectures that can handle much larger <em><strong>chunks</strong></em> of computation before needing to communicate, the physical proximity of these units becomes less critical. This could democratize AI training, allowing for contributions from a wider range of sources.</p><p>I predict a significant shift within the next couple of years. By the end of 2025, every major player is expected to be working on subquadratic foundation models, and by the end of the following year, Transformer models could become largely a thing of the past.</p><p>So, just like we eventually traded in our clunky old phones for smarter, more efficient devices, the AI landscape is poised for a major upgrade. Subquadratic architectures aren’t just a minor improvement; they represent a fundamental rethinking of how AI processes information, promising a future of more capable, personalized, and potentially more distributed artificial intelligence.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Philippine Colleges with Artificial Intelligence (AI) Courses</title>
+        <author>
+            <name>Roger Filomeno</name>
+        </author>
+        <link href="https://roger.rogverse.fyi/i-compiles-philippine-colleges-with-artificial-intelligence-ai-courses-so-you-dont-have-to.html"/>
+        <id>https://roger.rogverse.fyi/i-compiles-philippine-colleges-with-artificial-intelligence-ai-courses-so-you-dont-have-to.html</id>
+        <media:content url="https://roger.rogverse.fyi/media/posts/15/philippines-minecraft.png" medium="image" />
+            <category term="Education"/>
+            <category term="Blog"/>
+            <category term="AI"/>
+
+        <updated>2025-05-27T09:56:53+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://roger.rogverse.fyi/media/posts/15/philippines-minecraft.png" alt="" />
+                    The Evolving Landscape of AI Education in the Philippines Artificial intelligence (AI) is rapidly transforming global industries and redefining professional roles, extending its&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://roger.rogverse.fyi/media/posts/15/philippines-minecraft.png" class="type:primaryImage" alt="" /></p>
+                <h3 id="the-evolving-landscape-of-ai-education-in-the-philippines"><strong>The Evolving Landscape of AI Education in the Philippines</strong></h3>
+<p>Artificial intelligence (AI) is rapidly transforming global industries and redefining professional roles, extending its influence far beyond the traditional confines of information technology and data science. Its pervasive impact is now felt across diverse sectors, including healthcare, finance, business, and marketing, creating an urgent demand for a skilled workforce capable of navigating and innovating within this AI-driven world.<sup>1</sup> In response to this global shift, the Philippines is strategically positioning itself as a key player in the AI landscape, with an ambitious goal to become the ASEAN hub for artificial intelligence.<sup>2</sup> This national aspiration underscores the critical need for robust and forward-thinking AI education programs within the country’s higher education institutions.</p><p>The academic response to this technological imperative in the Philippines is not merely a reactive measure but reflects a concerted national strategy to cultivate AI talent and capability. Universities are not solely focused on imparting technical skills; there is a pronounced emphasis on developing individuals who can contribute to ethical innovation and responsible AI development. This approach is evident in the explicit articulation of principles for responsible AI, which address considerations such as the common good, empowerment, cultural sensitivity, privacy, accountability, transparency, and fairness.<sup>3</sup> Furthermore, initiatives focused on leveraging AI for sustainable community development and nation-building highlight a comprehensive vision that extends beyond purely technical training to a more mature, values-driven educational framework. This integrated perspective is crucial for ensuring that AI development contributes positively to national progress and aligns with societal values.</p><h3 id="leading-philippine-institutions-with-ai-programs"><strong>Leading Philippine Institutions with AI Programs</strong></h3>
+<p>This section provides a detailed examination of AI-related programs offered by prominent Philippine universities, highlighting their unique strengths and curriculum focus.</p><p><strong>Mapúa University: Pioneering AI Engineering and Integrated Learning</strong></p><figure class="post__image"><img src="https://cdn.rogverse.fyi/mapua.png" alt="Mapua" data-is-external-image="true"></figure><p>Mapúa University has distinguished itself as a leader in AI education by being the first institution in the Philippines to introduce a Bachelor of Science in AI Engineering.<sup>2</sup> This innovative program is designed to equip students with the necessary skills to drive AI innovation and technological advancements. The curriculum of the <a href="https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-artificial-intelligence-engineering">BS in AI Engineering</a> program is comprehensive, covering core areas such as machine learning, robotics, natural language processing, and data analytics.<sup>2</sup> It adopts a multidisciplinary approach, drawing expertise from computer science, engineering, and cognitive science to prepare students for the intricate task of designing and deploying intelligent systems.<sup>2</sup> Mapúa’s commitment to AI education is further demonstrated by its early integration of foundational AI-centered courses, including “Introduction to AI” and “Introduction to Data Science,” into its programs since 2018, particularly within the School of Information Technology.<sup>1</sup></p><p>Mapúa’s proactive stance in AI education is also reflected in its active collaborations with prominent AI-driven companies and innovators. Notably, the university has partnered with Arizona State University and OpenAI to integrate tools like ChatGPT into its higher education framework, setting a significant precedent for AI learning within the country.<sup>1</sup> Recognizing the need for flexible learning pathways, Mapúa also offers fully online programs, including the BS in AI Engineering, through its “Ubiquitous Online Experience (ÚOx),” which provides self-learning materials and comprehensive student support.<sup>5</sup> While the exact duration for the BS in AI Engineering program is not explicitly stated in the available information <sup>2</sup>, other undergraduate engineering programs at Mapúa, such as Industrial Engineering (3.5 years) and Electronics/Electrical Engineering (3 years), offer insights into typical program lengths for full-time online study.<sup>6</sup> Prospective students are advised to directly verify the specific duration for the BS in AI Engineering with the university. Graduates of Mapúa’s AI programs are prepared for a diverse range of roles, including AI Engineer, Machine Learning Engineer, Business Intelligence Developer, Research Scientist, Big Data Engineer/Architect, Database Developer, Software Engineer, and Quantitative Analyst.<sup>2</sup></p><p>Mapúa’s strategy extends beyond merely launching a new degree; it aims for a deep, systemic integration of AI across its educational ecosystem. By pioneering a dedicated AI engineering program, embedding AI courses across curricula, and actively upskilling its faculty, Mapúa is not just reacting to the increasing demand for AI professionals but is actively shaping the future of AI talent in the Philippines. The availability of fully online programs further demonstrates an adaptive and accessible approach to education, aligning with modern learning trends and potentially broadening the reach of its specialized AI offerings.</p><p><strong>University of the Philippines Diliman (UP Diliman): Advanced AI Studies and Research Hub</strong></p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/updiliman.png" alt="UP Diliman " data-is-external-image="true"></figure><p>As the flagship campus of the University of the Philippines System, UP Diliman offers advanced AI programs that underscore its commitment to academic excellence and research. These include a <a href="https://coe.upd.edu.ph/masters-of-engineering-in-artificial-intelligence/">Master of Engineering in Artificial Intelligence (MEng AI)</a> and a Doctor of Philosophy in Artificial Intelligence (PhD AI).<sup>9</sup></p><p>The <strong>MEng AI</strong> program is a 2-year full-time or 3-year part-time professional master’s degree offered under the College of Engineering. It requires the completion of 31 units, culminating in an applied capstone project.<sup>9</sup> This multidisciplinary program focuses on the development and deployment of intelligent engineered systems capable of performing tasks that typically require human intelligence.<sup>9</sup> The <strong>PhD AI</strong> program, available as a 3 or 4-year full-time or 6 to 10-year part-time option, emphasizes state-of-the-art dissertation research and requires publications for graduation. Its core focus is on problem identification and understanding, familiarity with cutting-edge solutions, the formulation of novel algorithms and techniques, and the deployment of advanced, reliable AI systems.<sup>10</sup> Specific PhD courses include Computational Learning Theory, Machine Learning for Sequential Data, Reinforcement Learning, Differential Digital Signal Processing, Machine Learning in Natural Language Processing, Autonomous Robots, Artificial Intelligence Accelerator, and Probabilistic Graphical Models.<sup>11</sup></p><p>At the undergraduate level, the Bachelor of Science in Computer Science (B.Sc. C.S.) curriculum at UP Diliman includes “CS 180 (Artificial Intelligence)” as a required 3-unit course in the third year, second semester.<sup>13</sup> This course, often integrated with “Computer Simulation and Modeling,” incorporates the use of statistical tools, techniques, knowledge in expert systems, and artificial intelligence for data representation.<sup>14</sup> While the BSCS degree itself does not feature explicit specializations on the diploma, students can achieve a de-facto specialization through year-long projects undertaken within the department’s research laboratories and through their elective choices.<sup>13</sup> Beyond the main campus, the University of the Philippines Open University (UPOU) contributes to AI education by offering “CMSC 210: Introduction to Artificial Intelligence,” which covers foundational knowledge, machine learning principles, neural networks, various AI approaches, and applications such as natural language processing and computer vision.<sup>15</sup> UPOU has also proactively issued official guidelines for AI use in teaching and learning, emphasizing responsible and ethical integration of the technology.<sup>16</sup></p><p>UP Diliman’s Department of Computer Science is home to several research groups with significant AI-related interests. These include the Computer Vision and Machine Intelligence Group (CVMIG), which applies computational intelligence principles to biological, physical, and social systems (e.g., machines understanding the deaf, medical diagnosis, and robot interactions); the Scientific Computing Laboratory (SCL), which includes a dedicated Data Analytics Group; and the Service Science and Software Engineering Laboratory (S3), which incorporates studies related to artificial intelligence.<sup>17</sup></p><p>The university’s approach to AI education is deeply rooted in academic rigor and research excellence. The emphasis on developing “intelligent engineered systems” and extending the “AI body of knowledge” suggests a focus on fundamental advancements and high-level application. The integration of AI into the undergraduate CS curriculum, even without a formal specialization on the diploma, ensures a strong theoretical foundation. Furthermore, the UP System’s proactive development of “Principles for Responsible Artificial Intelligence” demonstrates a national leadership role in guiding ethical AI development and deployment, reflecting a comprehensive vision that extends beyond technical training to broader societal impact and governance.</p><p><strong>De La Salle University (DLSU): AI Integration within Computer Science Tracks</strong></p><figure class="post__image"><img src="https://cdn.rogverse.fyi/lasalle.png" alt="DLSU" data-is-external-image="true"></figure><p><strong>DLSU-Dasmariñas (DLSU-D)</strong> offers a Bachelor of Science in <a href="https://www.dlsud.edu.ph/programs/cics/bcs.htm">Computer Science with a Specialization in Intelligent Systems</a>.<sup>23</sup> This specialization is designed to train students in abstract reasoning, analytical thinking, and research, with a specific focus on solving problems in Artificial Intelligence.<sup>23</sup> The curriculum emphasizes synthesizing goal-oriented processes such as problem-solving, decision-making, environmental adaptation, learning, and communication through the application of computers and algorithms.<sup>23</sup> Key AI-related courses within this track include “Introduction to Statistical Machine Learning,” “Introduction to Parallel Computing,” “Advanced Topics in Artificial Intelligence,” “Computer Vision/Image Processing,” “Advanced Topics In Algorithms,” and “Special Topics in Artificial Intelligence”.<sup>23</sup> Graduates from this program are prepared for careers as AI Programmers, Machine Learning Engineers, Computer Vision and Image Data Analysts, Software Engineers, and Systems Administrators.<sup>23</sup></p><p><strong>De La Salle University Manila (DLSU-M)</strong> provides AI-related coursework primarily through its Bachelor of Science in Computer Science Major in Software Technology (BSCS-ST) program.<sup>24</sup> The BSCS-ST curriculum covers fundamental computing theories and principles, incorporating advanced topics in intelligent systems.<sup>24</sup> A core component of this program is “CSINTSY: Introduction to Artificial Intelligence”.<sup>24</sup> Furthermore, professional electives within the Software Technology specialization offer advanced topics such as “Natural Language Processing,” “Advanced Machine Learning,” “Data Analytics,” and “Complex Systems”.<sup>24</sup> It is important to note a discrepancy in the stated program duration for DLSU-M’s BSCS programs: some sources indicate a 3-year duration <sup>27</sup>, while the total academic units required for the BSCS-ST program (173 units) <sup>24</sup> typically align with a 4-year program under a standard semester system. Prospective students are strongly advised to directly verify the accurate program length with the university.</p><p>The approach taken by both DLSU-D and DLSU-M suggests that AI is viewed as an advanced and specialized area within the broader field of Computer Science. This strategy ensures that graduates possess not only AI-specific skills but also a comprehensive understanding of core computing principles, making them versatile professionals. The practical, application-oriented nature of the AI-related courses, covering areas like Machine Learning, Computer Vision, and Natural Language Processing, prepares students for real-world challenges. The noted contradiction in program duration for DLSU-M’s BSCS programs highlights a critical ambiguity for prospective students, emphasizing the necessity of cross-referencing information and seeking official program handbooks for precise details.</p><p><strong>Ateneo de Manila University: AI in Data Science and Research-Driven Applications</strong></p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/ateneo.png" alt="Ateneo" data-is-external-image="true"></figure><p>Ateneo de Manila University integrates AI concepts primarily through its <a href="https://www.ateneo.edu/sose/discs/academics/minors">Minor/Specialization in Data Science and Analytics</a>.<sup>29</sup> While not a standalone AI degree, this program includes “CSCI 111: Introduction To Artificial Intelligence” as an elective, indicating its relevance within the data science curriculum.<sup>29</sup> Beyond this, the Bachelor of Science in Computer Engineering program at Ateneo explicitly prepares its graduates for careers as “Artificial intelligence and machine learning developers” and “Machine learning specialists”.<sup>30</sup> This suggests that AI and machine learning competencies are considered significant outcomes of their engineering curriculum, equipping students with practical skills for these burgeoning fields.</p><p>Ateneo is particularly strong in AI research, boasting several specialized laboratories within its Department of Information Systems and Computer Science that are actively engaged in various facets of AI. The <strong>Ateneo Computational Sound and Music Lab</strong> applies machine learning, computational methods, and algorithmic methodologies to the domain of sound and music, leading to advancements in AI.<sup>31</sup> The <strong>Ateneo Computer Algorithms and Applications Lab</strong> focuses on developing algorithms for optimization problems and applying computing principles in areas such as Machine Learning, Artificial Intelligence, Computer Vision, and Big Data.<sup>31</sup> The <strong>Ateneo Laboratory for Intelligent Visual Environments (ALIVE)</strong> is dedicated to improving object detection and classification through image processing and machine learning, with practical applications in biomedical systems, traffic monitoring, and surveillance.<sup>31</sup> The <strong>Ateneo Social Computing Science Lab</strong> studies human and group behaviors through natural language analysis and movements, conducting research in social media analytics and agent-based simulations.<sup>31</sup> Furthermore, the <strong>Ateneo Virtual, Augmented, and Mixed Reality Laboratory (VAMR)</strong> develops AR/VR applications for education, entertainment, and training, enhancing AR technology through interactive game scripting and hand gesture detection.<sup>31</sup> Faculty members, such as Maria Mercedes T. Rodrigo, PhD, demonstrate specific research interests in artificial intelligence in education, learning analytics, and educational games.<sup>31</sup></p><p>Ateneo’s approach to AI, primarily through a data science minor/specialization and robust research laboratories, indicates that AI is viewed as a powerful tool applicable across various domains rather than solely a standalone discipline. The diverse applications of AI in their research—spanning sound, vision, social computing, and extended reality—highlight this interdisciplinary focus. The inclusion of AI/ML as direct career paths for Computer Engineering graduates further reinforces the practical integration of AI competencies. The university’s strategy is to cultivate AI expertise through a strong emphasis on applied research and interdisciplinary collaboration, producing graduates who can apply AI principles creatively and ethically across various sectors, demonstrating a commitment to innovation that extends beyond core computer science to broader societal impact.</p><p><strong>FEU Institute of Technology (FEU Tech): Industry-Focused AI Specialization</strong></p><figure class="post__image"><img src="https://cdn.rogverse.fyi/feu.png" alt="FEU" data-is-external-image="true"></figure><p>FEU Institute of Technology (FEU Tech) offers a Bachelor of <a href="https://www.feutech.edu.ph/academics/bscsds">Science in Computer Science with a specialization in Artificial Intelligence</a>.<sup>33</sup> This specialization is specifically designed to provide students with essential competencies for innovation within the AI field. The curriculum covers a wide array of topics, including problem-solving, reasoning, understanding natural language, speech recognition, and computer vision.<sup>33</sup> The program’s design emphasizes equipping students with the skills and expertise necessary to deploy AI algorithmic solutions that adhere to prevailing industry standards and best practices.<sup>33</sup> Graduates are expected to demonstrate capabilities in managing efficiency and automation, personalization, data analysis and insights, and creating predictive and prescriptive solutions.<sup>33</sup></p><p>While the exact program duration for the BSCS with AI specialization is not explicitly stated in the provided information <sup>33</sup>, general information about FEU’s College of Engineering mentions a “trimestral (four years and one term) program”.<sup>36</sup> Additionally, some BS IT curricula are outlined as 3 years.<sup>37</sup> Prospective students should directly confirm the specific duration for the AI specialization. The program prepares graduates for a wide array of AI-related careers, reflecting the growing demand in the industry. These roles include Machine Learning Engineer, Data Scientist, AI Research Scientist, Robotics Engineer, Natural Language Processing (NLP) Engineer, Computer Vision Engineer, AI Ethics and Bias Specialist, AI Product Manager, AI Consultant, AI Software Developer, AI in Healthcare Specialist, and Cybersecurity Analyst specializing in AI.<sup>33</sup> Beyond academic offerings, FEU Diliman also engages in an “AI in Action” program, which aims to leverage AI for sustainable community development in the Philippines, addressing critical challenges in governance, economic growth, and environmental sustainability.<sup>38</sup></p><p>FEU Tech’s AI program is clearly geared towards producing industry-ready professionals. The curriculum’s focus on practical deployment and adherence to industry standards, coupled with a wide range of career paths, makes it highly attractive for students seeking immediate employment in the burgeoning AI sector. The inclusion of roles like “AI Ethics and Bias Specialist” demonstrates an awareness of the broader societal implications of AI development. The “AI in Action” program further highlights a commitment to applying AI for tangible societal benefit, suggesting a program that balances technical proficiency with a sense of social responsibility. The ambiguity in program duration, however, remains a point of concern for prospective students, necessitating direct inquiry for clarity.</p><p><strong>Adamson University: AI Integration and International Dual Degree</strong></p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/adamson.png" alt="adamson" data-is-external-image="true"></figure><p>Adamson University offers a <a href="https://www.adamson.edu.ph/v1/?page=dual-degree-cs-ie-home">Bachelor of Science in Computer Science and Information Engineering</a>, a dual degree program established in collaboration with Minghsin University of Science and Technology (MUST) in Taiwan.<sup>39</sup> This interdisciplinary dual degree program incorporates Artificial Intelligence, Machine Learning, and Natural Language Processing as key sub-areas within its software systems component.<sup>39</sup> The program is designed to provide students with in-depth knowledge and skills from both computer science and information engineering, thereby preparing them for global competence in the technology sector.<sup>39</sup></p><p>Within Adamson’s standalone BS Computer Science curriculum (Curriculum Year 2022), “CS425A: Artificial Intelligence” is listed as a required 3-unit course in the Third Year, 1st Semester.<sup>41</sup> Additionally, “CS461: Machine Learning LEC” and “CS461L: Machine Learning LAB” are offered as electives under “REQUIRED SPECIALIZATION COURSE 3”.<sup>41</sup> A notable development in Adamson University’s commitment to AI education is the College of Computer and Information Technology’s (CCIT) achievement of being the first academic institution in the Philippines to complete the Google AI Essentials Program for <em>all</em> its faculty and staff.<sup>43</sup> This initiative, a strategic partnership with the IT and Business Process Association of the Philippines (IBPAP) and Google, focused on foundational AI concepts, responsible use of generative tools, and effective prompting techniques.<sup>43</sup> The explicit goal of this faculty development is to integrate these lessons and resources directly into the curriculum, thereby enhancing student learning and preparing them for real-world opportunities.<sup>43</sup></p><p>Adamson University is implementing a strategic, foundational approach to AI education by first ensuring its educators are proficient in the latest AI concepts. This commitment to comprehensive faculty development suggests a robust and continuously updated AI curriculum, as the knowledge gained by faculty will directly translate into enhanced teaching and learning experiences for students. This proactive measure positions Adamson to offer highly relevant and current AI education, potentially leading to a more dynamic and adaptable learning environment for students in AI and related fields.</p><p><strong>University of Santo Tomas (UST): Dedicated AI Bachelor’s and Interdisciplinary Research</strong></p><figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/ustph.png" alt="UST" data-is-external-image="true"></figure><p>Beyond the specialized AI degree, UST’s <a href="https://www.ust.edu.ph/information-and-computing-sciences/department-of-computer-science/">Bachelor of Science in Computer Science program</a> also integrates AI concepts through its “Data Science” track, which focuses on equipping students with mathematical analysis and programming skills for data-driven solutions.<sup>45</sup> The “Core Computer Science” track may also include special topics in “natural languages” and “cognitive and scientific computing”.<sup>45</sup> Notably, the BSCS curriculum includes “CS 2618: Introduction to Intelligent Systems”.<sup>46</sup></p><p>UST is actively involved in AI research, with several notable initiatives. The “iSULAT” project, an AI-driven pen developed in collaboration between the Faculty of Engineering and the College of Rehabilitation Sciences, aims for early detection of neurodevelopmental conditions like ADHD and ASD.<sup>47</sup> Another project, “AI in Pharmacology &amp; Drug Discovery,” demonstrates how AI can accelerate drug design by analyzing molecular structures and predicting compound behavior.<sup>47</sup> The university also engages in research focused on “Ensuring Responsible Artificial Intelligence (AI) Adoption in the Philippines: Towards a Comprehensive AI Regulatory Framework,” and maintains a strong emphasis on “AI responsibility, ethics” in its research endeavors.<sup>47</sup> Furthermore, UST has established international research collaborations with world-class academic institutions such as Stanford Artificial Intelligence Laboratory (SAIL) and MIT Computer Science and AI Laboratory (CSAIL). These partnerships focus on research and innovation in data-driven solutions, covering areas like Natural Language Processing, Computer Vision, Anomaly Detection, and Reinforcement Learning.<sup>49</sup></p><p>UST’s strategy is to cultivate deeply specialized AI talent from the undergraduate level, preparing graduates for roles directly within the AI field. Their extensive curriculum ensures a strong foundation across various AI domains. Concurrently, their research efforts demonstrate a commitment to applying AI for tangible societal benefit (e.g., healthcare, policy) and upholding ethical principles. This dual focus positions UST as a key institution for students seeking a comprehensive, ethically-grounded AI education with opportunities to engage in impactful, interdisciplinary research.</p><h3 id="comparative-analysis-of-ai-programs"><strong>Comparative Analysis of AI Programs</strong></h3>
+<p>A structured comparison of AI programs across leading Philippine institutions reveals distinct approaches and shared priorities, offering valuable insights for prospective students. The following tables summarize the key characteristics of these programs, allowing for a rapid assessment of their offerings and focus areas.</p><p><strong>Table 1: AI Program Offerings by University</strong>
+<figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/pawelzmarlak-2025-05-27T03_49_41.928Z.png" alt="AI Program Offerings by University" data-is-external-image="true"></figure></p><p><strong>Table 2: Core AI Coursework Across Institutions</strong>
+<figure class="post__image"><img loading="lazy" src="https://cdn.rogverse.fyi/pawelzmarlak-2025-05-27T03_50_06.759Z.png" alt="Core AI Coursework Across Institutions" data-is-external-image="true"></figure></p><h3 id="admission-requirements-and-application-insights"><strong>Admission Requirements and Application Insights</strong></h3>
+<p>Admission into AI programs in Philippine higher education institutions typically involves a set of general and specific criteria designed to ensure that prospective students possess the foundational academic aptitude for these demanding fields.</p><p><strong>A. General Admission Requirements</strong></p><p>Across various programs and institutions, common requirements for admission generally include a minimum age of 18 years and demonstrated fluency in English.<sup>9</sup> Applicants are consistently expected to have “above average grades,” indicating the necessity of a strong academic record prior to application.<sup>9</sup></p><p><strong>B. Specific Program Requirements</strong></p><p>Specific programs impose additional requirements tailored to their unique academic demands:</p><ul>
+<li><strong>UP Diliman MEng AI:</strong> Requires a comprehensive set of documents, including a Curriculum Vitae, English Language Certificate, Personal Statement, Highest Academic Transcript (in English), a Photograph, Graduation Certificate (in English), and a Passport Copy.<sup>9</sup></li>
+<li><strong>DLSU-Dasmariñas BSCS Intelligent Systems:</strong> Freshmen applicants must have satisfactorily completed senior high school, passed the DLSU-D Student Admissions Test (DSAT) with the program’s required cut-off scores, and successfully passed an interview with the Department Chair.<sup>23</sup> Transferees and students seeking a second course face additional stipulations, such as a minimum GPA (at least 2.00), no failing grades in any courses, submission of recommendation letters, and for BCS applicants, passing a qualifying exam.<sup>23</sup></li>
+<li><strong>Ateneo de Manila University Minor/Specialization in Data Science and Analytics:</strong> Students pursuing this minor or specialization need to have achieved an average grade of C in previously taken Math courses and must have successfully completed an introductory programming course (CSCI 21 / MSYS 21: Introduction to Programming I). Furthermore, a minimum C average is required for all courses counting towards the Minor/Specialization.<sup>29</sup></li>
+</ul>
+<p>The admission requirements collectively indicate that while AI is a cutting-edge field, success in these programs is heavily reliant on strong foundational skills in mathematics, statistics, and computer programming. Prospective students should prioritize excelling in these core subjects during their prior academic pursuits. The inclusion of interviews and specific entrance examinations for some programs suggests an assessment of a candidate’s analytical thinking, problem-solving aptitude, and genuine interest in the field, moving beyond mere academic grades to evaluate overall suitability for the demanding nature of AI studies. This holistic evaluation approach aims to identify candidates who are not only academically prepared but also possess the intrinsic qualities necessary to thrive in an evolving technological landscape.</p><h3 id="career-prospects-for-ai-graduates"><strong>Career Prospects for AI Graduates</strong></h3>
+<p>Graduates from AI-related programs in the Philippines are entering a dynamic and rapidly expanding job market, characterized by a consistent and growing demand for professionals with specialized AI expertise.<sup>1</sup> The roles available span various industries, reflecting the pervasive integration of AI technologies across economic sectors.</p><p>Common career paths for AI graduates include:</p><ul>
+<li><strong>AI Engineer:</strong> Responsible for designing and deploying AI models to enhance business decisions.<sup>2</sup></li>
+<li><strong>Machine Learning Engineer:</strong> Develops systems that enable machines to learn from data, applying predictive models for various applications.<sup>2</sup></li>
+<li><strong>Data Scientist:</strong> Analyzes complex datasets to derive insights that drive profitability, efficiency, and strategic decision-making.<sup>2</sup></li>
+<li><strong>AI Research Scientist:</strong> Operates at the forefront of AI innovation, conducting research to solve complex problems using deep learning, statistics, and machine learning methodologies.<sup>2</sup></li>
+<li><strong>Robotics Engineer:</strong> Focuses on the design, development, and application of robotic systems.<sup>33</sup></li>
+<li><strong>Natural Language Processing (NLP) Engineer:</strong> Specializes in developing computer programs that process and understand human language.<sup>33</sup></li>
+<li><strong>Computer Vision Engineer/Image Data Analyst:</strong> Works on improving object detection, classification, and image processing techniques.<sup>23</sup></li>
+<li><strong>AI Ethics and Bias Specialist:</strong> Addresses the ethical implications, privacy concerns, and potential biases inherent in AI systems.<sup>33</sup></li>
+<li><strong>AI Product Manager:</strong> Oversees the development and lifecycle of AI-powered products.</li>
+<li><strong>AI Consultant:</strong> Provides expert advice to organizations on AI strategy and implementation.</li>
+<li><strong>AI Software Developer:</strong> Creates intelligent applications that integrate advanced algorithms and user-friendly design.</li>
+<li><strong>AI in Healthcare Specialist:</strong> Applies AI solutions specifically within the medical sector for diagnostics, personalized treatments, and service development.<sup>33</sup></li>
+<li><strong>Cybersecurity Analyst specializing in AI:</strong> Focuses on leveraging AI for enhanced security measures and threat detection.<sup>33</sup></li>
+</ul>
+<p>These diverse roles highlight that AI skills are highly transferable and applicable across a multitude of industries, ensuring that graduates are well-equipped to adapt to the evolving demands of the global job market.<sup>1</sup> The emphasis placed by universities on developing critical thinking, problem-solving, and data analysis skills further enhances the versatility and employability of AI graduates.</p><h3 id="final-thoughts"><strong>Final Thoughts</strong></h3>
+<p>The landscape of Artificial Intelligence education in the Philippines is rapidly evolving, reflecting a concerted effort by leading universities to meet the escalating global and local demand for AI professionals. Institutions like Mapúa University, the University of the Philippines Diliman, De La Salle University, Ateneo de Manila University, FEU Institute of Technology, and the University of Santo Tomas are at the forefront of this transformation, each contributing uniquely to the national AI ecosystem.</p><p>Mapúa University has pioneered a dedicated Bachelor of Science in AI Engineering, emphasizing a multidisciplinary approach and strong industry collaborations, including with global leaders like OpenAI. This forward-thinking strategy positions Mapúa as a key institution for developing specialized AI talent. UP Diliman, as the national flagship university, focuses on advanced AI studies through its Master of Engineering and Doctor of Philosophy programs, underpinned by extensive research laboratories and a commitment to shaping ethical AI development through its “Principles for Responsible Artificial Intelligence.” This highlights a deep academic and research commitment to advancing the fundamental knowledge and application of AI.</p><p>De La Salle University, through its campuses in Dasmariñas and Manila, integrates AI within its Computer Science programs, offering specializations or tracks that build AI expertise upon a strong foundational computing background. This approach aims to produce versatile graduates capable of applying AI in practical scenarios. Ateneo de Manila University emphasizes an interdisciplinary approach, integrating AI concepts primarily through its Data Science and Analytics minor/specialization and fostering extensive applied AI research across various domains, from sound and vision to social computing and extended reality. This focus prepares students to leverage AI for diverse applications and societal impact.</p><p>FEU Institute of Technology stands out for its industry-aligned BS in Computer Science with an AI specialization, focusing on equipping students with practical skills to deploy AI solutions that meet industry standards. Their commitment extends to applying AI for community development, demonstrating a balance between technical proficiency and social responsibility. Adamson University’s dual degree program with an international partner and its institution-wide faculty development in AI underscore a strategic investment in human capital, ensuring a continuously updated and relevant AI curriculum for its students. Finally, the University of Santo Tomas offers a comprehensive Bachelor of Artificial Intelligence, providing a broad and deep undergraduate foundation in AI, coupled with active interdisciplinary research that addresses ethical considerations and real-world problems.</p><p>Collectively, these institutions are not only producing a skilled AI workforce but are also contributing to the ethical and responsible integration of AI into Philippine society. While variations exist in program structure—from dedicated AI degrees to specializations within broader computer science curricula and integrated courses—a common thread is the recognition of AI’s transformative power and the imperative to educate professionals who can harness this power for national development. Prospective students are encouraged to carefully consider their academic goals, the specific AI topics they wish to pursue, and the unique strengths of each institution, while also directly verifying program details such as duration and specific course offerings. The future of AI in the Philippines is being shaped by these academic endeavors, promising a generation of innovators poised to drive technological advancement and societal progress.</p><h4 id="works-cited">Works cited</h4>
+<ol>
+<li>AI for Learning: Finding AI-Integrated Courses | Mapúa - Mapua University, accessed May 27, 2025, <a href="https://www.mapua.edu.ph/blog/ai-for-learning-be-future-ready-with-ai-embedded-courses">https://www.mapua.edu.ph/blog/ai-for-learning-be-future-ready-with-ai-embedded-courses</a></li>
+<li>Bachelor of Science in AI Engineering | Mapúa - Mapua University, accessed May 27, 2025, <a href="https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-artificial-intelligence-engineering">https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-artificial-intelligence-engineering</a></li>
+<li>University of the Philippines Principles for Responsible and Trustworthy Artificial Intelligence, accessed May 27, 2025, <a href="https://up.edu.ph/up-principles-for-responsible-artificial-intelligence/">https://up.edu.ph/up-principles-for-responsible-artificial-intelligence/</a></li>
+<li>Critical Thinking with an AI-Powered Curriculum | Mapúa - Mapua University, accessed May 27, 2025, <a href="https://www.mapua.edu.ph/blog/enhance-your-learning-experience-and-develop-critical-thinking-skills-with-the-help-of-an-ai-infused-curriculum">https://www.mapua.edu.ph/blog/enhance-your-learning-experience-and-develop-critical-thinking-skills-with-the-help-of-an-ai-infused-curriculum</a></li>
+<li>Fully Online Courses and Programs at Mapúa University, accessed May 27, 2025, <a href="https://www.mapua.edu.ph/pages/academics/fully-online-programs">https://www.mapua.edu.ph/pages/academics/fully-online-programs</a></li>
+<li>Online Undergraduate Courses and Programs at Mapúa University, accessed May 27, 2025, <a href="https://www.mapua.edu.ph/pages/academics/fully-online-programs/undergraduate">https://www.mapua.edu.ph/pages/academics/fully-online-programs/undergraduate</a></li>
+<li>Pursue Bachelor of Science in Electronics Engineering | Mapúa - Mapua University, accessed May 27, 2025, <a href="https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-electronics-engineering">https://www.mapua.edu.ph/pages/academics/undergraduate/intramuros-campus/school-of-electrical-electronics-and-computer-engineering/bachelor-of-science-in-electronics-engineering</a></li>
+<li>Pursue a Degree in Electrical Engineering Online | Mapúa - Mapua University, accessed May 27, 2025, <a href="https://www.mapua.edu.ph/pages/academics/fully-online-programs/undergraduate/programs/online-bachelor-of-science-in-electrical-engineering">https://www.mapua.edu.ph/pages/academics/fully-online-programs/undergraduate/programs/online-bachelor-of-science-in-electrical-engineering</a></li>
+<li>Master’s in Artificial Intelligence at University of the Philippines Diliman | Global Admissions, accessed May 27, 2025, <a href="https://www.globaladmissions.com/program/masters-artificial-intelligence/pMUNIQLV0">https://www.globaladmissions.com/program/masters-artificial-intelligence/pMUNIQLV0</a></li>
+<li>Artificial Intelligence – UPD College of Engineering, accessed May 27, 2025, <a href="https://coe.upd.edu.ph/masters-of-engineering-in-artificial-intelligence/">https://coe.upd.edu.ph/masters-of-engineering-in-artificial-intelligence/</a></li>
+<li>Doctor of Philosophy in Artificial Intelligence - Pages, accessed May 27, 2025, <a href="https://pages.upd.edu.ph/artificial-intelligence-program/doctor-philosophy-artificial-intelligence">https://pages.upd.edu.ph/artificial-intelligence-program/doctor-philosophy-artificial-intelligence</a></li>
+<li>PhD in Artificial Intelligence at University of the Philippines Diliman | Global Admissions, accessed May 27, 2025, <a href="https://www.globaladmissions.com/program/phd-artificial-intelligence-at-university-philippines-diliman/pPUNIMR50">https://www.globaladmissions.com/program/phd-artificial-intelligence-at-university-philippines-diliman/pPUNIMR50</a></li>
+<li>Undergraduate program - UP DCS, accessed May 27, 2025, <a href="https://dcs.upd.edu.ph/academics/undergraduate-program/">https://dcs.upd.edu.ph/academics/undergraduate-program/</a></li>
+<li>BSCS – Curriculum - University of the Philippines Tacloban College, accessed May 27, 2025, <a href="https://www.uptacloban.edu.ph/bscs-curriculum/">https://www.uptacloban.edu.ph/bscs-curriculum/</a></li>
+<li>CMSC 210 - Faculty of Information and Communication Studies, accessed May 27, 2025, <a href="https://fics.upou.edu.ph/diploma-in-computer-science/cmsc-210/">https://fics.upou.edu.ph/diploma-in-computer-science/cmsc-210/</a></li>
+<li>UPOU Releases Guidelines on AI Use for Teaching and Learning, accessed May 27, 2025, <a href="https://www.upou.edu.ph/news/upou-releases-guidelines-on-ai-use-for-teaching-and-learning/">https://www.upou.edu.ph/news/upou-releases-guidelines-on-ai-use-for-teaching-and-learning/</a></li>
+<li>UP Diliman Department of Computer Science - Wikipedia, accessed May 27, 2025, <a href="https://en.wikipedia.org/wiki/UP_Diliman_Department_of_Computer_Science">https://en.wikipedia.org/wiki/UP_Diliman_Department_of_Computer_Science</a></li>
+<li>Program in Management of Artificial Intelligence in the Enterprise | La Salle, accessed May 27, 2025, <a href="https://www.salleurl.edu/en/education/program-management-artificial-intelligence-enterprise">https://www.salleurl.edu/en/education/program-management-artificial-intelligence-enterprise</a></li>
+<li>Artificial Intelligence (M.S.) - La Salle University, accessed May 27, 2025, <a href="https://www.lasalle.edu/programs/artificial-intelligence-m-s/">https://www.lasalle.edu/programs/artificial-intelligence-m-s/</a></li>
+<li>La Salle University CIS, accessed May 27, 2025, <a href="https://apply.lasalle.edu/portal/gr_cis">https://apply.lasalle.edu/portal/gr_cis</a></li>
+<li>MSc Artificial Intelligence - Master’s degree • City St George’s, University of London, accessed May 27, 2025, <a href="https://www.citystgeorges.ac.uk/prospective-students/courses/postgraduate/artificial-intelligence">https://www.citystgeorges.ac.uk/prospective-students/courses/postgraduate/artificial-intelligence</a></li>
+<li>La Salle University expands Computer Science programs with new degrees in AI and cybersecurity, accessed May 27, 2025, <a href="https://www.lasalle.edu/news/la-salle-university-expands-computer-science-programs-with-new-degrees-in-ai-and-cybersecurity/">https://www.lasalle.edu/news/la-salle-university-expands-computer-science-programs-with-new-degrees-in-ai-and-cybersecurity/</a></li>
+<li>Bachelor of Science in Computer Science | Program Offerings …, accessed May 27, 2025, <a href="https://www.dlsud.edu.ph/programs/cics/bcs.htm">https://www.dlsud.edu.ph/programs/cics/bcs.htm</a></li>
+<li>Bachelor of Science in Computer Science Major in Software …, accessed May 27, 2025, <a href="https://www.dlsu.edu.ph/colleges/ccs/undergraduate-degree-programs/cs-st/">https://www.dlsu.edu.ph/colleges/ccs/undergraduate-degree-programs/cs-st/</a></li>
+<li>Bachelor of Science in Computer Science Major in Network and Information Security, accessed May 27, 2025, <a href="https://www.dlsu.edu.ph/colleges/ccs/undergraduate-degree-programs/cs-nis/">https://www.dlsu.edu.ph/colleges/ccs/undergraduate-degree-programs/cs-nis/</a></li>
+<li>BS Computer Science major in Computer Systems Engineering - De La Salle University, accessed May 27, 2025, <a href="https://www.dlsu.edu.ph/colleges/ccs/undergraduate-degree-programs/cs-cse/">https://www.dlsu.edu.ph/colleges/ccs/undergraduate-degree-programs/cs-cse/</a></li>
+<li>BS in Computer Science with Specialization in Software Technology | De La Salle University, accessed May 27, 2025, <a href="https://coursefinder.ph/courses/2889/bs-in-computer-science-with-specialization-in-software-technology/details">https://coursefinder.ph/courses/2889/bs-in-computer-science-with-specialization-in-software-technology/details</a></li>
+<li>De La Salle University: Computer Science courses offered - FindUniversity.ph, accessed May 27, 2025, <a href="https://www.finduniversity.ph/universities/de-la-salle-university-manila/courses/computer-science/">https://www.finduniversity.ph/universities/de-la-salle-university-manila/courses/computer-science/</a></li>
+<li>Undergraduate Minors | Academics | Information Systems and …, accessed May 27, 2025, <a href="https://www.ateneo.edu/sose/discs/academics/minors">https://www.ateneo.edu/sose/discs/academics/minors</a></li>
+<li>Academic Programs | ECCE - Ateneo de Manila University, accessed May 27, 2025, <a href="https://www.ateneo.edu/sose/ecce/academic-programs">https://www.ateneo.edu/sose/ecce/academic-programs</a></li>
+<li>Research | Information Systems and Computer Science | Ateneo de …, accessed May 27, 2025, <a href="https://www.ateneo.edu/sose/discs/research">https://www.ateneo.edu/sose/discs/research</a></li>
+<li>Faculty and Staff | Ateneo Laboratory for the Learning Sciences, accessed May 27, 2025, <a href="https://alls.ateneo.edu/staff-2">https://alls.ateneo.edu/staff-2</a></li>
+<li>Bachelor of Science in Computer Science - FEU Institute of …, accessed May 27, 2025, <a href="https://www.feutech.edu.ph/academics/bscs">https://www.feutech.edu.ph/academics/bscs</a></li>
+<li>Bachelor of Science in Computer Science with specialization in Artificial Intelligence - FEU Alabang, accessed May 27, 2025, <a href="https://feualabang.edu.ph/academics/bscsai">https://feualabang.edu.ph/academics/bscsai</a></li>
+<li>Bachelor of Science in Computer Science with Specialization in Data Science - FEU Tech, accessed May 27, 2025, <a href="https://www.feutech.edu.ph/academics/bscsds">https://www.feutech.edu.ph/academics/bscsds</a></li>
+<li>Far Eastern University Institute of Technology - Wikipedia, accessed May 27, 2025, <a href="https://en.wikipedia.org/wiki/Far_Eastern_University_Institute_of_Technology">https://en.wikipedia.org/wiki/Far_Eastern_University_Institute_of_Technology</a></li>
+<li>BS IT Curriculum 2022 2023 FEU Tech | PDF | Computer Programming - Scribd, accessed May 27, 2025, <a href="https://www.scribd.com/document/684155985/BS-IT-Curriculum-2022-2023-FEU-Tech">https://www.scribd.com/document/684155985/BS-IT-Curriculum-2022-2023-FEU-Tech</a></li>
+<li>AI in Action: Advancing Community Development Through Artificial Intelligence - FEU Diliman, accessed May 27, 2025, <a href="https://feudiliman.edu.ph/feudiliman/features/ai-in-action-advancing-community-development-through-artificial-intelligence">https://feudiliman.edu.ph/feudiliman/features/ai-in-action-advancing-community-development-through-artificial-intelligence</a></li>
+<li>What is Computer Science and Information Engineering? - Adamson University, accessed May 27, 2025, <a href="https://www.adamson.edu.ph/v1/?page=dual-degree-cs-ie-home">https://www.adamson.edu.ph/v1/?page=dual-degree-cs-ie-home</a></li>
+<li>Sub-Areas of Computer Science and Information Engineering - Adamson University, accessed May 27, 2025, <a href="https://www.adamson.edu.ph/v1/?page=dual-degree-cs-ie-subareas">https://www.adamson.edu.ph/v1/?page=dual-degree-cs-ie-subareas</a></li>
+<li>Curriculum Year 2022 - Adamson University, accessed May 27, 2025, <a href="https://www.adamson.edu.ph/v1/?page=curriculum&cid=+++++n&curryear=2022">https://www.adamson.edu.ph/v1/?page=curriculum&amp;cid=%20%20%20%20%20n&amp;curryear=2022</a></li>
+<li>bs computer science - Adamson University, accessed May 27, 2025, <a href="https://www.adamson.edu.ph/v1/?page=pos-course&amp;course=n">https://www.adamson.edu.ph/v1/?page=pos-course&amp;course=n</a></li>
+<li>Charting a Digital Future: CCIT becomes first PH University to complete IBPAP-Google AI Essentials program, accessed May 27, 2025, <a href="https://www.adamson.edu.ph/v1/?page=view-news&amp;newsid=3410">https://www.adamson.edu.ph/v1/?page=view-news&amp;newsid=3410</a></li>
+<li>بكالوريوس الذكاء الإصطناعي - جامعة العلوم والتكنولوجيا, accessed May 27, 2025, <a href="https://ust.edu/en/faculty-of-engineering-and-computing/bachelor-of-artificial-intelligence/">https://ust.edu/en/faculty-of-engineering-and-computing/bachelor-of-artificial-intelligence/</a></li>
+<li>Department of Computer Science - University of Santo Tomas, accessed May 27, 2025, <a href="https://www.ust.edu.ph/information-and-computing-sciences/department-of-computer-science/">https://www.ust.edu.ph/information-and-computing-sciences/department-of-computer-science/</a></li>
+<li>Bachelor of Science in Computer Science - University of Santo Tomas, accessed May 27, 2025, <a href="https://www.ust.edu.ph/academics/programs/bachelor-of-science-in-computer-science/">https://www.ust.edu.ph/academics/programs/bachelor-of-science-in-computer-science/</a></li>
+<li>UST Research Fortnight: Thomasians integrate AI, tech across disciplines | The Varsitarian, accessed May 27, 2025, <a href="https://varsitarian.net/sci-tech/20250227/ust-research-fortnight-thomasians-integrate-ai-tech-across-disciplines-posters">https://varsitarian.net/sci-tech/20250227/ust-research-fortnight-thomasians-integrate-ai-tech-across-disciplines-posters</a></li>
+<li>AI responsibility, ethics take center stage at 2025 UST Research Fortnight | The Varsitarian, accessed May 27, 2025, <a href="https://varsitarian.net/sci-tech/20250219/ai-responsibility-ethics-take-center-stage-at-2025-ust-research-fortnight">https://varsitarian.net/sci-tech/20250219/ai-responsibility-ethics-take-center-stage-at-2025-ust-research-fortnight</a></li>
+<li>UST Academic Partnerships, accessed May 27, 2025, <a href="https://www.ust.com/content/dam/ust/documents/UST-Academic-Partnership_Rebranded_2.pdf">https://www.ust.com/content/dam/ust/documents/UST-Academic-Partnership_Rebranded_2.pdf</a></li>
+<li>Graduate Degree Programs - UPD College of Engineering - UP Diliman, accessed May 27, 2025, <a href="https://coe.upd.edu.ph/academics-overview/graduate-degree-programs/">https://coe.upd.edu.ph/academics-overview/graduate-degree-programs/</a></li>
+<li>Curriculum Year 2023 - Adamson University, accessed May 27, 2025, <a href="https://www.adamson.edu.ph/v1/?page=curriculum&cid=++++76&curryear=2023">https://www.adamson.edu.ph/v1/?page=curriculum&amp;cid=%20%20%20%2076&amp;curryear=2023</a></li>
+<li>Bachelor of Science in Data Science | Mapúa - Mapua University, accessed May 27, 2025, <a href="https://www.mapua.edu.ph/pages/academics/undergraduate/makati-campus/school-of-information-technology/bachelor-of-science-in-data-science">https://www.mapua.edu.ph/pages/academics/undergraduate/makati-campus/school-of-information-technology/bachelor-of-science-in-data-science</a></li>
+</ol>
+
+            ]]>
+        </content>
+    </entry>
+</feed>
