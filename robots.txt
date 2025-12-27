@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://roger.rogverse.fyi/sitemap.xml
