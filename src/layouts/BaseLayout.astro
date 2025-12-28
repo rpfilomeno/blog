@@ -21,7 +21,6 @@ import '@fontsource-variable/jetbrains-mono'
 <html lang="en">
 	<head>
     <GoogleTagmanager id="G-VLXN0Y9Q0W" />
-		<Botpress />
 		<BaseHead
 			title={title || SITE_TITLE}
 			description={description || SITE_DESCRIPTION}
@@ -31,8 +30,10 @@ import '@fontsource-variable/jetbrains-mono'
 		class="text-foreground bg-background font-light dark:text-foreground-dark dark:bg-background-dark transition-colors"
 	>
 		<GoogleTagmanagerNoscript id="G-VLXN0Y9Q0W" domain="https://roger.rogverse.fyi" />
+
 		<Navbar title={SITE_TITLE} />
 		<slot />
-		<Footer />  
+		<Footer />
+		<Botpress />
 	</body>
 </html>
