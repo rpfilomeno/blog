@@ -24,6 +24,8 @@ import '@fontsource-variable/jetbrains-mono'
 			title={title || SITE_TITLE}
 			description={description || SITE_DESCRIPTION}
 		/>
+		<script src="https://cdn.botpress.cloud/webchat/v3.5/inject.js"></script>
+		<script src="https://files.bpcontent.cloud/2025/01/25/00/20250125005609-7G1UEWJF.js" defer></script>
 	</head>
 	<body
 		class="text-foreground bg-background font-light dark:text-foreground-dark dark:bg-background-dark transition-colors"
@@ -31,6 +33,6 @@ import '@fontsource-variable/jetbrains-mono'
 		<GoogleTagmanagerNoscript id="G-VLXN0Y9Q0W" domain="https://roger.rogverse.fyi" />
 		<Navbar title={SITE_TITLE} />
 		<slot />
-		<Footer />
+		<Footer />  
 	</body>
 </html>
