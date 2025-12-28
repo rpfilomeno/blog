@@ -3,7 +3,7 @@ import BaseHead from '../components/BaseHead.astro'
 import Navbar from '../components/Navbar.astro'
 import Footer from '../components/Footer.astro'
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
-import { GoogleTagmanager, GoogleTagmanagerNoscript, SiteVerification } from '@digi4care/astro-google-tagmanager';
+import { GoogleTagmanager, GoogleTagmanagerNoscript } from '@digi4care/astro-google-tagmanager';
 
 interface Props {
 	title?: string
@@ -28,6 +28,7 @@ import '@fontsource-variable/jetbrains-mono'
 	<body
 		class="text-foreground bg-background font-light dark:text-foreground-dark dark:bg-background-dark transition-colors"
 	>
+		<GoogleTagmanagerNoscript id="G-VLXN0Y9Q0W" domain="https://roger.rogverse.fyi" />
 		<Navbar title={SITE_TITLE} />
 		<slot />
 		<Footer />
