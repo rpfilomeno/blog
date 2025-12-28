@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar.astro'
 import Footer from '../components/Footer.astro'
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
 import { GoogleTagmanager, GoogleTagmanagerNoscript } from '@digi4care/astro-google-tagmanager';
+import Botpress from '../components/Botpress.astro';
 
 interface Props {
 	title?: string
@@ -20,12 +21,11 @@ import '@fontsource-variable/jetbrains-mono'
 <html lang="en">
 	<head>
     <GoogleTagmanager id="G-VLXN0Y9Q0W" />
+		<Botpress />
 		<BaseHead
 			title={title || SITE_TITLE}
 			description={description || SITE_DESCRIPTION}
 		/>
-		<script src="https://cdn.botpress.cloud/webchat/v3.5/inject.js"></script>
-		<script src="https://files.bpcontent.cloud/2025/01/25/00/20250125005609-7G1UEWJF.js" defer></script>
 	</head>
 	<body
 		class="text-foreground bg-background font-light dark:text-foreground-dark dark:bg-background-dark transition-colors"
