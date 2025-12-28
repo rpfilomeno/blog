@@ -3,9 +3,7 @@
 
 export const SITE_TITLE = 'A.I. Sloth Slayer'
 export const SITE_DESCRIPTION =
-	'Deep dives into the latest trends in Automation, AI and Machine Learning.
-
-'
+	'Deep dives into the latest trends in Automation, AI and Machine Learning.'
 
 // If you deploy to a subdirectory, set the `WEBSITE_BASE` here.
 // e.g. '/blog' if you are deploying to example.com/blog
