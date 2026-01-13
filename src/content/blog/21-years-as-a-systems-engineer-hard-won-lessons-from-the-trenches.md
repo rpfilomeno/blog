@@ -6,7 +6,7 @@ pubDate: 'Dec 3 2025'
 coverImageCredit: Roger Filomeno
 cover: 'https://cdn.rogverse.fyi/thorium_twT8fcFJ29.png'
 ---
-After spending over two decades building and maintaining large-scale systems, I've accumulated a treasure trove of lessons—often learned the hard way. These aren't abstract principles from textbooks; they're battle-tested insights from countless outages, design reviews, and production incidents. Here's what I wish I'd known on day one.
+After spending over two decades building and maintaining large-scale systems, I've learned some hard lessons. These aren't abstract principles; they're insights from countless outages, design reviews, and production incidents. Here's what I wish I'd known on day one.
 
 ## Engineering Best Practices
 
