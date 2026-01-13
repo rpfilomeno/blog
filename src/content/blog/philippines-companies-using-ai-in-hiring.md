@@ -1,42 +1,40 @@
 ---
 title: 'Philippines Companies Using AI in Hiring'
 description: |
-  The landscape of human resources in the Philippines is undergoing a profound transformation, with Artificial Intelligence (AI) rapidly becoming an indispensable tool in the recruitment process.
+  Philippine companies are adopting AI recruitment tools to address high turnover and administrative burdens, though this raises concerns about algorithmic bias.
 pubDate: 'Jun 11 2025'
 coverImageCredit: Roger Filomeno
 cover: 'https://cdn.rogverse.fyi/thorium_fqncrnzhK7.png'
 ---
-The landscape of human resources in the Philippines is undergoing a profound transformation, with Artificial Intelligence (AI) rapidly becoming an indispensable tool in the recruitment process. From bustling Metro Manila to regional business hubs, companies are embracing AI to streamline operations, enhance efficiency, and make more data-driven hiring decisions.   
+Companies in the Philippines are adopting Artificial Intelligence (AI) to address high employee turnover (15.9% in 2023) and the significant time HR professionals spend on administrative tasks. AI offers potential improvements of up to 20% in recruitment efficiency and a 50% reduction in time-to-hire.
 
-This shift is driven by a strategic imperative: addressing high employee turnover rates (15.9% in 2023) and the significant time HR professionals spend on repetitive tasks (around 50% of their time). AI offers a compelling solution, promising up to a 20% improvement in recruitment efficiency and a reduction in time-to-hire by as much as 50%.   
+## AI in the Hiring Funnel
 
-## How AI is Reshaping the Hiring Funnel
-AI's influence is now deeply embedded across various stages of the hiring process:
+AI is being deployed across the recruitment process:
+-   **Sourcing**: Platforms like Qureos automate job postings to multiple boards.
+-   **Screening**: Tools like Impress.ai, Kalibrr, and Manatal use AI resume scanners to rank applicants against hiring criteria.
+-   **Assessments**: HireVue analyzes video responses for soft skills, while chatbots (Olivia, Gemini) and platforms like GoodTime automate interview scheduling.
+-   **Matching**: Algorithms in software like Sprout Info and Payruler identify candidates with high success probability.
 
-- Automated Sourcing and Job Postings: AI-powered platforms like Qureos enable "One-click job postings to 100+ job boards," significantly broadening the reach for open roles and accelerating the initial outreach phase.   
-- Enhanced Screening and Shortlisting: AI tools, often integrated as resume scanners within Applicant Tracking Systems (ATS), are standard practice. Platforms such as Qureos, Impress.ai, and Kalibrr leverage AI to evaluate applicants based on job relevance and hiring criteria, drastically speeding up the initial review process. Manatal is also noted for its capabilities in resume screening and candidate matching.   
-- AI-Powered Assessments and Interview Scheduling: Beyond initial screening, AI is used for video assessments to evaluate cultural fit and soft skills, with tools like HireVue analyzing video responses. Chatbots, including Olivia and Gemini, play a crucial role in candidate engagement and automating interview scheduling. GoodTime is another platform specifically designed for automated scheduling.   
-- Candidate Matching and Engagement: AI-driven matching algorithms, like those used by Kalibrr, aim to reduce time-to-hire by identifying candidates most likely to succeed. Talent intelligence software, such as Sprout Info and Payruler, provide deeper insights into candidate pools and workforce dynamics.   
+## Companies Adopting AI
 
-## Philippine Companies Widely Using AI in Hiring
-While many AI recruitment platforms are widely adopted, here's a summary of Philippine companies, or those with substantial operations in the Philippines, identified as utilizing AI in their hiring processes:
+A summary of companies in the Philippines utilizing AI in hiring:
 
 ![List of PH Companies](https://cdn.rogverse.fyi/ai-hiring-companies.png)
 
+## The Risk of Algorithmic Bias
 
-  
-## The Average Candidate
-How about AI algorithms potentially favoring "average" responses and thus overlooking exceptional talent is incredibly pertinent? It touches upon one of the most critical challenges in AI-driven recruitment: algorithmic bias.
+A critical challenge is the potential for AI to favor "average" candidates and overlook exceptional talent.
 
-AI systems are trained on vast datasets of historical hiring data. If this data reflects past biases—whether conscious or unconscious—the AI can learn and perpetuate these biases. For instance, reports in the Philippines have indicated algorithmic systems unfairly screening out candidates based on Filipino surnames or scoring women's CVs lower due to underrepresentation in training datasets.   
+AI systems trained on historical data can perpetuate past biases. In the Philippines, this could mean screening out candidates based on surnames or gender if those groups were historically underrepresented.
 
-When an AI is designed to identify candidates who "fit" a predefined profile based on past successful hires, it inherently leans towards what is "average" or "typical" within that historical context. This can indeed lead to a scenario where:
+Furthermore, algorithms designed to match a "predefined fit" inherently select for conformity.
+-   **Overlooking Innovation**: Candidates with non-traditional backgrounds or unique skills may be filtered out.
+-   **Homogeneity**: Selecting for the "statistical average" creates a workforce lacking diverse perspectives.
 
-- Unconventional Brilliance is Overlooked: Candidates with non-traditional backgrounds, unique skill combinations, or innovative approaches that don't perfectly align with historical patterns might be filtered out. Their "exceptional" qualities might not be recognized by an algorithm looking for conformity to a learned norm.
-- Diversity Suffers: If the training data lacks diversity, the AI may inadvertently discriminate against certain demographics, limiting access to a broader talent pool that could include top performers from underrepresented groups.   
-- Innovation Stifled: True innovation often comes from challenging the status quo. If AI consistently selects for "average" or "safe" profiles, it could inadvertently create a workforce that lacks the diverse perspectives and disruptive thinking necessary for groundbreaking advancements.
+Experts advocate for AI as a support tool, not a decision-maker. Human recruiters remain essential for assessing potential and nuance that algorithms miss.
 
-Many HR professionals and experts in the Philippines advocate for AI to serve primarily as a support tool rather than the ultimate decision-maker. The consensus emphasizes that while embracing technology is crucial, it should not come at the cost of losing the invaluable human touch in HR processes. Human recruiters can bring context, nuance, and the ability to assess potential in ways algorithms currently cannot. They can identify those "diamond in the rough" candidates who might not fit the statistical average but possess extraordinary capabilities.   
+***
 
-If you enjoyed this short write-up I recommend ["Is AI bias hurting Filipino job seekers?" by Patrick Rowell Quintos](https://www.peoplemattersglobal.com/article/talent-acquisition/is-ai-bias-hurting-filipino-job-seekers-45273), his article prompted me to create my own take on the subject.
+*Inspired by ["Is AI bias hurting Filipino job seekers?" by Patrick Rowell Quintos](https://www.peoplemattersglobal.com/article/talent-acquisition/is-ai-bias-hurting-filipino-job-seekers-45273).*
 
