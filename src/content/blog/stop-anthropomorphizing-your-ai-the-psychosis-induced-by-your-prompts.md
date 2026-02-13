@@ -3,7 +3,7 @@ cover: 'https://cdn.rogverse.fyi/insane-ai.png'
 coverImageCredit: 'Roger Filomeno'
 description: 'Stop saying please...'
 pubDate: 'Feb 13 2026'
-title: 'Stop Anthropomorphizing Your AI The Psychosis Induced by Your Prompts'
+title: 'Stop Anthropomorphizing Your AI: The Psychosis Induced by Your Prompts'
 ---
 Millions of people treat AI chatbots as if they have stable personalities, consistent beliefs, and emotional understanding. They ask ChatGPT to be a friendly therapist or talk to Claude as a wise mentor. While this feels like harmless roleplay, anthropomorphizing these systems destabilizes their output and can lead to psychological friction.
 
