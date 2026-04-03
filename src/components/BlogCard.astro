@@ -7,42 +7,25 @@ import { Image } from 'astro:assets'
 const { post } = Astro.props
 
 const blogImages = import.meta.glob<{ default: ImageMetadata }>(
-	'/src/assets/blogimages/**/*.{jpeg,jpg,png,gif}'
+	'/src/assets/blogimages/**/*.{jpeg,jpg,png,gif}',
+	{ eager: true }
 )
 
-const coverImagePath = `/src/assets/blogimages/${post.slug}/cover.jpg`
-const conventionalCover = blogImages[coverImagePath]
-
-const explicitCover = post.data.cover
+const coverImagePath = `/src/assets/blogimages/${post.slug}/cover.jpg`.toLowerCase()
+const actualKey = Object.keys(blogImages).find(key => key.toLowerCase() === coverImagePath)
 ---
 
 <a
-	href={`${SITE_BASE}/${post.slug}.html`}
+	href={`${SITE_BASE}/blog/${post.slug}/`}
 	class="flex flex-col gap-4 pb-8 h-full group transition-colors"
 >
 	{
-		explicitCover ? (
-			typeof explicitCover === 'string' ? (
-				<img
-					src={explicitCover}
-					alt={post.data.title}
-					class="object-cover rounded-xl aspect-video w-full"
-				/>
-			) : (
-				<Image
-					src={explicitCover}
-					alt={post.data.title}
-					class="object-cover rounded-xl aspect-video"
-				/>
-			)
-		) : (
-			conventionalCover && (
-				<Image
-					src={conventionalCover()}
-					alt={post.data.title}
-					class="object-cover rounded-xl aspect-video"
-				/>
-			)
+		actualKey && blogImages[actualKey] && (
+			<Image
+				src={blogImages[actualKey].default}
+				alt={post.data.title}
+				class="object-cover rounded-xl aspect-video"
+			/>
 		)
 	}
 	<h4

@@ -8,6 +8,7 @@ import rehypeFigureTitle from 'rehype-figure-title'
 import { rehypeAccessibleEmojis } from 'rehype-accessible-emojis'
 import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
 import { remarkModifiedTime } from './src/plugins/remark-modified-time.mjs'
+import downloadCovers from './src/plugins/download-covers.mjs'
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,6 +18,7 @@ export default defineConfig({
 		format: 'file',
 	},
 	integrations: [
+		downloadCovers(),
 		mdx(),
 		sitemap(),
 		icon(),

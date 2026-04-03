@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content'
+
+const blogImages = import.meta.glob<{ default: ImageMetadata }>(
+	'/src/assets/blogimages/**/*.{jpeg,jpg,png,gif}',
+	{ eager: true }
+)
+
+const posts = await getCollection('blog')
+---
+<h1>Keys: </h1>
+{Object.keys(blogImages).map(k => <div>{k}</div>)}
+
+<h1>Slugs: </h1>
+{posts.map(p => <div>{p.slug}</div>)}

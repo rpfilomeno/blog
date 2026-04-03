@@ -35,7 +35,6 @@ const blogImages = import.meta.glob<{ default: ImageMetadata }>(
 )
 
 const coverImagePath = `/src/assets/blogimages/${slug}/cover.jpg`
-const explicitCover = cover
 
 const lastModified = dayjs(remarkPluginFrontmatter.lastModified)
 	.utc()
@@ -92,42 +91,19 @@ const lastModified = dayjs(remarkPluginFrontmatter.lastModified)
 						</div>
 
 						{
-							explicitCover ? (
+							blogImages[coverImagePath] && (
 								<>
-									{typeof explicitCover === 'string' ? (
-										<img
-											src={explicitCover}
-											alt={title}
-											class="rounded-lg w-full"
-										/>
-									) : (
-										<Image
-											src={explicitCover}
-											alt={title}
-											class="rounded-lg"
-										/>
-									)}
+									<Image
+										src={typeof blogImages[coverImagePath] === 'function' ? blogImages[coverImagePath]() : blogImages[coverImagePath]}
+										alt={title}
+										class="rounded-lg"
+									/>
 									{coverImageCredit && (
 										<p class="mt-2 mb-8 opacity-80 italic text-sm">
 											Image Credit: {coverImageCredit}
 										</p>
 									)}
 								</>
-							) : (
-								blogImages[coverImagePath] && (
-									<>
-										<Image
-											src={blogImages[coverImagePath]()}
-											alt={title}
-											class="rounded-lg"
-										/>
-										{coverImageCredit && (
-											<p class="mt-2 mb-8 opacity-80 italic text-sm">
-												Image Credit: {coverImageCredit}
-											</p>
-										)}
-									</>
-								)
 							)
 						}
 					</div>
