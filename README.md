@@ -1,54 +1,44 @@
-# Saral Theme
+# A.I. Sloth Slayer
 
+Deep dives into the latest trends in Automation, AI and Machine Learning.
+
+[![Website](https://img.shields.io/badge/Website-roger.rogverse.fyi-blue?style=flat&logo=google-chrome)](https://roger.rogverse.fyi)
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
-[![Lint, Format, and Type Check](https://github.com/yashjawale/saral-theme-astro/actions/workflows/lint.yml/badge.svg)](https://github.com/yashjawale/saral-theme-astro/actions/workflows/lint.yml)
-[![Deploy to GitHub Pages](https://github.com/yashjawale/saral-theme-astro/actions/workflows/deploy.yml/badge.svg)](https://github.com/yashjawale/saral-theme-astro/actions/workflows/deploy.yml)
 
-A simple & minimal theme for personal blog sites, crafted for Astro framework.
+Welcome to the source code of the [A.I. Sloth Slayer](https://roger.rogverse.fyi) blog! Here, we explore the cutting-edge tech that helps automate the mundane and push the boundaries of productivity.
 
-View demo at [https://yashjawale.github.io/saral-theme-astro/](https://yashjawale.github.io/saral-theme-astro/)
+## Links 🔗
 
-View in Astro themes at [https://astro.build/themes/details/saral/](https://astro.build/themes/details/saral/)
+- **Website / Blog**: [https://roger.rogverse.fyi](https://roger.rogverse.fyi)
+- **YouTube**: [@AISlothSlayer](https://www.youtube.com/@AISlothSlayer)
+- **GitHub**: [rpfilomeno](https://github.com/rpfilomeno)
+- **LinkedIn**: [rpfilomeno](https://www.linkedin.com/in/rpfilomeno/)
+- **X / Twitter**: [@godie](https://twitter.com/godie)
 
-> Like what you see? Consider starring the repository 🌟
+## Development 💻
 
-![Theme Screenshot](./screenshot.jpg)
+This project is built using the [Astro](https://astro.build) framework, styled with Tailwind CSS, and uses Markdown/MDX for content generation. 
 
-Derived from [yashjawale.github.io](https://yashjawale.github.io)
+### Getting Started
 
-## Features
+1. Clone this repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-- Image optimization on build
-- Accessible emojis
-- Automatic reading time display for posts
-- Automatic last update status for posts
-- Dark mode support
-- RSS feed
-- Includes GitHub workflows for linting & formatting
+### Adding a Blog Post
 
-## Getting started
+1. Navigate to the `src/content/blog` directory.
+2. Create a new markdown file (the filename determines the URL slug) or use `template.md`.
+3. Write your post content using standard Markdown syntax.
+4. Add a cover image for your post in `src/assets/blogimages/<YOUR_SLUG>/cover.jpg` with recommended dimensions of `853x480px`.
+5. Preview locally with `npm run dev` and push your changes to publish.
 
-- Clone this repository
-- Install dependencies with `npm i`
-- Start dev server with `npm run dev`
-- Remove `<meta name="robots" content="noindex" />` tag from `src/components/BaseHead.astro` file
-- Remove `.github/workflows/deploy.yml` if not deploying to [GitHub Pages](https://docs.github.com/en/pages)
-- Update `base` value in `src/consts.ts` file - if your site is not in a subdirectory, make it empty string
-- Update favicons & opengraph images ([realfavicongenerator.net](https://realfavicongenerator.net/) is a nice site to get the favicons cropped)
-- Update page content & images
-- Publish your site 🚀
+## Acknowledgements
 
-## Adding a blog post
-
-- Add `your-blog-post.md` file under `src/content/blog` (filename denotes the URL slug)
-- Write content in file using Markdown syntax
-- Add cover image at `src/assets/blogimages/<YOUR_SLUG>/cover.jpg` - Recommended dimensions: `853x480px`
-- For adding images to content, use the folowing syntax for caption support `![Alt text](../../assets/blogimages/<YOUR_SLUG>/imagename.ext)`
-- Create a PR & merge after passing workflow checks
-
-> [!TIP]
-> Facing any issues or want a feature? Feel free to create a new [issue](https://github.com/yashjawale/saral-theme-astro/issues)
-
----
-
-<a href="https://yashjawale.github.io/" target="_blank"><img style="height: 22px;" src="https://raw.githubusercontent.com/yashjawale/.github/main/docs/logo.svg" alt="Yash Jawale"/></a>
+This blog is derived from the [Saral Theme](https://github.com/yashjawale/saral-theme-astro) crafted by Yash Jawale.

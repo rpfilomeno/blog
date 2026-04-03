@@ -1,16 +1,16 @@
-# Contributing to Saral Theme
+# Contributing to A.I. Sloth Slayer
 
-Thank you for your interest in contributing to Saral Theme! We welcome contributions from the community.
+Thank you for your interest in contributing to the A.I. Sloth Slayer blog! 
 
-All kinds of contributions are welcome no matter the size.
+All kinds of contributions are welcome no matter the size, whether it's fixing typos, proposing new articles, or improving the site's Astro setup.
 
 ## Getting Started
 
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/your-username/saral-theme-astro.git
-   cd saral-theme-astro
+   git clone https://github.com/your-username/blog.git
+   cd blog
    ```
 3. **Install dependencies**:
    ```bash
@@ -86,8 +86,8 @@ Please be respectful and constructive in all interactions. We want to maintain a
 
 ## Questions?
 
-Feel free to open an issue for any questions about contributing or reach out to the maintainers.
+Feel free to open an issue for any questions about contributing or reach out on social media.
 
 ---
 
-Thank you for contributing to Saral Theme! 🎉
+Thank you for contributing to A.I. Sloth Slayer! 🎉
