@@ -1,242 +1,389 @@
 ---
 ---
 
-<div id="sloth-container" class="retro-sloth-container relative w-full aspect-square max-w-lg mx-auto overflow-visible">
-  <svg
-    viewBox="0 0 400 400"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    class="sloth-svg w-full h-full"
-    preserveAspectRatio="xMidYMid meet"
-  >
-    <defs>
-      <linearGradient id="bodyGradient" x1="100" y1="0" x2="300" y2="400" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stop-color="#C19A6B" /> <!-- Earthy brown -->
-        <stop offset="100%" stop-color="#8B5A2B" /> <!-- Darker brown -->
-      </linearGradient>
-      <linearGradient id="faceGradient" x1="150" y1="100" x2="250" y2="200" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stop-color="#F5DEB3" /> <!-- Wheat -->
-        <stop offset="100%" stop-color="#E0C090" />
-      </linearGradient>
-       <filter id="retro-glow" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur stdDeviation="2" result="blur" />
-        <feComposite in="SourceGraphic" in2="blur" operator="over" />
-      </filter>
-    </defs>
+<div
+	id="sloth-container"
+	class="retro-sloth-container relative w-full aspect-square max-w-lg mx-auto overflow-visible"
+>
+	<svg
+		viewBox="0 0 400 400"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+		class="sloth-svg w-full h-full"
+		preserveAspectRatio="xMidYMid meet"
+	>
+		<defs>
+			<linearGradient id="bodyGradient" x1="100" y1="0" x2="300" y2="400" gradientUnits="userSpaceOnUse">
+				<stop offset="0%" stop-color="#C19A6B" />
+				<stop offset="100%" stop-color="#8B5A2B" />
+			</linearGradient>
+			<linearGradient id="faceGradient" x1="150" y1="100" x2="250" y2="200" gradientUnits="userSpaceOnUse">
+				<stop offset="0%" stop-color="#F5DEB3" />
+				<stop offset="100%" stop-color="#E0C090" />
+			</linearGradient>
+			<linearGradient id="branchGradient" x1="-50" y1="60" x2="450" y2="100" gradientUnits="userSpaceOnUse">
+				<stop offset="0%" stop-color="#5C4033" />
+				<stop offset="50%" stop-color="#4A3728" />
+				<stop offset="100%" stop-color="#3E2B1F" />
+			</linearGradient>
+			<filter id="sloth-shadow" x="-10%" y="-10%" width="130%" height="140%">
+				<feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.15" />
+			</filter>
+			<filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
+				<feGaussianBlur stdDeviation="3" result="blur" />
+				<feComposite in="SourceGraphic" in2="blur" operator="over" />
+			</filter>
+		</defs>
 
-    <!-- Background Elements (Abstract Retro Shapes) -->
-    <g class="parallax-layer" data-depth="0.05">
-        <circle cx="350" cy="50" r="30" fill="#FF6B6B" opacity="0.6" class="retro-shape float-anim-1" />
-        <rect x="20" y="300" width="40" height="40" fill="#4ECDC4" opacity="0.6" transform="rotate(45 40 320)" class="retro-shape float-anim-2" />
-        <circle cx="50" cy="100" r="15" fill="#FFE66D" opacity="0.6" class="retro-shape float-anim-3" />
-    </g>
+		<!-- Background Retro Shapes -->
+		<g class="parallax-layer bg-shapes" data-depth="0.05">
+			<circle cx="340" cy="55" r="28" fill="#FF6B6B" opacity="0.5" class="float-anim-1 shape-fade" />
+			<rect x="25" y="310" width="35" height="35" fill="#4ECDC4" opacity="0.5" transform="rotate(45 42.5 327.5)" class="float-anim-2 shape-fade" />
+			<circle cx="55" cy="95" r="14" fill="#FFE66D" opacity="0.5" class="float-anim-3 shape-fade" />
+			<polygon points="360,280 375,310 345,310" fill="#FF6B6B" opacity="0.3" class="float-anim-2 shape-fade" />
+			<circle cx="320" cy="350" r="10" fill="#4ECDC4" opacity="0.3" class="float-anim-1 shape-fade" />
+		</g>
 
-    <!-- Branch -->
-    <g class="parallax-layer" data-depth="0.1">
-      <path
-        d="M -50 80 Q 200 120 450 60"
-        stroke="#4A3728"
-        stroke-width="24"
-        stroke-linecap="round"
-        class="branch"
-      />
-      <!-- Leaves -->
-      <g class="leaves">
-          <path d="M 50 80 Q 30 50 60 40 Q 90 50 70 80 Z" fill="#6B8C42" class="leaf leaf-1"/>
-          <path d="M 350 70 Q 380 40 400 60 Q 380 90 350 70 Z" fill="#6B8C42" class="leaf leaf-2"/>
-      </g>
-    </g>
+		<!-- Branch -->
+		<g class="parallax-layer branch-group" data-depth="0.1">
+			<path
+				d="M -60 82 Q 200 125 460 58"
+				stroke="url(#branchGradient)"
+				stroke-width="26"
+				stroke-linecap="round"
+				class="branch"
+			/>
+			<path
+				d="M -60 82 Q 200 125 460 58"
+				stroke="#6B4F3A"
+				stroke-width="22"
+				stroke-linecap="round"
+				opacity="0.3"
+			/>
+			<!-- Leaves -->
+			<g class="leaves">
+				<path d="M 48 78 Q 25 45 55 35 Q 85 45 65 78 Z" fill="#6B8C42" class="leaf leaf-1" />
+				<path d="M 352 68 Q 382 35 405 55 Q 385 85 352 68 Z" fill="#7A9C52" class="leaf leaf-2" />
+				<path d="M 160 100 Q 145 75 170 70 Q 190 80 175 100 Z" fill="#5E7E3A" class="leaf leaf-3" />
+				<path d="M 260 90 Q 240 65 265 58 Q 288 68 272 92 Z" fill="#6B8C42" class="leaf leaf-4" />
+			</g>
+		</g>
 
-    <!-- Sloth Group -->
-    <g class="sloth-group" transform="translate(200, 200)"> 
-        
-        <!-- Back Arm (Left) -->
-        <g class="limb arm-left parallax-layer" data-depth="0.2">
-             <path d="M -60 -80 Q -90 0 -50 40" stroke="url(#bodyGradient)" stroke-width="28" stroke-linecap="round" fill="none" />
-             <path d="M -60 -80 L -60 -90" stroke="#333" stroke-width="6" stroke-linecap="round" /> <!-- Claw -->
-        </g>
+		<!-- Sloth Group -->
+		<g class="sloth-group" filter="url(#sloth-shadow)" transform="translate(200, 200)">
+			<!-- Back Arm (Left) -->
+			<g class="limb arm-left parallax-layer" data-depth="0.2">
+				<path d="M -62 -78 Q -95 -5 -55 42" stroke="url(#bodyGradient)" stroke-width="28" stroke-linecap="round" fill="none" />
+				<!-- 3 Claws -->
+				<path d="M -58 -82 Q -65 -95 -58 -100" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+				<path d="M -63 -78 Q -75 -92 -70 -98" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+				<path d="M -52 -80 Q -48 -95 -42 -98" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+			</g>
 
-        <!-- Back Leg (Left) -->
-        <g class="limb leg-left parallax-layer" data-depth="0.2">
-             <path d="M -40 80 Q -80 120 -50 0" stroke="url(#bodyGradient)" stroke-width="28" stroke-linecap="round" fill="none" transform="rotate(10)"/>
-        </g>
+			<!-- Back Leg (Left) -->
+			<g class="limb leg-left parallax-layer" data-depth="0.2">
+				<path d="M -42 78 Q -82 118 -52 2" stroke="url(#bodyGradient)" stroke-width="28" stroke-linecap="round" fill="none" transform="rotate(10)" />
+				<path d="M -38 80 Q -45 95 -38 100" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+				<path d="M -44 82 Q -52 98 -48 102" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+				<path d="M -32 82 Q -30 98 -25 100" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+			</g>
 
-      <!-- Body -->
-      <g class="body parallax-layer" data-depth="0.3">
-         <ellipse cx="0" cy="50" rx="70" ry="90" fill="url(#bodyGradient)" />
-         <!-- Belly Patch -->
-         <ellipse cx="0" cy="50" rx="45" ry="60" fill="#D2B48C" opacity="0.8" />
-      </g>
+			<!-- Body -->
+			<g class="body parallax-layer" data-depth="0.3">
+				<ellipse cx="0" cy="50" rx="72" ry="92" fill="url(#bodyGradient)" />
+				<ellipse cx="0" cy="50" rx="48" ry="62" fill="#D2B48C" opacity="0.7" />
+				<!-- Belly texture lines -->
+				<path d="M -20 35 Q 0 32 20 35" stroke="#C4A882" stroke-width="1" fill="none" opacity="0.5" />
+				<path d="M -25 50 Q 0 47 25 50" stroke="#C4A882" stroke-width="1" fill="none" opacity="0.5" />
+				<path d="M -20 65 Q 0 62 20 65" stroke="#C4A882" stroke-width="1" fill="none" opacity="0.5" />
+			</g>
 
-      <!-- Head Group -->
-      <g class="head-group parallax-layer" data-depth="0.5">
-          <!-- Neck connection hint -->
-         <path d="M -20 -30 Q 0 -20 20 -30 L 20 10 L -20 10 Z" fill="url(#bodyGradient)" />
+			<!-- Head Group -->
+			<g class="head-group parallax-layer" data-depth="0.5">
+				<!-- Neck -->
+				<path d="M -22 -30 Q 0 -20 22 -30 L 22 10 L -22 10 Z" fill="url(#bodyGradient)" />
 
-        <g class="head">
-            <!-- Main Head Shape -->
-          <ellipse cx="0" cy="0" rx="55" ry="45" fill="url(#bodyGradient)" />
-          
-          <!-- Face Plate -->
-          <path d="M -35 -10 Q 0 -5 35 -10 Q 40 20 0 35 Q -40 20 -35 -10 Z" fill="url(#faceGradient)" />
+				<g class="head">
+					<!-- Main Head Shape -->
+					<ellipse cx="0" cy="0" rx="56" ry="46" fill="url(#bodyGradient)" />
 
-          <!-- Eyes Container -->
-          <g class="eyes">
-            <!-- Left Eye -->
-            <g class="eye left-eye" transform="translate(-20, 5)">
-                 <!-- Dark patch -->
-                <ellipse cx="0" cy="0" rx="14" ry="12" fill="#5D4037" transform="rotate(-15)"/>
-                <!-- Eyeball -->
-                <circle cx="0" cy="0" r="5" fill="#FFF" class="eyeball" />
-                <circle cx="0" cy="0" r="2" fill="#000" class="pupil" />
-                <!-- Eyelid decoration -->
-                <path d="M -14 -6 Q 0 6 14 -6 Z" fill="#5D4037" class="eyelid" />
-            </g>
+					<!-- Ear Tufts -->
+					<path d="M -50 -25 Q -65 -45 -48 -40 Q -55 -30 -50 -25 Z" fill="#8B5A2B" />
+					<path d="M -52 -28 Q -68 -50 -50 -44 Q -56 -34 -52 -28 Z" fill="#A0704A" />
+					<path d="M 50 -25 Q 65 -45 48 -40 Q 55 -30 50 -25 Z" fill="#8B5A2B" />
+					<path d="M 52 -28 Q 68 -50 50 -44 Q 56 -34 52 -28 Z" fill="#A0704A" />
 
-            <!-- Right Eye -->
-            <g class="eye right-eye" transform="translate(20, 5)">
-                 <!-- Dark patch -->
-                <ellipse cx="0" cy="0" rx="14" ry="12" fill="#5D4037" transform="rotate(15)"/>
-                 <!-- Eyeball -->
-                <circle cx="0" cy="0" r="5" fill="#FFF" class="eyeball" />
-                <circle cx="0" cy="0" r="2" fill="#000" class="pupil" />
-                 <!-- Eyelid decoration -->
-                <path d="M -14 -6 Q 0 6 14 -6 Z" fill="#5D4037" class="eyelid" />
-            </g>
-          </g>
+					<!-- Face Plate -->
+					<path d="M -36 -12 Q 0 -6 36 -12 Q 42 22 0 38 Q -42 22 -36 -12 Z" fill="url(#faceGradient)" />
 
-          <!-- Nose -->
-          <ellipse cx="0" cy="18" rx="8" ry="6" fill="#3E2723" class="nose" />
-          
-          <!-- Mouth -->
-          <path d="M -10 28 Q 0 32 10 28" stroke="#3E2723" stroke-width="2" stroke-linecap="round" fill="none" class="mouth" />
-        </g>
-      </g>
+					<!-- Cheek Blush -->
+					<ellipse cx="-28" cy="18" rx="10" ry="6" fill="#E8A0A0" opacity="0.45" class="cheek-left" />
+					<ellipse cx="28" cy="18" rx="10" ry="6" fill="#E8A0A0" opacity="0.45" class="cheek-right" />
 
-       <!-- Front Arm (Right) -->
-       <g class="limb arm-right parallax-layer" data-depth="0.6">
-            <path d="M 50 -80 Q 90 0 50 40" stroke="url(#bodyGradient)" stroke-width="28" stroke-linecap="round" fill="none" />
-             <path d="M 50 -80 L 50 -90" stroke="#333" stroke-width="6" stroke-linecap="round" /> <!-- Claw -->
-       </g>
-       
-       <!-- Front Leg (Right) -->
-       <g class="limb leg-right parallax-layer" data-depth="0.6">
-            <path d="M 40 80 Q 80 120 50 0" stroke="url(#bodyGradient)" stroke-width="28" stroke-linecap="round" fill="none" transform="rotate(-10)" />
-       </g>
+					<!-- Eyes Container -->
+					<g class="eyes">
+						<!-- Left Eye -->
+						<g class="eye left-eye" transform="translate(-20, 5)">
+							<ellipse cx="0" cy="0" rx="14" ry="12" fill="#5D4037" transform="rotate(-12)" />
+							<ellipse cx="0" cy="0" rx="5.5" ry="5.5" fill="#FFF" class="eyeball" />
+							<circle cx="0" cy="0" r="2.5" fill="#1A1A1A" class="pupil" />
+							<circle cx="-1" cy="-1" r="1" fill="#FFF" opacity="0.8" />
+							<!-- Eyelid -->
+							<ellipse cx="0" cy="-2" rx="14" ry="13" fill="#5D4037" class="eyelid eyelid-left" opacity="0" transform="rotate(-12)" />
+						</g>
 
-    </g> <!-- End Sloth Group -->
+						<!-- Right Eye -->
+						<g class="eye right-eye" transform="translate(20, 5)">
+							<ellipse cx="0" cy="0" rx="14" ry="12" fill="#5D4037" transform="rotate(12)" />
+							<ellipse cx="0" cy="0" rx="5.5" ry="5.5" fill="#FFF" class="eyeball" />
+							<circle cx="0" cy="0" r="2.5" fill="#1A1A1A" class="pupil" />
+							<circle cx="1" cy="-1" r="1" fill="#FFF" opacity="0.8" />
+							<!-- Eyelid -->
+							<ellipse cx="0" cy="-2" rx="14" ry="13" fill="#5D4037" class="eyelid eyelid-right" opacity="0" transform="rotate(12)" />
+						</g>
+					</g>
 
-  </svg>
+					<!-- Nose -->
+					<ellipse cx="0" cy="18" rx="8" ry="6" fill="#3E2723" class="nose" />
+					<ellipse cx="-2" cy="16" rx="2" ry="1.5" fill="#5D4037" opacity="0.4" />
+
+					<!-- Whisker Dots -->
+					<circle cx="-12" cy="22" r="1" fill="#8B6B4A" opacity="0.6" />
+					<circle cx="-8" cy="25" r="1" fill="#8B6B4A" opacity="0.6" />
+					<circle cx="12" cy="22" r="1" fill="#8B6B4A" opacity="0.6" />
+					<circle cx="8" cy="25" r="1" fill="#8B6B4A" opacity="0.6" />
+
+					<!-- Mouth -->
+					<path d="M -10 28 Q 0 33 10 28" stroke="#3E2723" stroke-width="2" stroke-linecap="round" fill="none" class="mouth" />
+					<!-- Smile highlight -->
+					<path d="M -6 30 Q 0 32.5 6 30" stroke="#5D4037" stroke-width="0.8" stroke-linecap="round" fill="none" opacity="0.4" />
+				</g>
+			</g>
+
+			<!-- Front Arm (Right) -->
+			<g class="limb arm-right parallax-layer" data-depth="0.6">
+				<path d="M 52 -78 Q 95 -5 55 42" stroke="url(#bodyGradient)" stroke-width="28" stroke-linecap="round" fill="none" />
+				<path d="M 58 -82 Q 65 -95 58 -100" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+				<path d="M 63 -78 Q 75 -92 70 -98" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+				<path d="M 52 -80 Q 48 -95 42 -98" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+			</g>
+
+			<!-- Front Leg (Right) -->
+			<g class="limb leg-right parallax-layer" data-depth="0.6">
+				<path d="M 42 78 Q 82 118 52 2" stroke="url(#bodyGradient)" stroke-width="28" stroke-linecap="round" fill="none" transform="rotate(-10)" />
+				<path d="M 38 80 Q 45 95 38 100" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+				<path d="M 44 82 Q 52 98 48 102" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+				<path d="M 32 82 Q 30 98 25 100" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+			</g>
+		</g>
+	</svg>
 </div>
 
 <style>
-  .retro-sloth-container {
-    perspective: 1000px;
-    transform-style: preserve-3d;
-    --mouse-x: 0; 
-    --mouse-y: 0;
-  }
+	.retro-sloth-container {
+		perspective: 1000px;
+		transform-style: preserve-3d;
+		--mouse-x: 0;
+		--mouse-y: 0;
+		cursor: pointer;
+	}
 
-  /* Floating Animation for background shapes */
-  @keyframes float {
-    0%, 100% { transform: translateY(0) rotate(0deg); }
-    50% { transform: translateY(-10px) rotate(5deg); }
-  }
+	/* Floating background shapes */
+	@keyframes float {
+		0%, 100% { transform: translateY(0) rotate(0deg); }
+		50% { transform: translateY(-12px) rotate(5deg); }
+	}
+	.float-anim-1 { animation: float 6s ease-in-out infinite; }
+	.float-anim-2 { animation: float 8s ease-in-out infinite reverse; }
+	.float-anim-3 { animation: float 7s ease-in-out infinite 1s; }
 
-  .float-anim-1 { animation: float 6s ease-in-out infinite; }
-  .float-anim-2 { animation: float 8s ease-in-out infinite reverse; }
-  .float-anim-3 { animation: float 7s ease-in-out infinite 1s; }
+	/* Staggered shape fade-in */
+	@keyframes shapeFadeIn {
+		from { opacity: 0; transform: scale(0.5); }
+		to { opacity: 0.5; }
+	}
+	.shape-fade {
+		animation: shapeFadeIn 0.8s ease-out forwards, float 6s ease-in-out infinite;
+	}
+	.shape-fade:nth-child(1) { animation-delay: 0.2s, 0.2s; }
+	.shape-fade:nth-child(2) { animation-delay: 0.4s, 0.4s; }
+	.shape-fade:nth-child(3) { animation-delay: 0.6s, 0.6s; }
+	.shape-fade:nth-child(4) { animation-delay: 0.8s, 0.8s; }
+	.shape-fade:nth-child(5) { animation-delay: 1s, 1s; }
 
-  /* Leaf wiggle */
-  @keyframes wiggle {
-      0%, 100% { transform: rotate(0deg); }
-      50% { transform: rotate(5deg); }
-  }
-  .leaf {
-      transform-origin: bottom center;
-      animation: wiggle 4s ease-in-out infinite;
-  }
+	/* Leaf wiggle */
+	@keyframes wiggle {
+		0%, 100% { transform: rotate(0deg); }
+		30% { transform: rotate(4deg); }
+		70% { transform: rotate(-3deg); }
+	}
+	.leaf {
+		transform-origin: bottom center;
+		animation: wiggle 4s ease-in-out infinite;
+	}
+	.leaf-2 { animation-delay: 0.5s; }
+	.leaf-3 { animation-delay: 1.2s; }
+	.leaf-4 { animation-delay: 0.8s; }
 
-  /* Blinking - SVG path morph or scale */
-  @keyframes blink {
-    0%, 2%, 60%, 62% { transform: scaleY(1); } 
-    1%, 61% { transform: scaleY(0.1); } 
-  }
-  
-  /* We actually animate the eyelid by scaling the masking or translating */
-  @keyframes eyelid-blink {
-      0%, 48%, 52%, 100% { transform: translateY(-100%); } /* Open (hidden above) - simplified logic, let's just toggle opacity or scale y */
-  }
-  
-  /* Better blink: just scale the eye container vertical? No, looks weird. 
-     Let's animate the eyelid path visibility or position. 
-     Actually, simpler CSS blink: close the eye */
-  /* Parallax and Rotate Effect via CSS Var */
-  .head-group {
-      transform-origin: center;
-      /* Rotate head slightly based on mouse */
-      transition: transform 0.1s ease-out;
-      transform: 
-        translate(calc(var(--mouse-x) * 20px), calc(var(--mouse-y) * 20px))
-        rotateX(calc(var(--mouse-y) * -15deg)) 
-        rotateY(calc(var(--mouse-x) * 15deg));
-  }
-  
-  .pupil {
-      /* Pupils follow mouse more intensely */
-       transform: 
-        translate(calc(var(--mouse-x) * 4px), calc(var(--mouse-y) * 4px));
-       transition: transform 0.05s linear;
-  }
+	/* Blink animation */
+	@keyframes blink {
+		0%, 3%, 55%, 57%, 100% { opacity: 0; }
+		4%, 54% { opacity: 1; }
+	}
+	.eyelid {
+		animation: blink 5s ease-in-out infinite;
+		will-change: opacity;
+	}
+	.eyelid-left { animation-delay: 0s; }
+	.eyelid-right { animation-delay: 0.05s; }
 
-  .body {
-       transition: transform 0.2s ease-out;
-       transform: 
-        translate(calc(var(--mouse-x) * 10px), calc(var(--mouse-y) * 10px))
-        rotateX(calc(var(--mouse-y) * -5deg)) 
-        rotateY(calc(var(--mouse-x) * 5deg));
-  }
+	/* Breathing animation */
+	@keyframes breathe {
+		0%, 100% { transform: scaleY(1) translateY(0); }
+		50% { transform: scaleY(1.015) translateY(-1px); }
+	}
+	.body {
+		animation: breathe 4s ease-in-out infinite;
+		transform-origin: center bottom;
+		transition: transform 0.15s ease-out;
+	}
 
-  .limb {
-      transition: transform 0.3s ease-out;
-  }
-  .arm-right, .leg-right {
-      transform: translate(calc(var(--mouse-x) * 25px), calc(var(--mouse-y) * 25px));
-  }
-   .arm-left, .leg-left {
-      transform: translate(calc(var(--mouse-x) * 5px), calc(var(--mouse-y) * 5px));
-  }
-  
-  /* Nose twitch */
-  @keyframes twitch {
-      0%, 90%, 100% { transform: translateX(0); }
-      92% { transform: translateX(2px); }
-      94% { transform: translateX(-2px); }
-      96% { transform: translateX(2px); }
-      98% { transform: translateX(0); }
-  }
-  .nose {
-      animation: twitch 5s ease-in-out infinite;
-  }
-  
-  /* Retro glow hover effect */
-  .retro-sloth-container:hover .sloth-svg {
-      filter: drop-shadow(0 0 10px rgba(78, 205, 196, 0.3));
-  }
+	/* Branch sway */
+	@keyframes branchSway {
+		0%, 100% { transform: rotate(0deg); }
+		50% { transform: rotate(0.6deg); }
+	}
+	.branch-group {
+		animation: branchSway 6s ease-in-out infinite;
+		transform-origin: center center;
+	}
+
+	/* Nose twitch */
+	@keyframes twitch {
+		0%, 88%, 100% { transform: translateX(0); }
+		90% { transform: translateX(2px); }
+		92% { transform: translateX(-2px); }
+		94% { transform: translateX(2px); }
+		96% { transform: translateX(0); }
+	}
+	.nose {
+		animation: twitch 5s ease-in-out infinite;
+	}
+
+	/* Cheek blush pulse */
+	@keyframes blushPulse {
+		0%, 100% { opacity: 0.45; }
+		50% { opacity: 0.65; }
+	}
+	.cheek-left, .cheek-right {
+		animation: blushPulse 4s ease-in-out infinite;
+	}
+
+	/* Parallax layers */
+	.head-group {
+		transform-origin: center;
+		transition: transform 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+		transform:
+			translate(calc(var(--mouse-x) * 20px), calc(var(--mouse-y) * 20px))
+			rotateX(calc(var(--mouse-y) * -15deg))
+			rotateY(calc(var(--mouse-x) * 15deg));
+	}
+
+	.pupil {
+		transform: translate(calc(var(--mouse-x) * 5px), calc(var(--mouse-y) * 5px));
+		transition: transform 0.08s linear;
+	}
+
+	.body {
+		transition: transform 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	}
+
+	.limb {
+		transition: transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	}
+	.arm-right, .leg-right {
+		transform: translate(calc(var(--mouse-x) * 28px), calc(var(--mouse-y) * 28px));
+	}
+	.arm-left, .leg-left {
+		transform: translate(calc(var(--mouse-x) * 5px), calc(var(--mouse-y) * 5px));
+	}
+
+	/* Hover effects */
+	.retro-sloth-container:hover .sloth-svg {
+		filter: drop-shadow(0 0 12px rgba(78, 205, 196, 0.25));
+	}
+	.retro-sloth-container:hover .mouth {
+		d: path("M -12 28 Q 0 35 12 28");
+		transition: d 0.3s ease-out;
+	}
+
+	/* Click bounce */
+	@keyframes bounce {
+		0% { transform: translate(200px, 200px) scale(1); }
+		30% { transform: translate(200px, 192px) scale(1.05, 0.95); }
+		50% { transform: translate(200px, 200px) scale(0.97, 1.03); }
+		70% { transform: translate(200px, 196px) scale(1.02, 0.98); }
+		100% { transform: translate(200px, 200px) scale(1); }
+	}
+	.sloth-group.bounce {
+		animation: bounce 0.5s ease-out;
+	}
+
+	/* Wave animation on right arm */
+	@keyframes wave {
+		0%, 100% { transform: translate(0, 0) rotate(0deg); }
+		25% { transform: translate(3px, -5px) rotate(-10deg); }
+		75% { transform: translate(3px, -5px) rotate(10deg); }
+	}
+	.arm-right.wave {
+		animation: wave 0.6s ease-in-out;
+		transform-origin: 52px -78px;
+	}
+
+	/* Reduced motion */
+	@media (prefers-reduced-motion: reduce) {
+		.eyelid, .float-anim-1, .float-anim-2, .float-anim-3,
+		.leaf, .nose, .cheek-left, .cheek-right,
+		.branch-group, .body,
+		.sloth-group.bounce, .arm-right.wave,
+		.shape-fade {
+			animation: none !important;
+			transition: none !important;
+		}
+	}
 </style>
 
 <script>
-  const container = document.getElementById('sloth-container');
+	(() => {
+		const container = document.getElementById('sloth-container');
+		if (!container) return;
 
-  if (container) {
-    document.addEventListener('mousemove', (e) => {
-      const { innerWidth, innerHeight } = window;
-      const x = (e.clientX / innerWidth) - 0.5; // range -0.5 to 0.5
-      const y = (e.clientY / innerHeight) - 0.5;
+		document.addEventListener('mousemove', (e) => {
+			const { innerWidth, innerHeight } = window;
+			const x = (e.clientX / innerWidth) - 0.5;
+			const y = (e.clientY / innerHeight) - 0.5;
 
-      // Update CSS variables for parallax
-      container.style.setProperty('--mouse-x', x.toString());
-      container.style.setProperty('--mouse-y', y.toString());
-    });
-  }
+			container.style.setProperty('--mouse-x', x.toString());
+			container.style.setProperty('--mouse-y', y.toString());
+		});
+
+		container.addEventListener('click', () => {
+			const slothGroup = container.querySelector('.sloth-group') as HTMLElement | null;
+			const armRight = container.querySelector('.arm-right') as HTMLElement | null;
+
+			if (slothGroup) {
+				slothGroup.classList.remove('bounce');
+				void slothGroup.offsetWidth;
+				slothGroup.classList.add('bounce');
+				slothGroup.addEventListener('animationend', () => slothGroup.classList.remove('bounce'), { once: true });
+			}
+
+			if (armRight) {
+				armRight.classList.remove('wave');
+				void armRight.offsetWidth;
+				armRight.classList.add('wave');
+				armRight.addEventListener('animationend', () => armRight.classList.remove('wave'), { once: true });
+			}
+		});
+	})();
 </script>
