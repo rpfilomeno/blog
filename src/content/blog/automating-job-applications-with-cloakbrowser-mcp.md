@@ -1,6 +1,6 @@
 ---
-title: "Automating Job Applications with CloakBrowser MCP"
-description: "How I used stealth browser automation to fill out a job application form, and what I learned about hCaptcha, iframe overlays, and MCP tooling."
+title: 'Automating Job Applications with CloakBrowser MCP'
+description: 'How I used stealth browser automation to fill out a job application form, and what I learned about hCaptcha, iframe overlays, and MCP tooling.'
 pubDate: 'Sep 2 2026'
 cover: 'https://cdn.rogverse.fyi/ai-fill-up-forms.png'
 ---
@@ -93,9 +93,15 @@ hCaptcha injects an iframe that sits on top of the form. Playwright's click acti
 The fix: bypass Playwright's actionability check entirely.
 
 ```javascript
-document.querySelector('input[name="cards[9c71cae2-...][field0]"][value="Yes"]').click();
-document.querySelector('input[name="cards[9c71cae2-...][field1]"][value="Yes"]').click();
-document.querySelector('input[name="cards[9c71cae2-...][field2]"][value="Yes"]').click();
+document
+	.querySelector('input[name="cards[9c71cae2-...][field0]"][value="Yes"]')
+	.click()
+document
+	.querySelector('input[name="cards[9c71cae2-...][field1]"][value="Yes"]')
+	.click()
+document
+	.querySelector('input[name="cards[9c71cae2-...][field2]"][value="Yes"]')
+	.click()
 ```
 
 `cloakbrowser_browser_evaluate` runs raw JavaScript in the page context. The `click()` method fires a native DOM event, which Playwright's actionability checks don't intercept. All three radios checked in one call.

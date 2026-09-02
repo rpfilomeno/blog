@@ -1,4 +1,5 @@
 ---
+
 ---
 
 <div
@@ -13,35 +14,92 @@
 		preserveAspectRatio="xMidYMid meet"
 	>
 		<defs>
-			<linearGradient id="bodyGradient" x1="100" y1="0" x2="300" y2="400" gradientUnits="userSpaceOnUse">
-				<stop offset="0%" stop-color="#C19A6B" />
-				<stop offset="100%" stop-color="#8B5A2B" />
+			<linearGradient
+				id="bodyGradient"
+				x1="100"
+				y1="0"
+				x2="300"
+				y2="400"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0%" stop-color="#C19A6B"></stop>
+				<stop offset="100%" stop-color="#8B5A2B"></stop>
 			</linearGradient>
-			<linearGradient id="faceGradient" x1="150" y1="100" x2="250" y2="200" gradientUnits="userSpaceOnUse">
-				<stop offset="0%" stop-color="#F5DEB3" />
-				<stop offset="100%" stop-color="#E0C090" />
+			<linearGradient
+				id="faceGradient"
+				x1="150"
+				y1="100"
+				x2="250"
+				y2="200"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0%" stop-color="#F5DEB3"></stop>
+				<stop offset="100%" stop-color="#E0C090"></stop>
 			</linearGradient>
-			<linearGradient id="branchGradient" x1="-50" y1="60" x2="450" y2="100" gradientUnits="userSpaceOnUse">
-				<stop offset="0%" stop-color="#5C4033" />
-				<stop offset="50%" stop-color="#4A3728" />
-				<stop offset="100%" stop-color="#3E2B1F" />
+			<linearGradient
+				id="branchGradient"
+				x1="-50"
+				y1="60"
+				x2="450"
+				y2="100"
+				gradientUnits="userSpaceOnUse"
+			>
+				<stop offset="0%" stop-color="#5C4033"></stop>
+				<stop offset="50%" stop-color="#4A3728"></stop>
+				<stop offset="100%" stop-color="#3E2B1F"></stop>
 			</linearGradient>
 			<filter id="sloth-shadow" x="-10%" y="-10%" width="130%" height="140%">
-				<feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.15" />
+				<feDropShadow
+					dx="0"
+					dy="4"
+					stdDeviation="6"
+					flood-color="#000"
+					flood-opacity="0.15"></feDropShadow>
 			</filter>
 			<filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
-				<feGaussianBlur stdDeviation="3" result="blur" />
-				<feComposite in="SourceGraphic" in2="blur" operator="over" />
+				<feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+				<feComposite in="SourceGraphic" in2="blur" operator="over"
+				></feComposite>
 			</filter>
 		</defs>
 
 		<!-- Background Retro Shapes -->
 		<g class="parallax-layer bg-shapes" data-depth="0.05">
-			<circle cx="340" cy="55" r="28" fill="#FF6B6B" opacity="0.5" class="float-anim-1 shape-fade" />
-			<rect x="25" y="310" width="35" height="35" fill="#4ECDC4" opacity="0.5" transform="rotate(45 42.5 327.5)" class="float-anim-2 shape-fade" />
-			<circle cx="55" cy="95" r="14" fill="#FFE66D" opacity="0.5" class="float-anim-3 shape-fade" />
-			<polygon points="360,280 375,310 345,310" fill="#FF6B6B" opacity="0.3" class="float-anim-2 shape-fade" />
-			<circle cx="320" cy="350" r="10" fill="#4ECDC4" opacity="0.3" class="float-anim-1 shape-fade" />
+			<circle
+				cx="340"
+				cy="55"
+				r="28"
+				fill="#FF6B6B"
+				opacity="0.5"
+				class="float-anim-1 shape-fade"></circle>
+			<rect
+				x="25"
+				y="310"
+				width="35"
+				height="35"
+				fill="#4ECDC4"
+				opacity="0.5"
+				transform="rotate(45 42.5 327.5)"
+				class="float-anim-2 shape-fade"></rect>
+			<circle
+				cx="55"
+				cy="95"
+				r="14"
+				fill="#FFE66D"
+				opacity="0.5"
+				class="float-anim-3 shape-fade"></circle>
+			<polygon
+				points="360,280 375,310 345,310"
+				fill="#FF6B6B"
+				opacity="0.3"
+				class="float-anim-2 shape-fade"></polygon>
+			<circle
+				cx="320"
+				cy="350"
+				r="10"
+				fill="#4ECDC4"
+				opacity="0.3"
+				class="float-anim-1 shape-fade"></circle>
 		</g>
 
 		<!-- Branch -->
@@ -51,129 +109,323 @@
 				stroke="url(#branchGradient)"
 				stroke-width="26"
 				stroke-linecap="round"
-				class="branch"
-			/>
+				class="branch"></path>
 			<path
 				d="M -60 82 Q 200 125 460 58"
 				stroke="#6B4F3A"
 				stroke-width="22"
 				stroke-linecap="round"
-				opacity="0.3"
-			/>
+				opacity="0.3"></path>
 			<!-- Leaves -->
 			<g class="leaves">
-				<path d="M 48 78 Q 25 45 55 35 Q 85 45 65 78 Z" fill="#6B8C42" class="leaf leaf-1" />
-				<path d="M 352 68 Q 382 35 405 55 Q 385 85 352 68 Z" fill="#7A9C52" class="leaf leaf-2" />
-				<path d="M 160 100 Q 145 75 170 70 Q 190 80 175 100 Z" fill="#5E7E3A" class="leaf leaf-3" />
-				<path d="M 260 90 Q 240 65 265 58 Q 288 68 272 92 Z" fill="#6B8C42" class="leaf leaf-4" />
+				<path
+					d="M 48 78 Q 25 45 55 35 Q 85 45 65 78 Z"
+					fill="#6B8C42"
+					class="leaf leaf-1"></path>
+				<path
+					d="M 352 68 Q 382 35 405 55 Q 385 85 352 68 Z"
+					fill="#7A9C52"
+					class="leaf leaf-2"></path>
+				<path
+					d="M 160 100 Q 145 75 170 70 Q 190 80 175 100 Z"
+					fill="#5E7E3A"
+					class="leaf leaf-3"></path>
+				<path
+					d="M 260 90 Q 240 65 265 58 Q 288 68 272 92 Z"
+					fill="#6B8C42"
+					class="leaf leaf-4"></path>
 			</g>
 		</g>
 
 		<!-- Sloth Group -->
-		<g class="sloth-group" filter="url(#sloth-shadow)" transform="translate(200, 200)">
+		<g
+			class="sloth-group"
+			filter="url(#sloth-shadow)"
+			transform="translate(200, 200)"
+		>
 			<!-- Back Arm (Left) -->
 			<g class="limb arm-left parallax-layer" data-depth="0.2">
-				<path d="M -62 -78 Q -95 -5 -55 42" stroke="url(#bodyGradient)" stroke-width="28" stroke-linecap="round" fill="none" />
+				<path
+					d="M -62 -78 Q -95 -5 -55 42"
+					stroke="url(#bodyGradient)"
+					stroke-width="28"
+					stroke-linecap="round"
+					fill="none"></path>
 				<!-- 3 Claws -->
-				<path d="M -58 -82 Q -65 -95 -58 -100" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
-				<path d="M -63 -78 Q -75 -92 -70 -98" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
-				<path d="M -52 -80 Q -48 -95 -42 -98" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+				<path
+					d="M -58 -82 Q -65 -95 -58 -100"
+					stroke="#3E2723"
+					stroke-width="4"
+					stroke-linecap="round"
+					fill="none"></path>
+				<path
+					d="M -63 -78 Q -75 -92 -70 -98"
+					stroke="#3E2723"
+					stroke-width="4"
+					stroke-linecap="round"
+					fill="none"></path>
+				<path
+					d="M -52 -80 Q -48 -95 -42 -98"
+					stroke="#3E2723"
+					stroke-width="4"
+					stroke-linecap="round"
+					fill="none"></path>
 			</g>
 
 			<!-- Back Leg (Left) -->
 			<g class="limb leg-left parallax-layer" data-depth="0.2">
-				<path d="M -42 78 Q -82 118 -52 2" stroke="url(#bodyGradient)" stroke-width="28" stroke-linecap="round" fill="none" transform="rotate(10)" />
-				<path d="M -38 80 Q -45 95 -38 100" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
-				<path d="M -44 82 Q -52 98 -48 102" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
-				<path d="M -32 82 Q -30 98 -25 100" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+				<path
+					d="M -42 78 Q -82 118 -52 2"
+					stroke="url(#bodyGradient)"
+					stroke-width="28"
+					stroke-linecap="round"
+					fill="none"
+					transform="rotate(10)"></path>
+				<path
+					d="M -38 80 Q -45 95 -38 100"
+					stroke="#3E2723"
+					stroke-width="4"
+					stroke-linecap="round"
+					fill="none"></path>
+				<path
+					d="M -44 82 Q -52 98 -48 102"
+					stroke="#3E2723"
+					stroke-width="4"
+					stroke-linecap="round"
+					fill="none"></path>
+				<path
+					d="M -32 82 Q -30 98 -25 100"
+					stroke="#3E2723"
+					stroke-width="4"
+					stroke-linecap="round"
+					fill="none"></path>
 			</g>
 
 			<!-- Body -->
 			<g class="body parallax-layer" data-depth="0.3">
-				<ellipse cx="0" cy="50" rx="72" ry="92" fill="url(#bodyGradient)" />
-				<ellipse cx="0" cy="50" rx="48" ry="62" fill="#D2B48C" opacity="0.7" />
+				<ellipse cx="0" cy="50" rx="72" ry="92" fill="url(#bodyGradient)"
+				></ellipse>
+				<ellipse cx="0" cy="50" rx="48" ry="62" fill="#D2B48C" opacity="0.7"
+				></ellipse>
 				<!-- Belly texture lines -->
-				<path d="M -20 35 Q 0 32 20 35" stroke="#C4A882" stroke-width="1" fill="none" opacity="0.5" />
-				<path d="M -25 50 Q 0 47 25 50" stroke="#C4A882" stroke-width="1" fill="none" opacity="0.5" />
-				<path d="M -20 65 Q 0 62 20 65" stroke="#C4A882" stroke-width="1" fill="none" opacity="0.5" />
+				<path
+					d="M -20 35 Q 0 32 20 35"
+					stroke="#C4A882"
+					stroke-width="1"
+					fill="none"
+					opacity="0.5"></path>
+				<path
+					d="M -25 50 Q 0 47 25 50"
+					stroke="#C4A882"
+					stroke-width="1"
+					fill="none"
+					opacity="0.5"></path>
+				<path
+					d="M -20 65 Q 0 62 20 65"
+					stroke="#C4A882"
+					stroke-width="1"
+					fill="none"
+					opacity="0.5"></path>
 			</g>
 
 			<!-- Head Group -->
 			<g class="head-group parallax-layer" data-depth="0.5">
 				<!-- Neck -->
-				<path d="M -22 -30 Q 0 -20 22 -30 L 22 10 L -22 10 Z" fill="url(#bodyGradient)" />
+				<path
+					d="M -22 -30 Q 0 -20 22 -30 L 22 10 L -22 10 Z"
+					fill="url(#bodyGradient)"></path>
 
 				<g class="head">
 					<!-- Main Head Shape -->
-					<ellipse cx="0" cy="0" rx="56" ry="46" fill="url(#bodyGradient)" />
+					<ellipse cx="0" cy="0" rx="56" ry="46" fill="url(#bodyGradient)"
+					></ellipse>
 
 					<!-- Ear Tufts -->
-					<path d="M -50 -25 Q -65 -45 -48 -40 Q -55 -30 -50 -25 Z" fill="#8B5A2B" />
-					<path d="M -52 -28 Q -68 -50 -50 -44 Q -56 -34 -52 -28 Z" fill="#A0704A" />
-					<path d="M 50 -25 Q 65 -45 48 -40 Q 55 -30 50 -25 Z" fill="#8B5A2B" />
-					<path d="M 52 -28 Q 68 -50 50 -44 Q 56 -34 52 -28 Z" fill="#A0704A" />
+					<path
+						d="M -50 -25 Q -65 -45 -48 -40 Q -55 -30 -50 -25 Z"
+						fill="#8B5A2B"></path>
+					<path
+						d="M -52 -28 Q -68 -50 -50 -44 Q -56 -34 -52 -28 Z"
+						fill="#A0704A"></path>
+					<path d="M 50 -25 Q 65 -45 48 -40 Q 55 -30 50 -25 Z" fill="#8B5A2B"
+					></path>
+					<path d="M 52 -28 Q 68 -50 50 -44 Q 56 -34 52 -28 Z" fill="#A0704A"
+					></path>
 
 					<!-- Face Plate -->
-					<path d="M -36 -12 Q 0 -6 36 -12 Q 42 22 0 38 Q -42 22 -36 -12 Z" fill="url(#faceGradient)" />
+					<path
+						d="M -36 -12 Q 0 -6 36 -12 Q 42 22 0 38 Q -42 22 -36 -12 Z"
+						fill="url(#faceGradient)"></path>
 
 					<!-- Cheek Blush -->
-					<ellipse cx="-28" cy="18" rx="10" ry="6" fill="#E8A0A0" opacity="0.45" class="cheek-left" />
-					<ellipse cx="28" cy="18" rx="10" ry="6" fill="#E8A0A0" opacity="0.45" class="cheek-right" />
+					<ellipse
+						cx="-28"
+						cy="18"
+						rx="10"
+						ry="6"
+						fill="#E8A0A0"
+						opacity="0.45"
+						class="cheek-left"></ellipse>
+					<ellipse
+						cx="28"
+						cy="18"
+						rx="10"
+						ry="6"
+						fill="#E8A0A0"
+						opacity="0.45"
+						class="cheek-right"></ellipse>
 
 					<!-- Eyes Container -->
 					<g class="eyes">
 						<!-- Left Eye -->
 						<g class="eye left-eye" transform="translate(-20, 5)">
-							<ellipse cx="0" cy="0" rx="14" ry="12" fill="#5D4037" transform="rotate(-12)" />
-							<ellipse cx="0" cy="0" rx="5.5" ry="5.5" fill="#FFF" class="eyeball" />
-							<circle cx="0" cy="0" r="2.5" fill="#1A1A1A" class="pupil" />
-							<circle cx="-1" cy="-1" r="1" fill="#FFF" opacity="0.8" />
+							<ellipse
+								cx="0"
+								cy="0"
+								rx="14"
+								ry="12"
+								fill="#5D4037"
+								transform="rotate(-12)"></ellipse>
+							<ellipse
+								cx="0"
+								cy="0"
+								rx="5.5"
+								ry="5.5"
+								fill="#FFF"
+								class="eyeball"></ellipse>
+							<circle cx="0" cy="0" r="2.5" fill="#1A1A1A" class="pupil"
+							></circle>
+							<circle cx="-1" cy="-1" r="1" fill="#FFF" opacity="0.8"></circle>
 							<!-- Eyelid -->
-							<ellipse cx="0" cy="-2" rx="14" ry="13" fill="#5D4037" class="eyelid eyelid-left" opacity="0" transform="rotate(-12)" />
+							<ellipse
+								cx="0"
+								cy="-2"
+								rx="14"
+								ry="13"
+								fill="#5D4037"
+								class="eyelid eyelid-left"
+								opacity="0"
+								transform="rotate(-12)"></ellipse>
 						</g>
 
 						<!-- Right Eye -->
 						<g class="eye right-eye" transform="translate(20, 5)">
-							<ellipse cx="0" cy="0" rx="14" ry="12" fill="#5D4037" transform="rotate(12)" />
-							<ellipse cx="0" cy="0" rx="5.5" ry="5.5" fill="#FFF" class="eyeball" />
-							<circle cx="0" cy="0" r="2.5" fill="#1A1A1A" class="pupil" />
-							<circle cx="1" cy="-1" r="1" fill="#FFF" opacity="0.8" />
+							<ellipse
+								cx="0"
+								cy="0"
+								rx="14"
+								ry="12"
+								fill="#5D4037"
+								transform="rotate(12)"></ellipse>
+							<ellipse
+								cx="0"
+								cy="0"
+								rx="5.5"
+								ry="5.5"
+								fill="#FFF"
+								class="eyeball"></ellipse>
+							<circle cx="0" cy="0" r="2.5" fill="#1A1A1A" class="pupil"
+							></circle>
+							<circle cx="1" cy="-1" r="1" fill="#FFF" opacity="0.8"></circle>
 							<!-- Eyelid -->
-							<ellipse cx="0" cy="-2" rx="14" ry="13" fill="#5D4037" class="eyelid eyelid-right" opacity="0" transform="rotate(12)" />
+							<ellipse
+								cx="0"
+								cy="-2"
+								rx="14"
+								ry="13"
+								fill="#5D4037"
+								class="eyelid eyelid-right"
+								opacity="0"
+								transform="rotate(12)"></ellipse>
 						</g>
 					</g>
 
 					<!-- Nose -->
-					<ellipse cx="0" cy="18" rx="8" ry="6" fill="#3E2723" class="nose" />
-					<ellipse cx="-2" cy="16" rx="2" ry="1.5" fill="#5D4037" opacity="0.4" />
+					<ellipse cx="0" cy="18" rx="8" ry="6" fill="#3E2723" class="nose"
+					></ellipse>
+					<ellipse cx="-2" cy="16" rx="2" ry="1.5" fill="#5D4037" opacity="0.4"
+					></ellipse>
 
 					<!-- Whisker Dots -->
-					<circle cx="-12" cy="22" r="1" fill="#8B6B4A" opacity="0.6" />
-					<circle cx="-8" cy="25" r="1" fill="#8B6B4A" opacity="0.6" />
-					<circle cx="12" cy="22" r="1" fill="#8B6B4A" opacity="0.6" />
-					<circle cx="8" cy="25" r="1" fill="#8B6B4A" opacity="0.6" />
+					<circle cx="-12" cy="22" r="1" fill="#8B6B4A" opacity="0.6"></circle>
+					<circle cx="-8" cy="25" r="1" fill="#8B6B4A" opacity="0.6"></circle>
+					<circle cx="12" cy="22" r="1" fill="#8B6B4A" opacity="0.6"></circle>
+					<circle cx="8" cy="25" r="1" fill="#8B6B4A" opacity="0.6"></circle>
 
 					<!-- Mouth -->
-					<path d="M -10 28 Q 0 33 10 28" stroke="#3E2723" stroke-width="2" stroke-linecap="round" fill="none" class="mouth" />
+					<path
+						d="M -10 28 Q 0 33 10 28"
+						stroke="#3E2723"
+						stroke-width="2"
+						stroke-linecap="round"
+						fill="none"
+						class="mouth"></path>
 					<!-- Smile highlight -->
-					<path d="M -6 30 Q 0 32.5 6 30" stroke="#5D4037" stroke-width="0.8" stroke-linecap="round" fill="none" opacity="0.4" />
+					<path
+						d="M -6 30 Q 0 32.5 6 30"
+						stroke="#5D4037"
+						stroke-width="0.8"
+						stroke-linecap="round"
+						fill="none"
+						opacity="0.4"></path>
 				</g>
 			</g>
 
 			<!-- Front Arm (Right) -->
 			<g class="limb arm-right parallax-layer" data-depth="0.6">
-				<path d="M 52 -78 Q 95 -5 55 42" stroke="url(#bodyGradient)" stroke-width="28" stroke-linecap="round" fill="none" />
-				<path d="M 58 -82 Q 65 -95 58 -100" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
-				<path d="M 63 -78 Q 75 -92 70 -98" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
-				<path d="M 52 -80 Q 48 -95 42 -98" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+				<path
+					d="M 52 -78 Q 95 -5 55 42"
+					stroke="url(#bodyGradient)"
+					stroke-width="28"
+					stroke-linecap="round"
+					fill="none"></path>
+				<path
+					d="M 58 -82 Q 65 -95 58 -100"
+					stroke="#3E2723"
+					stroke-width="4"
+					stroke-linecap="round"
+					fill="none"></path>
+				<path
+					d="M 63 -78 Q 75 -92 70 -98"
+					stroke="#3E2723"
+					stroke-width="4"
+					stroke-linecap="round"
+					fill="none"></path>
+				<path
+					d="M 52 -80 Q 48 -95 42 -98"
+					stroke="#3E2723"
+					stroke-width="4"
+					stroke-linecap="round"
+					fill="none"></path>
 			</g>
 
 			<!-- Front Leg (Right) -->
 			<g class="limb leg-right parallax-layer" data-depth="0.6">
-				<path d="M 42 78 Q 82 118 52 2" stroke="url(#bodyGradient)" stroke-width="28" stroke-linecap="round" fill="none" transform="rotate(-10)" />
-				<path d="M 38 80 Q 45 95 38 100" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
-				<path d="M 44 82 Q 52 98 48 102" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
-				<path d="M 32 82 Q 30 98 25 100" stroke="#3E2723" stroke-width="4" stroke-linecap="round" fill="none" />
+				<path
+					d="M 42 78 Q 82 118 52 2"
+					stroke="url(#bodyGradient)"
+					stroke-width="28"
+					stroke-linecap="round"
+					fill="none"
+					transform="rotate(-10)"></path>
+				<path
+					d="M 38 80 Q 45 95 38 100"
+					stroke="#3E2723"
+					stroke-width="4"
+					stroke-linecap="round"
+					fill="none"></path>
+				<path
+					d="M 44 82 Q 52 98 48 102"
+					stroke="#3E2723"
+					stroke-width="4"
+					stroke-linecap="round"
+					fill="none"></path>
+				<path
+					d="M 32 82 Q 30 98 25 100"
+					stroke="#3E2723"
+					stroke-width="4"
+					stroke-linecap="round"
+					fill="none"></path>
 			</g>
 		</g>
 	</svg>
@@ -190,57 +442,116 @@
 
 	/* Floating background shapes */
 	@keyframes float {
-		0%, 100% { transform: translateY(0) rotate(0deg); }
-		50% { transform: translateY(-12px) rotate(5deg); }
+		0%,
+		100% {
+			transform: translateY(0) rotate(0deg);
+		}
+		50% {
+			transform: translateY(-12px) rotate(5deg);
+		}
 	}
-	.float-anim-1 { animation: float 6s ease-in-out infinite; }
-	.float-anim-2 { animation: float 8s ease-in-out infinite reverse; }
-	.float-anim-3 { animation: float 7s ease-in-out infinite 1s; }
+	.float-anim-1 {
+		animation: float 6s ease-in-out infinite;
+	}
+	.float-anim-2 {
+		animation: float 8s ease-in-out infinite reverse;
+	}
+	.float-anim-3 {
+		animation: float 7s ease-in-out infinite 1s;
+	}
 
 	/* Staggered shape fade-in */
 	@keyframes shapeFadeIn {
-		from { opacity: 0; transform: scale(0.5); }
-		to { opacity: 0.5; }
+		from {
+			opacity: 0;
+			transform: scale(0.5);
+		}
+		to {
+			opacity: 0.5;
+		}
 	}
 	.shape-fade {
-		animation: shapeFadeIn 0.8s ease-out forwards, float 6s ease-in-out infinite;
+		animation:
+			shapeFadeIn 0.8s ease-out forwards,
+			float 6s ease-in-out infinite;
 	}
-	.shape-fade:nth-child(1) { animation-delay: 0.2s, 0.2s; }
-	.shape-fade:nth-child(2) { animation-delay: 0.4s, 0.4s; }
-	.shape-fade:nth-child(3) { animation-delay: 0.6s, 0.6s; }
-	.shape-fade:nth-child(4) { animation-delay: 0.8s, 0.8s; }
-	.shape-fade:nth-child(5) { animation-delay: 1s, 1s; }
+	.shape-fade:nth-child(1) {
+		animation-delay: 0.2s, 0.2s;
+	}
+	.shape-fade:nth-child(2) {
+		animation-delay: 0.4s, 0.4s;
+	}
+	.shape-fade:nth-child(3) {
+		animation-delay: 0.6s, 0.6s;
+	}
+	.shape-fade:nth-child(4) {
+		animation-delay: 0.8s, 0.8s;
+	}
+	.shape-fade:nth-child(5) {
+		animation-delay: 1s, 1s;
+	}
 
 	/* Leaf wiggle */
 	@keyframes wiggle {
-		0%, 100% { transform: rotate(0deg); }
-		30% { transform: rotate(4deg); }
-		70% { transform: rotate(-3deg); }
+		0%,
+		100% {
+			transform: rotate(0deg);
+		}
+		30% {
+			transform: rotate(4deg);
+		}
+		70% {
+			transform: rotate(-3deg);
+		}
 	}
 	.leaf {
 		transform-origin: bottom center;
 		animation: wiggle 4s ease-in-out infinite;
 	}
-	.leaf-2 { animation-delay: 0.5s; }
-	.leaf-3 { animation-delay: 1.2s; }
-	.leaf-4 { animation-delay: 0.8s; }
+	.leaf-2 {
+		animation-delay: 0.5s;
+	}
+	.leaf-3 {
+		animation-delay: 1.2s;
+	}
+	.leaf-4 {
+		animation-delay: 0.8s;
+	}
 
 	/* Blink animation */
 	@keyframes blink {
-		0%, 3%, 55%, 57%, 100% { opacity: 0; }
-		4%, 54% { opacity: 1; }
+		0%,
+		3%,
+		55%,
+		57%,
+		100% {
+			opacity: 0;
+		}
+		4%,
+		54% {
+			opacity: 1;
+		}
 	}
 	.eyelid {
 		animation: blink 5s ease-in-out infinite;
 		will-change: opacity;
 	}
-	.eyelid-left { animation-delay: 0s; }
-	.eyelid-right { animation-delay: 0.05s; }
+	.eyelid-left {
+		animation-delay: 0s;
+	}
+	.eyelid-right {
+		animation-delay: 0.05s;
+	}
 
 	/* Breathing animation */
 	@keyframes breathe {
-		0%, 100% { transform: scaleY(1) translateY(0); }
-		50% { transform: scaleY(1.015) translateY(-1px); }
+		0%,
+		100% {
+			transform: scaleY(1) translateY(0);
+		}
+		50% {
+			transform: scaleY(1.015) translateY(-1px);
+		}
 	}
 	.body {
 		animation: breathe 4s ease-in-out infinite;
@@ -250,8 +561,13 @@
 
 	/* Branch sway */
 	@keyframes branchSway {
-		0%, 100% { transform: rotate(0deg); }
-		50% { transform: rotate(0.6deg); }
+		0%,
+		100% {
+			transform: rotate(0deg);
+		}
+		50% {
+			transform: rotate(0.6deg);
+		}
 	}
 	.branch-group {
 		animation: branchSway 6s ease-in-out infinite;
@@ -260,11 +576,23 @@
 
 	/* Nose twitch */
 	@keyframes twitch {
-		0%, 88%, 100% { transform: translateX(0); }
-		90% { transform: translateX(2px); }
-		92% { transform: translateX(-2px); }
-		94% { transform: translateX(2px); }
-		96% { transform: translateX(0); }
+		0%,
+		88%,
+		100% {
+			transform: translateX(0);
+		}
+		90% {
+			transform: translateX(2px);
+		}
+		92% {
+			transform: translateX(-2px);
+		}
+		94% {
+			transform: translateX(2px);
+		}
+		96% {
+			transform: translateX(0);
+		}
 	}
 	.nose {
 		animation: twitch 5s ease-in-out infinite;
@@ -272,10 +600,16 @@
 
 	/* Cheek blush pulse */
 	@keyframes blushPulse {
-		0%, 100% { opacity: 0.45; }
-		50% { opacity: 0.65; }
+		0%,
+		100% {
+			opacity: 0.45;
+		}
+		50% {
+			opacity: 0.65;
+		}
 	}
-	.cheek-left, .cheek-right {
+	.cheek-left,
+	.cheek-right {
 		animation: blushPulse 4s ease-in-out infinite;
 	}
 
@@ -283,14 +617,19 @@
 	.head-group {
 		transform-origin: center;
 		transition: transform 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-		transform:
-			translate(calc(var(--mouse-x) * 20px), calc(var(--mouse-y) * 20px))
+		transform: translate(
+				calc(var(--mouse-x) * 20px),
+				calc(var(--mouse-y) * 20px)
+			)
 			rotateX(calc(var(--mouse-y) * -15deg))
 			rotateY(calc(var(--mouse-x) * 15deg));
 	}
 
 	.pupil {
-		transform: translate(calc(var(--mouse-x) * 5px), calc(var(--mouse-y) * 5px));
+		transform: translate(
+			calc(var(--mouse-x) * 5px),
+			calc(var(--mouse-y) * 5px)
+		);
 		transition: transform 0.08s linear;
 	}
 
@@ -301,11 +640,19 @@
 	.limb {
 		transition: transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
-	.arm-right, .leg-right {
-		transform: translate(calc(var(--mouse-x) * 28px), calc(var(--mouse-y) * 28px));
+	.arm-right,
+	.leg-right {
+		transform: translate(
+			calc(var(--mouse-x) * 28px),
+			calc(var(--mouse-y) * 28px)
+		);
 	}
-	.arm-left, .leg-left {
-		transform: translate(calc(var(--mouse-x) * 5px), calc(var(--mouse-y) * 5px));
+	.arm-left,
+	.leg-left {
+		transform: translate(
+			calc(var(--mouse-x) * 5px),
+			calc(var(--mouse-y) * 5px)
+		);
 	}
 
 	/* Hover effects */
@@ -313,17 +660,27 @@
 		filter: drop-shadow(0 0 12px rgba(78, 205, 196, 0.25));
 	}
 	.retro-sloth-container:hover .mouth {
-		d: path("M -12 28 Q 0 35 12 28");
+		d: path('M -12 28 Q 0 35 12 28');
 		transition: d 0.3s ease-out;
 	}
 
 	/* Click bounce */
 	@keyframes bounce {
-		0% { transform: translate(200px, 200px) scale(1); }
-		30% { transform: translate(200px, 192px) scale(1.05, 0.95); }
-		50% { transform: translate(200px, 200px) scale(0.97, 1.03); }
-		70% { transform: translate(200px, 196px) scale(1.02, 0.98); }
-		100% { transform: translate(200px, 200px) scale(1); }
+		0% {
+			transform: translate(200px, 200px) scale(1);
+		}
+		30% {
+			transform: translate(200px, 192px) scale(1.05, 0.95);
+		}
+		50% {
+			transform: translate(200px, 200px) scale(0.97, 1.03);
+		}
+		70% {
+			transform: translate(200px, 196px) scale(1.02, 0.98);
+		}
+		100% {
+			transform: translate(200px, 200px) scale(1);
+		}
 	}
 	.sloth-group.bounce {
 		animation: bounce 0.5s ease-out;
@@ -331,9 +688,16 @@
 
 	/* Wave animation on right arm */
 	@keyframes wave {
-		0%, 100% { transform: translate(0, 0) rotate(0deg); }
-		25% { transform: translate(3px, -5px) rotate(-10deg); }
-		75% { transform: translate(3px, -5px) rotate(10deg); }
+		0%,
+		100% {
+			transform: translate(0, 0) rotate(0deg);
+		}
+		25% {
+			transform: translate(3px, -5px) rotate(-10deg);
+		}
+		75% {
+			transform: translate(3px, -5px) rotate(10deg);
+		}
 	}
 	.arm-right.wave {
 		animation: wave 0.6s ease-in-out;
@@ -342,10 +706,18 @@
 
 	/* Reduced motion */
 	@media (prefers-reduced-motion: reduce) {
-		.eyelid, .float-anim-1, .float-anim-2, .float-anim-3,
-		.leaf, .nose, .cheek-left, .cheek-right,
-		.branch-group, .body,
-		.sloth-group.bounce, .arm-right.wave,
+		.eyelid,
+		.float-anim-1,
+		.float-anim-2,
+		.float-anim-3,
+		.leaf,
+		.nose,
+		.cheek-left,
+		.cheek-right,
+		.branch-group,
+		.body,
+		.sloth-group.bounce,
+		.arm-right.wave,
 		.shape-fade {
 			animation: none !important;
 			transition: none !important;
@@ -354,38 +726,50 @@
 </style>
 
 <script>
-	(() => {
-		const container = document.getElementById('sloth-container');
+	;(() => {
+		const container = document.getElementById('sloth-container')
 		if (!container) {
-			return;
+			return
 		}
 
 		document.addEventListener('mousemove', (e) => {
-			const { innerWidth, innerHeight } = window;
-			const x = (e.clientX / innerWidth) - 0.5;
-			const y = (e.clientY / innerHeight) - 0.5;
+			const { innerWidth, innerHeight } = window
+			const x = e.clientX / innerWidth - 0.5
+			const y = e.clientY / innerHeight - 0.5
 
-			container.style.setProperty('--mouse-x', x.toString());
-			container.style.setProperty('--mouse-y', y.toString());
-		});
+			container.style.setProperty('--mouse-x', x.toString())
+			container.style.setProperty('--mouse-y', y.toString())
+		})
 
 		container.addEventListener('click', () => {
-			const slothGroup = container.querySelector('.sloth-group') as HTMLElement | null;
-			const armRight = container.querySelector('.arm-right') as HTMLElement | null;
+			const slothGroup = container.querySelector(
+				'.sloth-group'
+			) as HTMLElement | null
+			const armRight = container.querySelector(
+				'.arm-right'
+			) as HTMLElement | null
 
 			if (slothGroup) {
-				slothGroup.classList.remove('bounce');
-				void slothGroup.offsetWidth;
-				slothGroup.classList.add('bounce');
-				slothGroup.addEventListener('animationend', () => slothGroup.classList.remove('bounce'), { once: true });
+				slothGroup.classList.remove('bounce')
+				void slothGroup.offsetWidth
+				slothGroup.classList.add('bounce')
+				slothGroup.addEventListener(
+					'animationend',
+					() => slothGroup.classList.remove('bounce'),
+					{ once: true }
+				)
 			}
 
 			if (armRight) {
-				armRight.classList.remove('wave');
-				void armRight.offsetWidth;
-				armRight.classList.add('wave');
-				armRight.addEventListener('animationend', () => armRight.classList.remove('wave'), { once: true });
+				armRight.classList.remove('wave')
+				void armRight.offsetWidth
+				armRight.classList.add('wave')
+				armRight.addEventListener(
+					'animationend',
+					() => armRight.classList.remove('wave'),
+					{ once: true }
+				)
 			}
-		});
-	})();
+		})
+	})()
 </script>

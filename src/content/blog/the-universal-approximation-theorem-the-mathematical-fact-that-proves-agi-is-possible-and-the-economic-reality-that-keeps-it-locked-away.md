@@ -1,5 +1,5 @@
 ---
-title: "The Universal Approximation Theorem: The Mathematical Fact that Proves AGI is Possible, and the Economic Reality that Keeps it Locked Away"
+title: 'The Universal Approximation Theorem: The Mathematical Fact that Proves AGI is Possible, and the Economic Reality that Keeps it Locked Away'
 description: |
   The Universal Approximation Theorem proves AGI is mathematically possible, but market economics and computational costs may be the true barriers to achieving it.
 pubDate: 'Dec 14 2025'
@@ -7,7 +7,7 @@ coverImageCredit: Roger Filomeno
 cover: 'https://cdn.rogverse.fyi/ShareX_JPhc64sQ6q.png'
 ---
 
-> **Author's Note**: This article was written with AI assistance, but the ideas and arguments presented are originally from the author. 
+> **Author's Note**: This article was written with AI assistance, but the ideas and arguments presented are originally from the author.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HQ5C-VDXLyw?si=kh3eYRCoPqro75Vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

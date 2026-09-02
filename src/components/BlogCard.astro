@@ -11,8 +11,11 @@ const blogImages = import.meta.glob<{ default: ImageMetadata }>(
 	{ eager: true }
 )
 
-const coverImagePath = `/src/assets/blogimages/${post.id}/cover.jpg`.toLowerCase()
-const actualKey = Object.keys(blogImages).find(key => key.toLowerCase() === coverImagePath)
+const coverImagePath =
+	`/src/assets/blogimages/${post.id}/cover.jpg`.toLowerCase()
+const actualKey = Object.keys(blogImages).find(
+	(key) => key.toLowerCase() === coverImagePath
+)
 ---
 
 <a

@@ -1,9 +1,14 @@
 <!-- Google tag (gtag.js) -->
-<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-VLXN0Y9Q0W"></script>
+<script
+	is:inline
+	async
+	src="https://www.googletagmanager.com/gtag/js?id=G-VLXN0Y9Q0W"></script>
 <script is:inline>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	window.dataLayer = window.dataLayer || []
+	function gtag(...args) {
+		dataLayer.push(...args)
+	}
+	gtag('js', new Date())
 
-  gtag('config', 'G-VLXN0Y9Q0W');
+	gtag('config', 'G-VLXN0Y9Q0W')
 </script>

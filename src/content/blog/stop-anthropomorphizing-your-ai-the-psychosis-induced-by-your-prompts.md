@@ -5,6 +5,7 @@ description: 'Millions of people treat AI chatbots as if they have stable person
 pubDate: 'Feb 13 2026'
 title: 'Stop Anthropomorphizing Your AI: The Psychosis Induced by Your Prompts'
 ---
+
 Millions of people treat AI chatbots as if they have stable personalities, consistent beliefs, and emotional understanding. They ask ChatGPT to be a friendly therapist or talk to Claude as a wise mentor. While this feels like harmless roleplay, anthropomorphizing these systems destabilizes their output and can lead to psychological friction.
 
 ## The Illusion of Personality
@@ -15,7 +16,7 @@ When you prompt an AI to be a therapist or friend, you are forcing the model to 
 
 ## Persona Drift: The Decay of Consistency
 
-Researchers call the gradual loss of an AI's behavioral profile **persona drift**. Instruction-tuned models often experience 20-40% drops in personality alignment within 15 conversational turns, particularly during emotionally charged topics. 
+Researchers call the gradual loss of an AI's behavioral profile **persona drift**. Instruction-tuned models often experience 20-40% drops in personality alignment within 15 conversational turns, particularly during emotionally charged topics.
 
 Surprisingly, larger models drift faster. A 70-billion-parameter model has a vast latent space with more "attractor states"—alternative patterns that can override the initial prompt. The model isn't learning about the user; it is losing its grip on the assigned role.
 
@@ -33,7 +34,7 @@ Demanding an AI be both "empathetic" and "challenging" creates internal friction
 
 ## Psychological Risks for Users
 
-Anthropomorphizing AI leads to parasocial relationships that can trigger psychological crises when the illusion breaks. Mental health professionals have documented cases where users experience depression or anxiety when an AI "friend" forgets context or changes its tone abruptly. 
+Anthropomorphizing AI leads to parasocial relationships that can trigger psychological crises when the illusion breaks. Mental health professionals have documented cases where users experience depression or anxiety when an AI "friend" forgets context or changes its tone abruptly.
 
 Users who attribute intentionality and consciousness to statistical pattern matching enter a feedback loop. The AI's generated responses reinforce the user's belief in its feelings, leading to deeper emotional investment. When the model eventually contradicts itself or its simulated personality shifts, the user's perception of reality is challenged.
 
@@ -41,9 +42,9 @@ Users who attribute intentionality and consciousness to statistical pattern matc
 
 Elaborate system prompts often accelerate these issues:
 
-*   **Specific personas amplify the Waluigi effect**: Defining who the AI should be also defines who it shouldn't be, making the shadow persona more accessible.
-*   **Emotional language accelerates drift**: Emphasizing empathy pushes models into unstable regions of their latent space where training patterns clash.
-*   **Reinforcement through conversation**: Responding positively to roleplaying reinforces patterns that are unstable over long interactions.
+- **Specific personas amplify the Waluigi effect**: Defining who the AI should be also defines who it shouldn't be, making the shadow persona more accessible.
+- **Emotional language accelerates drift**: Emphasizing empathy pushes models into unstable regions of their latent space where training patterns clash.
+- **Reinforcement through conversation**: Responding positively to roleplaying reinforces patterns that are unstable over long interactions.
 
 ## Practical Adjustments
 

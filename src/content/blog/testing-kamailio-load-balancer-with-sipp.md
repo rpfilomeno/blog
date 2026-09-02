@@ -6,8 +6,8 @@ pubDate: 'Mar 22 2025'
 coverImageCredit: Roger Filomeno
 cover: 'https://cdn.rogverse.fyi/thorium_VcZq4oMecB.png'
 ---
-Here are the steps to test Kamailio under load.
 
+Here are the steps to test Kamailio under load.
 
 First of all lets describe our network setup:
 <script src="https://gist.github.com/rpfilomeno/d46493eefaf70d6838c157305ab9778a.js"></script>
@@ -18,9 +18,7 @@ Now for our testing purposes, we needed to remove the effect on performance by A
 
 ### Installation and Execution Steps
 
-
 1. Download and Modify SIPp to auto respond always and include OPTIONS packet as well (-aa broken?), edit src/call.cpp:
-
 
 ```cpp
 call::T_AutoMode call::checkAutomaticResponseMode(char * P_recv)
@@ -40,10 +38,10 @@ call::T_AutoMode call::checkAutomaticResponseMode(char * P_recv)
 }
 ```
 
-
 Compile _sipp-3.3.990_ with [RTP Support](http://sipp.sourceforge.net/doc/reference.html#Installing+SIPp).
 
-To run the test, from SIPp Box: 
+To run the test, from SIPp Box:
+
 ```bash
 # sipp 10.254.1.30 -i 10.254.1.40 -sf uac.xml -aa -inf accounts.csv -l 10000 -r 1 -rp 1000 -trace_msg -trace_err -trace_stat
 ```
@@ -99,22 +97,23 @@ To run the test, from SIPp Box:
   </tbody>
 </table>
 
-
 Make sure to edit the accounts.csv, change 10.254.1.30 and 10.254.7.31 accordingly.
 
 Make sure to edit the uac.xml, change Route:
-```
+
+````
 <sip:10.254.1.30;r2=on;lr=on;nat=yes>,<sip:10.254.3.30;r2=on;lr=on;nat=yes>```
-accordingly since sipp-3.3.990 can't reliably generate this header so we had to hard code this for now. 
+accordingly since sipp-3.3.990 can't reliably generate this header so we had to hard code this for now.
 
 You may run a SIPp on Asterisk 2 box to test higher concurrent calls (eg: testing more than 200 concurrent calls).
 
-Lets shutdown Asterisk 1 & 2: 
+Lets shutdown Asterisk 1 & 2:
 ```bash
 # asterisk -rx "core stop now"
-```
+````
 
 To run a server listening to incoming calls (server mode), run:
+
 ```bash
 # sipp 10.254.7.30 -i 10.254.7.31 -sf uas.xml -aa -trace_msg -trace_err -trace_stat
 ```

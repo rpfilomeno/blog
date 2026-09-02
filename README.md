@@ -17,7 +17,7 @@ Welcome to the source code of the [A.I. Sloth Slayer](https://roger.rogverse.fyi
 
 ## Development 💻
 
-This project is built using the [Astro](https://astro.build) framework, styled with Tailwind CSS, and uses Markdown/MDX for content generation. 
+This project is built using the [Astro](https://astro.build) framework, styled with Tailwind CSS, and uses Markdown/MDX for content generation.
 
 ### Getting Started
 

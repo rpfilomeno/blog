@@ -1,11 +1,12 @@
 ---
-title: "Are AI Models Collapsing Reality One Token at a Time?"
+title: 'Are AI Models Collapsing Reality One Token at a Time?'
 description: |
   Is an AI model merely a statistical engine, or does it possess internal world models? The "Stochastic Parrot" vs. "Participatory Observer" debate explores this question.
 pubDate: 'Jan 2 2026'
 coverImageCredit: Roger Filomeno
 cover: 'https://cdn.rogverse.fyi/are-ai-models-collapsing-reality-one-token-at-a-time.png'
 ---
+
 When you receive a coherent response from an AI, what are you interacting with? This question drives a central debate in artificial intelligence: is the model a statistical mimic or a system with internal understanding?
 
 ## The Heisenberg Cut in AI

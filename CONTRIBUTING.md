@@ -1,6 +1,6 @@
 # Contributing to A.I. Sloth Slayer
 
-Thank you for your interest in contributing to the A.I. Sloth Slayer blog! 
+Thank you for your interest in contributing to the A.I. Sloth Slayer blog!
 
 All kinds of contributions are welcome no matter the size, whether it's fixing typos, proposing new articles, or improving the site's Astro setup.
 

@@ -1,5 +1,5 @@
 ---
-title: "Training LLMs Cant Achieve AGI, We Need to Grow It"
+title: 'Training LLMs Cant Achieve AGI, We Need to Grow It'
 description: |
   A proposed blueprint for Artificial General Intelligence (AGI) suggests raising AI like a child, moving from sensory foundations to symbolic reasoning.
 pubDate: 'Dec 20 2025'
@@ -7,7 +7,7 @@ coverImageCredit: Roger Filomeno
 cover: 'https://cdn.rogverse.fyi/thorium_c8NLsDRgjB.png'
 ---
 
-> **Author's Note**: This article was written with AI assistance, but the ideas and arguments presented are originally from the author. 
+> **Author's Note**: This article was written with AI assistance, but the ideas and arguments presented are originally from the author.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O203wdv4rqg?si=kfThChntS8wRuacU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

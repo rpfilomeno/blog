@@ -6,6 +6,7 @@ pubDate: 'Jul 5 2025'
 coverImageCredit: Roger Filomeno
 cover: 'https://cdn.rogverse.fyi/thorium_q6Lo1DkKmn.png'
 ---
+
 The Transformer model, currently the dominant architecture in AI, faces an efficiency crisis. While effective at processing information and generating text, its quadratic complexity limits its ability to handle continuous, real-world tasks. Unlike human learning, which accumulates experience, standard AI models typically reset after each interaction.
 
 Transformer models process information by comparing every word in a sequence to every other word. This quadratic approach causes computational effort to increase exponentially with input length. As the context window grows, the system becomes computationally overwhelmed, necessitating a memory reset. Workarounds like context window expansion and caching offer only temporary patches.

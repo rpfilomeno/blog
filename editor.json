@@ -1,4 +1,4 @@
 {
-    "blogDir": "./src/content/blog",
-    "templateFile": "template.md"
+	"blogDir": "./src/content/blog",
+	"templateFile": "template.md"
 }

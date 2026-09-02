@@ -12,6 +12,7 @@ As a developer who spends most of my time in the terminal, I've always found web
 ## The Vision
 
 The goal was simple: Create a fast, efficient, and aesthetically pleasing terminal application to:
+
 1. Browse existing blog posts.
 2. Preview posts with rich markdown formatting.
 3. Edit posts with Vim-inspired precision.
@@ -46,7 +47,9 @@ The `Update` function handles state transitions based on key messages. For examp
 ## Key Features
 
 ### Vim-inspired Editing
+
 One of the most exciting parts of this project was implementing Vim modes. The editor supports:
+
 - **Normal Mode**: Navigation and commands.
 - **Insert Mode**: Standard text editing.
 - **Visual Mode**: Selecting text blocks for yanking (copying) or cutting.
@@ -54,6 +57,7 @@ One of the most exciting parts of this project was implementing Vim modes. The e
 We integrated with the **system clipboard**, so you can `y` (yank) in Visual mode and `p` (paste) content from other applications!
 
 ### Smart Templates
+
 To speed up post creation, the editor uses a `template.md` file. It automatically populates the `pubDate` and parses frontmatter, so you can focus on the content immediately.
 
 ## Lessons Learned
@@ -65,6 +69,7 @@ The biggest takeaway? The terminal is a remarkably powerful canvas for building 
 ## What's Next?
 
 The Astro Blog TUI Editor is just getting started. I'm planning to add:
+
 - Integrated Git support for committing and pushing directly from the editor.
 - More advanced Vim keybindings (like `f`, `t`, and `ciw`).
 - Image upload integration for easier cover image management.

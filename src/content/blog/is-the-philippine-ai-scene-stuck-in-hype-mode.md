@@ -6,14 +6,16 @@ pubDate: 'Mar 28 2025'
 coverImageCredit: Roger Filomeno
 cover: 'https://cdn.rogverse.fyi/ShareX_JPhc64sQ6q.png'
 ---
+
 The Philippines currently acts as a consumer rather than a producer in the global AI race. Domestic companies largely depend on commercial AI services and cloud platforms, highlighting a lack of robust government and academic support for indigenous AI research.
 
 ## Reliance on Foreign Models
 
 While Senti AI has developed "Balagtas," a localized NLP model, most Philippine tech companies integrate existing commercial services.
-*   **EACOMM Corporation** and **Hyperlink InfoSystem** leverage APIs from OpenAI.
-*   **Ahex Technologies** builds services upon OpenAI and Claude models.
-*   **BlastAsia Inc.** utilizes Microsoft's Azure Cognitive Services.
+
+- **EACOMM Corporation** and **Hyperlink InfoSystem** leverage APIs from OpenAI.
+- **Ahex Technologies** builds services upon OpenAI and Claude models.
+- **BlastAsia Inc.** utilizes Microsoft's Azure Cognitive Services.
 
 This strategy enables rapid deployment but limits the country's contribution to fundamental advancements. Companies often rebrand or resell services from major providers like Google Cloud and AWS, solidifying the nation's position as an integrator rather than a creator.
 

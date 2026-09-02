@@ -10,6 +10,7 @@ cover: 'https://cdn.rogverse.fyi/thorium_eA1KW8GzQ8.png'
 Current AI models like ChatGPT are essentially advanced predictors. They excel at guessing the next word in a sequence based on vast training data. This limitation results in "computational split-brain syndrome," where a model can explain a concept perfectly but fail to execute it—disconnecting knowledge from action.
 
 However, a fundamental shift is underway towards building machines that can:
+
 - **Set their own goals**
 - **Modify their own programming**
 - **Understand cause and effect**
@@ -32,9 +33,10 @@ Researchers identify three capabilities marking the arrival of Artificial Genera
 ## The Timeline
 
 Experts predict this shift will become undeniable between 2028 and 2030.
--   **2028-2030**: Companies may face an "AGI Divergence Tax," realizing current systems are unreliable and scrambling to adopt new architectures.
--   **2030-2033**: Autonomous AI agents begin operating in businesses and labs, identifying and solving problems independently.
--   **2035**: Economic and legal systems must adapt to AI making autonomous decisions about goals.
+
+- **2028-2030**: Companies may face an "AGI Divergence Tax," realizing current systems are unreliable and scrambling to adopt new architectures.
+- **2030-2033**: Autonomous AI agents begin operating in businesses and labs, identifying and solving problems independently.
+- **2035**: Economic and legal systems must adapt to AI making autonomous decisions about goals.
 
 ## The Risks
 

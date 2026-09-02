@@ -6,6 +6,7 @@ pubDate: 'Apr 7 2025'
 coverImageCredit: Roger Filomeno
 cover: 'https://cdn.rogverse.fyi/thorium_fUeraKV4lB.png'
 ---
+
 [NeuroSync](https://neurosync.info/) is an open-source project enabling real-time facial animation from audio, integrating directly with Unreal Engine 5. This technology simplifies the historically labor-intensive process of creating believable digital avatars.
 
 ## Real-Time Facial Animation in Unreal Engine 5
@@ -41,7 +42,8 @@ For initiatives like Meta's metaverse, realistic digital twins are essential. Ne
 Unreal Engine 5's photorealism, combined with NeuroSync, blurs the line between human and AI streamers.
 
 Current examples include:
-*   **[Neurosama](https://en.wikipedia.org/wiki/Neuro-sama)**: An AI VTuber driving engagement through an LLM.
-*   **[CodeMiko](https://en.wikipedia.org/wiki/CodeMiko)**: A human-controlled avatar (Youna Kang) using motion capture for high interactivity.
+
+- **[Neurosama](https://en.wikipedia.org/wiki/Neuro-sama)**: An AI VTuber driving engagement through an LLM.
+- **[CodeMiko](https://en.wikipedia.org/wiki/CodeMiko)**: A human-controlled avatar (Youna Kang) using motion capture for high interactivity.
 
 NeuroSync bridges these worlds, allowing AI-driven characters to possess the visual nuance of motion-captured avatars. This technology suggests a future where AI and human creators coexist, each offering distinct types of digital experiences.

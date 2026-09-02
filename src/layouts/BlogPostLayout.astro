@@ -41,7 +41,12 @@ const lastModified = dayjs(remarkPluginFrontmatter.lastModified)
 	.format('D MMM YYYY')
 ---
 
-<BaseLayout title={title} description={description} image={typeof cover === 'string' ? cover : cover?.src} type="article">
+<BaseLayout
+	title={title}
+	description={description}
+	image={typeof cover === 'string' ? cover : cover?.src}
+	type="article"
+>
 	<main>
 		<article>
 			<div
@@ -94,7 +99,11 @@ const lastModified = dayjs(remarkPluginFrontmatter.lastModified)
 							blogImages[coverImagePath] && (
 								<>
 									<Image
-										src={typeof blogImages[coverImagePath] === 'function' ? blogImages[coverImagePath]() : blogImages[coverImagePath]}
+										src={
+											typeof blogImages[coverImagePath] === 'function'
+												? blogImages[coverImagePath]()
+												: blogImages[coverImagePath]
+										}
 										alt={title}
 										class="rounded-lg"
 									/>
