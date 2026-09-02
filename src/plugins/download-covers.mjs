@@ -11,16 +11,16 @@ export default function downloadCovers() {
 		hooks: {
 			'astro:config:setup': async ({ command, logger }) => {
 				if (command !== 'build') {
-				return
-			}
+					return
+				}
 
 				logger.info('Checking for remote cover images to download...')
 				const blogDir = path.resolve('src/content/blog')
 				const imagesDir = path.resolve('src/assets/blogimages')
 
 				if (!fs.existsSync(blogDir)) {
-				return
-			}
+					return
+				}
 
 				const files = fs
 					.readdirSync(blogDir)
@@ -48,7 +48,8 @@ export default function downloadCovers() {
 
 							logger.info(`Downloading cover for ${slug}...`)
 
-							const promise = globalThis.fetch(url)
+							const promise = globalThis
+								.fetch(url)
 								.then(async (res) => {
 									if (!res.ok) {
 										logger.warn(
