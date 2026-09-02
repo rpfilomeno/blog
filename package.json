@@ -1,5 +1,5 @@
 {
-	"name": "yashjawale",
+	"name": "ai-sloth-slayer",
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
@@ -14,18 +14,18 @@
 		"format:check": "prettier --check ."
 	},
 	"dependencies": {
-		"@astrojs/check": "^0.9.4",
-		"@astrojs/mdx": "^4.3.5",
-		"@astrojs/rss": "^4.0.12",
-		"@astrojs/sitemap": "^3.5.1",
-		"@digi4care/astro-google-tagmanager": "^1.6.0",
+		"@astrojs/check": "^0.9.10",
+		"@astrojs/markdown-remark": "^7.3.0",
+		"@astrojs/mdx": "^8.0.0",
+		"@astrojs/rss": "^4.0.19",
+		"@astrojs/sitemap": "^3.7.4",
 		"@fontsource-variable/inter": "^5.2.6",
 		"@fontsource-variable/jetbrains-mono": "^5.1.2",
 		"@fontsource/silkscreen": "^5.0.18",
 		"@iconify-json/mdi": "^1.1.66",
 		"@tailwindcss/vite": "^4.1.12",
-		"astro": "^5.13.7",
-		"astro-icon": "^1.1.0",
+		"astro": "^7.2.10",
+		"astro-icon": "^1.2.0",
 		"dayjs": "^1.11.13",
 		"mdast-util-to-string": "^4.0.0",
 		"reading-time": "^1.5.0",
@@ -34,7 +34,7 @@
 		"typescript": "^5.3.2"
 	},
 	"devDependencies": {
-		"@astrojs/partytown": "^2.1.4",
+		"@astrojs/partytown": "^2.1.7",
 		"@eslint/js": "^9.33.0",
 		"@tailwindcss/typography": "^0.5.16",
 		"@typescript-eslint/eslint-plugin": "^8.39.1",
@@ -47,6 +47,5 @@
 		"prettier-plugin-astro": "^0.14.1",
 		"rehype-accessible-emojis": "^0.3.2",
 		"typescript-eslint": "^8.39.1"
-	},
-	"packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+	}
 }

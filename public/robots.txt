@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://roger.rogverse.fyi/sitemap-index.xml

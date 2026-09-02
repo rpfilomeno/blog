@@ -11,7 +11,10 @@ const posts = (await getCollection('blog'))
 	.slice(0, 4)
 ---
 
-<BaseLayout>
+<BaseLayout
+	title="A.I. Sloth Slayer"
+	description="Deep dives into the latest trends in Automation, AI and Machine Learning."
+>
 	<main
 		class="app-container grid lg:grid-cols-2 gap-12 items-center py-20 md:py-32 pt-32 md:pt-40 relative"
 	>
@@ -79,7 +82,7 @@ const posts = (await getCollection('blog'))
 					class="btn-primary"
 					href="https://rogverse.fyi/"
 					target="_blank"
-					>Get a Qoute
+					>Get a Quote
 					<Icon height={20} name="mdi:cart-outline" />
 				</a>
 				<a class="btn-secondary" href="https://calendly.com/rogverse/30min" target="_blank"

@@ -356,7 +356,9 @@
 <script>
 	(() => {
 		const container = document.getElementById('sloth-container');
-		if (!container) return;
+		if (!container) {
+			return;
+		}
 
 		document.addEventListener('mousemove', (e) => {
 			const { innerWidth, innerHeight } = window;

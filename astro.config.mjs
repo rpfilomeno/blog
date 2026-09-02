@@ -4,6 +4,7 @@ import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
 import partytown from '@astrojs/partytown'
 import icon from 'astro-icon'
+import { unified } from '@astrojs/markdown-remark'
 import rehypeFigureTitle from 'rehype-figure-title'
 import { rehypeAccessibleEmojis } from 'rehype-accessible-emojis'
 import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
@@ -14,6 +15,7 @@ import downloadCovers from './src/plugins/download-covers.mjs'
 export default defineConfig({
 	site: 'https://roger.rogverse.fyi',
 	base: '',
+	compressHTML: true,
 	build: {
 		format: 'file',
 	},
@@ -32,7 +34,9 @@ export default defineConfig({
 		plugins: [tailwindcss()],
 	},
 	markdown: {
-		remarkPlugins: [remarkReadingTime, remarkModifiedTime],
-		rehypePlugins: [rehypeFigureTitle, rehypeAccessibleEmojis],
+		processor: unified({
+			remarkPlugins: [remarkReadingTime, remarkModifiedTime],
+			rehypePlugins: [rehypeFigureTitle, rehypeAccessibleEmojis],
+		}),
 	},
 })

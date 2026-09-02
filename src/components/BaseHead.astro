@@ -7,11 +7,13 @@ interface Props {
 	description: string
 	image?: string
 	cover?: string
+	type?: 'website' | 'article'
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 
-const { title, description, cover, image = cover || `${SITE_BASE}/site-og.png` } = Astro.props
+const { title, description, cover, image = cover || `${SITE_BASE}/site-og.png`, type = 'website' } = Astro.props
+const imageURL = new URL(image, canonicalURL)
 ---
 <!-- Global Metadata -->
 <meta charset="utf-8" />
@@ -32,7 +34,7 @@ const { title, description, cover, image = cover || `${SITE_BASE}/site-og.png` }
 	sizes="180x180"
 	href={`${SITE_BASE}/apple-touch-icon.png`}
 />
-<meta name="apple-mobile-web-app-title" content="Saral Theme" />
+<meta name="apple-mobile-web-app-title" content="A.I. Sloth Slayer" />
 <link rel="manifest" href={`${SITE_BASE}/site.webmanifest`} />
 
 <!-- Canonical URL -->
@@ -44,23 +46,24 @@ const { title, description, cover, image = cover || `${SITE_BASE}/site-og.png` }
 <meta name="description" content={description} />
 
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.url)} />
+<meta property="og:image" content={imageURL} />
+<meta property="og:site_name" content="A.I. Sloth Slayer" />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
+<meta property="twitter:url" content={canonicalURL} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image, Astro.url)} />
+<meta property="twitter:image" content={imageURL} />
 
 <!-- RSS Auto-discovery -->
 <link
 	rel="alternate"
 	type="application/rss+xml"
-	title="Saral Theme RSS Feed"
+	title="A.I. Sloth Slayer RSS Feed"
 	href={new URL('rss.xml', Astro.site)}
 />

@@ -41,7 +41,7 @@ const lastModified = dayjs(remarkPluginFrontmatter.lastModified)
 	.format('D MMM YYYY')
 ---
 
-<BaseLayout title={title} description={description} image={typeof cover === 'string' ? cover : cover?.src}>
+<BaseLayout title={title} description={description} image={typeof cover === 'string' ? cover : cover?.src} type="article">
 	<main>
 		<article>
 			<div

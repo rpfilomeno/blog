@@ -11,12 +11,12 @@ const blogImages = import.meta.glob<{ default: ImageMetadata }>(
 	{ eager: true }
 )
 
-const coverImagePath = `/src/assets/blogimages/${post.slug}/cover.jpg`.toLowerCase()
+const coverImagePath = `/src/assets/blogimages/${post.id}/cover.jpg`.toLowerCase()
 const actualKey = Object.keys(blogImages).find(key => key.toLowerCase() === coverImagePath)
 ---
 
 <a
-	href={`${SITE_BASE}/${post.slug}/`}
+	href={`${SITE_BASE}/${post.id}/`}
 	class="flex flex-col gap-4 pb-8 h-full group transition-colors"
 >
 	{

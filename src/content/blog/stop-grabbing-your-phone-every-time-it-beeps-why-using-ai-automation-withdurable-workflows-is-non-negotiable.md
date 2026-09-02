@@ -1,5 +1,5 @@
 ---
-title: "Stop Grabbing Your Phone Every Time It Beeps:  Using AI Automation with Durable Workflows"
+title: "Stop Grabbing Your Phone Every Time It Beeps: Using AI Automation with Durable Workflows"
 description: |
   Knowledge workers are interrupted every four minutes. AI automation and durable workflows offer a solution to reclaim lost productivity.
 pubDate: 'Dec 9 2025'

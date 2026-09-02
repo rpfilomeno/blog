@@ -12,9 +12,10 @@ interface Props {
 	title?: string
 	description?: string
 	image?: string
+	type?: 'website' | 'article'
 }
 
-const { title, description, image } = Astro.props
+const { title, description, image, type } = Astro.props
 
 import '@fontsource-variable/inter'
 import '@fontsource-variable/jetbrains-mono'
@@ -28,6 +29,7 @@ import '@fontsource-variable/jetbrains-mono'
 			title={title || SITE_TITLE}
 			description={description || SITE_DESCRIPTION}
 			image={image}
+			type={type}
 		/>
 	</head>
 	<body
